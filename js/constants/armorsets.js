@@ -1,6 +1,6 @@
 const ARMOR_SETS = [
   {
-    displayName: "AF-50 Noxious Ranger",
+    displayName: "AF-50 毒性游骑兵",
     type: "Equipment",
     category: "armor",
     tags: ["Light"],
@@ -15,7 +15,7 @@ const ARMOR_SETS = [
     index: 0,
   },
   {
-    displayName: "AC-2 Obedient",
+    displayName: "AC-2 顺从者",
     type: "Equipment",
     category: "armor",
     tags: ["Light"],
@@ -30,7 +30,7 @@ const ARMOR_SETS = [
     index: 1,
   },
   {
-    displayName: "SR-24 Street Scout",
+    displayName: "SR-24 街头侦察兵",
     type: "Equipment",
     category: "armor",
     tags: ["Light"],
@@ -45,7 +45,7 @@ const ARMOR_SETS = [
     index: 2,
   },
   {
-    displayName: "SR-18 Road Block",
+    displayName: "SR-18 路障",
     type: "Equipment",
     category: "armor",
     tags: ["Heavy"],
@@ -60,7 +60,7 @@ const ARMOR_SETS = [
     index: 3,
   },
   {
-    displayName: "B-08 Light Gunner",
+    displayName: "B-08 轻型枪手",
     type: "Equipment",
     category: "armor",
     tags: ["Light"],
@@ -75,7 +75,7 @@ const ARMOR_SETS = [
     index: 4,
   },
   {
-    displayName: "CE-07 Demolition Specialist",
+    displayName: "CE-07 爆破专家",
     type: "Equipment",
     category: "armor",
     tags: ["Light"],
@@ -90,7 +90,7 @@ const ARMOR_SETS = [
     index: 5,
   },
   {
-    displayName: "CE-67 Titan",
+    displayName: "CE-67 泰坦",
     type: "Equipment",
     category: "armor",
     tags: ["Light"],
@@ -105,7 +105,7 @@ const ARMOR_SETS = [
     index: 6,
   },
   {
-    displayName: "CE-74 Breaker",
+    displayName: "CE-74 突破者",
     type: "Equipment",
     category: "armor",
     tags: ["Light"],
@@ -120,7 +120,7 @@ const ARMOR_SETS = [
     index: 7,
   },
   {
-    displayName: "CM-21 Trench Paramedic",
+    displayName: "CM-21 战壕医护兵",
     type: "Equipment",
     category: "armor",
     tags: ["Light"],
@@ -135,7 +135,7 @@ const ARMOR_SETS = [
     index: 8,
   },
   {
-    displayName: "CW-4 Arctic Ranger",
+    displayName: "CW-4 极地游骑兵",
     type: "Equipment",
     category: "armor",
     tags: ["Light"],
@@ -150,7 +150,7 @@ const ARMOR_SETS = [
     index: 9,
   },
   {
-    displayName: "EX-00 Prototype X",
+    displayName: "EX-00 原型X",
     type: "Equipment",
     category: "armor",
     tags: ["Light"],
@@ -165,7 +165,7 @@ const ARMOR_SETS = [
     index: 10,
   },
   {
-    displayName: "FS-37 Ravager",
+    displayName: "FS-37 掠夺者",
     type: "Equipment",
     category: "armor",
     tags: ["Light"],
@@ -180,7 +180,7 @@ const ARMOR_SETS = [
     index: 11,
   },
   {
-    displayName: "FS-38 Eradicator",
+    displayName: "FS-38 根除者",
     type: "Equipment",
     category: "armor",
     tags: ["Light"],
@@ -195,7 +195,7 @@ const ARMOR_SETS = [
     index: 12,
   },
   {
-    displayName: "I-09 Heatseeker",
+    displayName: "I-09 追热者",
     type: "Equipment",
     category: "armor",
     tags: ["Light"],
@@ -210,7 +210,7 @@ const ARMOR_SETS = [
     index: 13,
   },
   {
-    displayName: "PH-9 Predator",
+    displayName: "PH-9 掠食者",
     type: "Equipment",
     category: "armor",
     tags: ["Light"],
@@ -225,7 +225,7 @@ const ARMOR_SETS = [
     index: 14,
   },
   {
-    displayName: "SC-30 Trailblazer Scout",
+    displayName: "SC-30 开拓侦察兵",
     type: "Equipment",
     category: "armor",
     tags: ["Light"],
@@ -240,7 +240,7 @@ const ARMOR_SETS = [
     index: 15,
   },
   {
-    displayName: "SC-34 Infiltrator",
+    displayName: "SC-34 渗透者",
     type: "Equipment",
     category: "armor",
     tags: ["Light"],
@@ -255,7 +255,7 @@ const ARMOR_SETS = [
     index: 16,
   },
   {
-    displayName: "SC-37 Legionnaire",
+    displayName: "SC-37 军团士兵",
     type: "Equipment",
     category: "armor",
     tags: ["Light"],
@@ -270,7 +270,7 @@ const ARMOR_SETS = [
     index: 17,
   },
   {
-    displayName: "UF-16 Inspector",
+    displayName: "UF-16 检查官",
     type: "Equipment",
     category: "armor",
     tags: ["Light"],
@@ -285,7 +285,7 @@ const ARMOR_SETS = [
     index: 18,
   },
   {
-    displayName: "AF-02 Haz-Master",
+    displayName: "AF-02 防化大师",
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -300,7 +300,7 @@ const ARMOR_SETS = [
     index: 19,
   },
   {
-    displayName: "AF-91 Field Chemist",
+    displayName: "AF-91 战地化学兵",
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -315,7 +315,7 @@ const ARMOR_SETS = [
     index: 20,
   },
   {
-    displayName: "B-01 Tactical",
+    displayName: "B-01 战术型",
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -330,7 +330,7 @@ const ARMOR_SETS = [
     index: 21,
   },
   {
-    displayName: "B-24 Enforcer",
+    displayName: "B-24 执法者",
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -345,7 +345,7 @@ const ARMOR_SETS = [
     index: 22,
   },
   {
-    displayName: "CE-27 Ground Breaker",
+    displayName: "CE-27 破土者",
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -360,7 +360,7 @@ const ARMOR_SETS = [
     index: 23,
   },
   {
-    displayName: "CE-35 Trench Engineer",
+    displayName: "CE-35 战壕工兵",
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -375,7 +375,7 @@ const ARMOR_SETS = [
     index: 24,
   },
   {
-    displayName: "CE-81 Juggernaut",
+    displayName: "CE-81 主宰者",
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -390,7 +390,7 @@ const ARMOR_SETS = [
     index: 25,
   },
   {
-    displayName: "CM-09 Bonesnapper",
+    displayName: "CM-09 碎骨者",
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -405,7 +405,7 @@ const ARMOR_SETS = [
     index: 26,
   },
   {
-    displayName: "CM-10 Clinician",
+    displayName: "CM-10 临床医师",
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -420,7 +420,7 @@ const ARMOR_SETS = [
     index: 27,
   },
   {
-    displayName: "CM-14 Physician",
+    displayName: "CM-14 内科医师",
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -435,7 +435,7 @@ const ARMOR_SETS = [
     index: 28,
   },
   {
-    displayName: "CW-9 White Wolf",
+    displayName: "CW-9 白狼",
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -450,7 +450,7 @@ const ARMOR_SETS = [
     index: 29,
   },
   {
-    displayName: "DP-00 Tactical",
+    displayName: "DP-00 战术型",
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -465,7 +465,7 @@ const ARMOR_SETS = [
     index: 30,
   },
   {
-    displayName: "DP-11 Champion of the People",
+    displayName: "DP-11 人民冠军",
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -480,7 +480,7 @@ const ARMOR_SETS = [
     index: 31,
   },
   {
-    displayName: "AC-1 Dutiful",
+    displayName: "AC-1 尽职者",
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -495,7 +495,7 @@ const ARMOR_SETS = [
     index: 32,
   },
   {
-    displayName: "DP-40 Hero of the Federation",
+    displayName: "DP-40 联邦英雄",
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -510,7 +510,7 @@ const ARMOR_SETS = [
     index: 33,
   },
   {
-    displayName: "DP-53 Savior of the Free",
+    displayName: "DP-53 自由救星",
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -525,7 +525,7 @@ const ARMOR_SETS = [
     index: 34,
   },
   {
-    displayName: "EX-03 Prototype 3",
+    displayName: "EX-03 原型3",
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -540,7 +540,7 @@ const ARMOR_SETS = [
     index: 35,
   },
   {
-    displayName: "EX-16 Prototype 16",
+    displayName: "EX-16 原型16",
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -555,7 +555,7 @@ const ARMOR_SETS = [
     index: 36,
   },
   {
-    displayName: "FS-34 Exterminator",
+    displayName: "FS-34 灭虫者",
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -570,7 +570,7 @@ const ARMOR_SETS = [
     index: 37,
   },
   {
-    displayName: "I-92 Fire Fighter",
+    displayName: "I-92 消防员",
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -585,7 +585,7 @@ const ARMOR_SETS = [
     index: 38,
   },
   {
-    displayName: "I-102 Draconaught",
+    displayName: "I-102 龙战士",
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -600,7 +600,7 @@ const ARMOR_SETS = [
     index: 39,
   },
   {
-    displayName: "PH-56 Jaguar",
+    displayName: "PH-56 美洲豹",
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -615,7 +615,7 @@ const ARMOR_SETS = [
     index: 40,
   },
   {
-    displayName: "SA-04 Combat Technician",
+    displayName: "SA-04 战斗技术员",
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -630,7 +630,7 @@ const ARMOR_SETS = [
     index: 41,
   },
   {
-    displayName: "SA-12 Servo Assisted",
+    displayName: "SA-12 伺服辅助",
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -645,7 +645,7 @@ const ARMOR_SETS = [
     index: 42,
   },
   {
-    displayName: "SA-25 Steel Trooper",
+    displayName: "SA-25 钢铁士兵",
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -660,7 +660,7 @@ const ARMOR_SETS = [
     index: 43,
   },
   {
-    displayName: "SA-15 Drone Master",
+    displayName: "SA-15 无人机大师",
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -675,7 +675,7 @@ const ARMOR_SETS = [
     index: 44,
   },
   {
-    displayName: "TR-7 Ambassador of the Brand",
+    displayName: "TR-7 品牌大使",
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -690,7 +690,7 @@ const ARMOR_SETS = [
     index: 45,
   },
   {
-    displayName: "TR-9 Cavalier of Democracy",
+    displayName: "TR-9 民主骑士",
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -705,7 +705,7 @@ const ARMOR_SETS = [
     index: 46,
   },
   {
-    displayName: "TR-40 Gold Eagle",
+    displayName: "TR-40 金鹰",
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -720,7 +720,7 @@ const ARMOR_SETS = [
     index: 47,
   },
   {
-    displayName: "TR-117 Alpha Commander",
+    displayName: "TR-117 阿尔法指挥官",
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -735,7 +735,7 @@ const ARMOR_SETS = [
     index: 48,
   },
   {
-    displayName: "UF-50 Bloodhound",
+    displayName: "UF-50 猎犬",
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -750,7 +750,7 @@ const ARMOR_SETS = [
     index: 49,
   },
   {
-    displayName: "UF-84 Doubt Killer",
+    displayName: "UF-84 疑惑杀手",
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -765,7 +765,7 @@ const ARMOR_SETS = [
     index: 50,
   },
   {
-    displayName: "AF-52 Lockdown",
+    displayName: "AF-52 封锁",
     type: "Equipment",
     category: "armor",
     tags: ["Heavy"],
@@ -780,7 +780,7 @@ const ARMOR_SETS = [
     index: 51,
   },
   {
-    displayName: "B-27 Fortified Commando",
+    displayName: "B-27 强化突击兵",
     type: "Equipment",
     category: "armor",
     tags: ["Heavy"],
@@ -795,7 +795,7 @@ const ARMOR_SETS = [
     index: 52,
   },
   {
-    displayName: "CE-64 Grenadier",
+    displayName: "CE-64 掷弹兵",
     type: "Equipment",
     category: "armor",
     tags: ["Heavy"],
@@ -810,7 +810,7 @@ const ARMOR_SETS = [
     index: 53,
   },
   {
-    displayName: "CE-101 Guerilla Gorilla",
+    displayName: "CE-101 游击金刚",
     type: "Equipment",
     category: "armor",
     tags: ["Heavy"],
@@ -825,7 +825,7 @@ const ARMOR_SETS = [
     index: 54,
   },
   {
-    displayName: "CM-17 Butcher",
+    displayName: "CM-17 屠夫",
     type: "Equipment",
     category: "armor",
     tags: ["Heavy"],
@@ -840,7 +840,7 @@ const ARMOR_SETS = [
     index: 55,
   },
   {
-    displayName: "CW-22 Kodiak",
+    displayName: "CW-22 科迪亚克",
     type: "Equipment",
     category: "armor",
     tags: ["Heavy"],
@@ -855,7 +855,7 @@ const ARMOR_SETS = [
     index: 56,
   },
   {
-    displayName: "CW-36 Winter Warrior",
+    displayName: "CW-36 寒冬战士",
     type: "Equipment",
     category: "armor",
     tags: ["Heavy"],
@@ -870,7 +870,7 @@ const ARMOR_SETS = [
     index: 57,
   },
   {
-    displayName: "FS-05 Marksman",
+    displayName: "FS-05 射手",
     type: "Equipment",
     category: "armor",
     tags: ["Heavy"],
@@ -885,7 +885,7 @@ const ARMOR_SETS = [
     index: 58,
   },
   {
-    displayName: "FS-11 Executioner",
+    displayName: "FS-11 行刑者",
     type: "Equipment",
     category: "armor",
     tags: ["Heavy"],
@@ -900,7 +900,7 @@ const ARMOR_SETS = [
     index: 59,
   },
   {
-    displayName: "FS-23 Battle Master",
+    displayName: "FS-23 战斗大师",
     type: "Equipment",
     category: "armor",
     tags: ["Heavy"],
@@ -915,7 +915,7 @@ const ARMOR_SETS = [
     index: 60,
   },
   {
-    displayName: "FS-55 Devastator",
+    displayName: "FS-55 毁灭者",
     type: "Equipment",
     category: "armor",
     tags: ["Heavy"],
@@ -930,7 +930,7 @@ const ARMOR_SETS = [
     index: 61,
   },
   {
-    displayName: "FS-61 Dreadnought",
+    displayName: "FS-61 无畏者",
     type: "Equipment",
     category: "armor",
     tags: ["Heavy"],
@@ -945,7 +945,7 @@ const ARMOR_SETS = [
     index: 62,
   },
   {
-    displayName: "I-44 Salamander",
+    displayName: "I-44 火蜥蜴",
     type: "Equipment",
     category: "armor",
     tags: ["Heavy"],
@@ -960,7 +960,7 @@ const ARMOR_SETS = [
     index: 63,
   },
   {
-    displayName: "PH-202 Twigsnapper",
+    displayName: "PH-202 折枝者",
     type: "Equipment",
     category: "armor",
     tags: ["Heavy"],
@@ -975,7 +975,7 @@ const ARMOR_SETS = [
     index: 64,
   },
   {
-    displayName: "SA-32 Dynamo",
+    displayName: "SA-32 发电机",
     type: "Equipment",
     category: "armor",
     tags: ["Heavy"],
@@ -990,7 +990,7 @@ const ARMOR_SETS = [
     index: 65,
   },
   {
-    displayName: "TR-62 Knight",
+    displayName: "TR-62 骑士",
     type: "Equipment",
     category: "armor",
     tags: ["Heavy"],
@@ -1005,7 +1005,7 @@ const ARMOR_SETS = [
     index: 66,
   },
   {
-    displayName: "SR-64 Cinderblock",
+    displayName: "SR-64 煤渣砖",
     type: "Equipment",
     category: "armor",
     tags: ["Heavy"],
@@ -1020,7 +1020,7 @@ const ARMOR_SETS = [
     index: 67,
   },
   {
-    displayName: "B-22 Model Citizen",
+    displayName: "B-22 模范公民",
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -1035,7 +1035,7 @@ const ARMOR_SETS = [
     index: 68,
   },
   {
-    displayName: "IE-3 Martyr",
+    displayName: "IE-3 殉道者",
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -1050,7 +1050,7 @@ const ARMOR_SETS = [
     index: 69,
   },
   {
-    displayName: "IE-12 Righteous",
+    displayName: "IE-12 正义者",
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -1065,7 +1065,7 @@ const ARMOR_SETS = [
     index: 70,
   },
   {
-    displayName: "IE-57 Hell-Bent",
+    displayName: "IE-57 悍不畏死",
     type: "Equipment",
     category: "armor",
     tags: ["Light"],
@@ -1080,7 +1080,7 @@ const ARMOR_SETS = [
     index: 71,
   },
   {
-    displayName: "GS-17 Frontier Marshal",
+    displayName: "GS-17 边境执法官",
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -1095,7 +1095,7 @@ const ARMOR_SETS = [
     index: 72,
   },
   {
-    displayName: "GS-66 Lawmaker",
+    displayName: "GS-66 立法者",
     type: "Equipment",
     category: "armor",
     tags: ["Heavy"],

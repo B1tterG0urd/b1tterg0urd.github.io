@@ -1,6 +1,6 @@
 const WARBONDS = [
   {
-    displayName: "Helldivers Mobilize",
+    displayName: "绝地潜兵动员",
     type: "Warbond",
     category: "",
     tags: [],
@@ -10,7 +10,7 @@ const WARBONDS = [
     tier: "s",
   },
   {
-    displayName: "Steeled Veterans",
+    displayName: "钢铁老兵",
     type: "Warbond",
     category: "",
     tags: [],
@@ -20,7 +20,7 @@ const WARBONDS = [
     tier: "a",
   },
   {
-    displayName: "Cutting Edge",
+    displayName: "尖端科技",
     type: "Warbond",
     category: "",
     tags: [],
@@ -30,7 +30,7 @@ const WARBONDS = [
     tier: "a",
   },
   {
-    displayName: "Democratic Detonation",
+    displayName: "民主爆破",
     type: "Warbond",
     category: "",
     tags: [],
@@ -40,7 +40,7 @@ const WARBONDS = [
     tier: "s",
   },
   {
-    displayName: "Polar Patriots",
+    displayName: "极地爱国者",
     type: "Warbond",
     category: "",
     tags: [],
@@ -50,7 +50,7 @@ const WARBONDS = [
     tier: "b",
   },
   {
-    displayName: "Viper Commandos",
+    displayName: "蝰蛇突击队",
     type: "Warbond",
     category: "",
     tags: [],
@@ -60,7 +60,7 @@ const WARBONDS = [
     tier: "b",
   },
   {
-    displayName: "Freedom's Flame",
+    displayName: "自由之火",
     type: "Warbond",
     category: "",
     tags: [],
@@ -70,7 +70,7 @@ const WARBONDS = [
     tier: "b",
   },
   {
-    displayName: "Chemical Agents",
+    displayName: "化学特工",
     type: "Warbond",
     category: "",
     tags: [],
@@ -80,7 +80,7 @@ const WARBONDS = [
     tier: "b",
   },
   {
-    displayName: "Truth Enforcers",
+    displayName: "真理执行者",
     type: "Warbond",
     category: "",
     tags: [],
@@ -90,7 +90,7 @@ const WARBONDS = [
     tier: "b",
   },
   {
-    displayName: "Urban Legends",
+    displayName: "都市传奇",
     type: "Warbond",
     category: "",
     tags: [],
@@ -100,7 +100,7 @@ const WARBONDS = [
     tier: "b",
   },
   {
-    displayName: "Servants of Freedom",
+    displayName: "自由之仆",
     type: "Warbond",
     category: "",
     tags: [],
@@ -110,7 +110,7 @@ const WARBONDS = [
     tier: "a",
   },
   {
-    displayName: "Borderline Justice",
+    displayName: "边境正义",
     type: "Warbond",
     category: "",
     tags: [],
@@ -120,7 +120,7 @@ const WARBONDS = [
     tier: "b",
   },
   {
-    displayName: "Masters of Ceremony",
+    displayName: "典礼大师",
     type: "Warbond",
     category: "",
     tags: [],
@@ -130,7 +130,7 @@ const WARBONDS = [
     tier: "c",
   },
   {
-    displayName: "Force of Law",
+    displayName: "法律之力",
     type: "Warbond",
     category: "",
     tags: [],
@@ -140,7 +140,7 @@ const WARBONDS = [
     tier: "b",
   },
   {
-    displayName: "Control Group",
+    displayName: "对照组",
     type: "Warbond",
     category: "",
     tags: [],
@@ -150,7 +150,7 @@ const WARBONDS = [
     tier: "a",
   },
   {
-    displayName: "Killzone",
+    displayName: "杀戮地带",
     type: "Warbond",
     category: "",
     tags: [],
@@ -170,7 +170,7 @@ const WARBONDS = [
     tier: "b",
   },
   {
-    displayName: "Dust Devils",
+    displayName: "尘暴恶魔",
     type: "Warbond",
     category: "",
     tags: [],
@@ -180,7 +180,7 @@ const WARBONDS = [
     tier: "b",
   },
   {
-    displayName: "Python Commandos",
+    displayName: "蟒蛇突击队",
     type: "Warbond",
     category: "",
     tags: [],
@@ -190,7 +190,7 @@ const WARBONDS = [
     tier: "b",
   },
   {
-    displayName: "Redacted Regiment",
+    displayName: "机密军团",
     type: "Warbond",
     category: "",
     tags: [],
@@ -200,7 +200,7 @@ const WARBONDS = [
     tier: "b",
   },
   {
-    displayName: "Siege Breakers",
+    displayName: "攻城突破者",
     type: "Warbond",
     category: "",
     tags: [],
@@ -210,7 +210,7 @@ const WARBONDS = [
     tier: "b",
   },
   {
-    displayName: "Entrenched Division",
+    displayName: "固守师团",
     type: "Warbond",
     category: "",
     tags: [],
@@ -220,7 +220,7 @@ const WARBONDS = [
     tier: "b",
   },
   {
-    displayName: "Exo Experts",
+    displayName: "机甲专家",
     type: "Warbond",
     category: "",
     tags: [],

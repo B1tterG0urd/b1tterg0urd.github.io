@@ -1,6 +1,6 @@
 const ARMOR_PASSIVES = [
   {
-    displayName: "Advanced Filtration",
+    displayName: "高级过滤",
     type: "Equipment",
     category: "armor",
     tags: ["ArmorPassive"],
@@ -11,7 +11,7 @@ const ARMOR_PASSIVES = [
     index: 0,
   },
   {
-    displayName: "Acclimated",
+    displayName: "环境适应",
     type: "Equipment",
     category: "armor",
     tags: ["ArmorPassive"],
@@ -22,7 +22,7 @@ const ARMOR_PASSIVES = [
     index: 1,
   },
   {
-    displayName: "Democracy Protects",
+    displayName: "民主保护",
     type: "Equipment",
     category: "armor",
     tags: ["ArmorPassive"],
@@ -33,7 +33,7 @@ const ARMOR_PASSIVES = [
     index: 2,
   },
   {
-    displayName: "Electrical Conduit",
+    displayName: "电导",
     type: "Equipment",
     category: "armor",
     tags: ["ArmorPassive"],
@@ -44,7 +44,7 @@ const ARMOR_PASSIVES = [
     index: 3,
   },
   {
-    displayName: "Engineering Kit",
+    displayName: "工程套件",
     type: "Equipment",
     category: "armor",
     tags: ["ArmorPassive"],
@@ -55,7 +55,7 @@ const ARMOR_PASSIVES = [
     index: 4,
   },
   {
-    displayName: "Extra Padding",
+    displayName: "额外护垫",
     type: "Equipment",
     category: "armor",
     tags: ["ArmorPassive"],
@@ -66,7 +66,7 @@ const ARMOR_PASSIVES = [
     index: 5,
   },
   {
-    displayName: "Fortified",
+    displayName: "强化",
     type: "Equipment",
     category: "armor",
     tags: ["ArmorPassive"],
@@ -77,7 +77,7 @@ const ARMOR_PASSIVES = [
     index: 6,
   },
   {
-    displayName: "Inflammable",
+    displayName: "防火",
     type: "Equipment",
     category: "armor",
     tags: ["ArmorPassive"],
@@ -88,7 +88,7 @@ const ARMOR_PASSIVES = [
     index: 7,
   },
   {
-    displayName: "Med-Kit",
+    displayName: "医疗包",
     type: "Equipment",
     category: "armor",
     tags: ["ArmorPassive"],
@@ -99,7 +99,7 @@ const ARMOR_PASSIVES = [
     index: 8,
   },
   {
-    displayName: "Peak Physique",
+    displayName: "巅峰体能",
     type: "Equipment",
     category: "armor",
     tags: ["ArmorPassive"],
@@ -110,7 +110,7 @@ const ARMOR_PASSIVES = [
     index: 9,
   },
   {
-    displayName: "Scout",
+    displayName: "侦察",
     type: "Equipment",
     category: "armor",
     tags: ["ArmorPassive"],
@@ -121,7 +121,7 @@ const ARMOR_PASSIVES = [
     index: 10,
   },
   {
-    displayName: "Servo-Assisted",
+    displayName: "伺服辅助",
     type: "Equipment",
     category: "armor",
     tags: ["ArmorPassive"],
@@ -132,7 +132,7 @@ const ARMOR_PASSIVES = [
     index: 11,
   },
   {
-    displayName: "Unflinching",
+    displayName: "坚定不移",
     type: "Equipment",
     category: "armor",
     tags: ["ArmorPassive"],
@@ -143,7 +143,7 @@ const ARMOR_PASSIVES = [
     index: 12,
   },
   {
-    displayName: "Siege Ready",
+    displayName: "攻城准备",
     type: "Equipment",
     category: "armor",
     tags: ["ArmorPassive"],
@@ -154,7 +154,7 @@ const ARMOR_PASSIVES = [
     index: 13,
   },
   {
-    displayName: "Integrated Explosives",
+    displayName: "集成炸药",
     type: "Equipment",
     category: "armor",
     tags: ["ArmorPassive"],
@@ -165,7 +165,7 @@ const ARMOR_PASSIVES = [
     index: 14,
   },
   {
-    displayName: "Gunslinger",
+    displayName: "枪手",
     type: "Equipment",
     category: "armor",
     tags: ["ArmorPassive"],
@@ -176,7 +176,7 @@ const ARMOR_PASSIVES = [
     index: 15,
   },
   {
-    displayName: "Reinforced Epaulettes",
+    displayName: "强化肩章",
     type: "Equipment",
     category: "armor",
     tags: ["ArmorPassive"],
@@ -187,7 +187,7 @@ const ARMOR_PASSIVES = [
     index: 16,
   },
   {
-    displayName: "Ballistic Padding",
+    displayName: "防弹护垫",
     type: "Equipment",
     category: "armor",
     tags: ["ArmorPassive"],
@@ -198,7 +198,7 @@ const ARMOR_PASSIVES = [
     index: 17,
   },
   {
-    displayName: "Adreno-Defibrillator",
+    displayName: "肾上腺素除颤器",
     type: "Equipment",
     category: "armor",
     tags: ["ArmorPassive"],
@@ -209,7 +209,7 @@ const ARMOR_PASSIVES = [
     index: 18,
   },
   {
-    displayName: "Feet First",
+    displayName: "脚先着地",
     type: "Equipment",
     category: "armor",
     tags: ["ArmorPassive"],
@@ -220,7 +220,7 @@ const ARMOR_PASSIVES = [
     index: 19,
   },
   {
-    displayName: "Desert Stormer",
+    displayName: "沙漠风暴者",
     type: "Equipment",
     category: "armor",
     tags: ["ArmorPassive"],
@@ -231,7 +231,7 @@ const ARMOR_PASSIVES = [
     index: 20,
   },
   {
-    displayName: "Rock Solid",
+    displayName: "坚如磐石",
     type: "Equipment",
     category: "armor",
     tags: ["ArmorPassive"],
@@ -242,7 +242,7 @@ const ARMOR_PASSIVES = [
     index: 21,
   },
   {
-    displayName: "Reduced Signature",
+    displayName: "降低信号",
     type: "Equipment",
     category: "armor",
     tags: ["ArmorPassive"],
@@ -253,7 +253,7 @@ const ARMOR_PASSIVES = [
     index: 22,
   },
   {
-    displayName: "Supplementary Adrenaline",
+    displayName: "补充肾上腺素",
     type: "Equipment",
     category: "armor",
     tags: ["ArmorPassive"],
@@ -264,7 +264,7 @@ const ARMOR_PASSIVES = [
     index: 23,
   },
   {
-    displayName: "Concussive Padding",
+    displayName: "防震护垫",
     type: "Equipment",
     category: "armor",
     tags: ["ArmorPassive"],
@@ -275,7 +275,7 @@ const ARMOR_PASSIVES = [
     index: 24,
   },
   {
-    displayName: "Oxygenator",
+    displayName: "氧气发生器",
     type: "Equipment",
     category: "armor",
     tags: ["ArmorPassive"],
