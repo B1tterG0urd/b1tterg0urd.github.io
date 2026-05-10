@@ -3,7 +3,7 @@ const showBBCreditsEarnedToast = (credits) => {
   const toast = new bootstrap.Toast(bbCreditsEarnedToast);
 
   // Set the toast body content
-  document.getElementById('creditsEarnedToastBody').textContent = `${credits} Super Credits Earned`;
+  document.getElementById('creditsEarnedToastBody').textContent = `${credits} 超级货币`;
 
   // Show the toast
   toast.show();

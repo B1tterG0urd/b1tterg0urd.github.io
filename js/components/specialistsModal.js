@@ -50,7 +50,7 @@ const genTraits = (traits) => {
     traitList += `<li class="text-white">${traits[i]}</li>`;
   }
   return `
-    <p class="text-white">Additionally:</p>
+    <p class="text-white">另外：</p>
     <ul>
       ${traitList}
     </ul>

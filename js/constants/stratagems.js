@@ -1,7 +1,7 @@
 // tags: ap2, ap3, ap4, gas, smoke, expendable, fire, at, bullets, laser, arc, stun, explosive, plasma, melee Weapons, movement, Backpacks, Vehicles, Sentry, Emplacement, Eagle, Orbital
 const STRATAGEMS = [
   {
-    displayName: 'Sterilizer',
+    displayName: '灭菌者',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Weapons', 'gas', 'ap4'],
@@ -13,7 +13,7 @@ const STRATAGEMS = [
     index: 0,
   },
   {
-    displayName: 'Flamethrower',
+    displayName: '火焰喷射器',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Weapons', 'fire', 'ap4'],
@@ -25,7 +25,7 @@ const STRATAGEMS = [
     index: 1,
   },
   {
-    displayName: 'Speargun',
+    displayName: 'S-11矛枪',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Weapons', 'gas', 'ap4'],
@@ -37,7 +37,7 @@ const STRATAGEMS = [
     index: 2,
   },
   {
-    displayName: 'Laser Cannon',
+    displayName: '激光大炮',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Weapons', 'laser', 'ap4'],
@@ -49,7 +49,7 @@ const STRATAGEMS = [
     index: 3,
   },
   {
-    displayName: 'Stalwart',
+    displayName: '盟友',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Weapons', 'bullets', 'ap2'],
@@ -61,7 +61,7 @@ const STRATAGEMS = [
     index: 4,
   },
   {
-    displayName: 'Machine Gun',
+    displayName: '机枪',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Weapons', 'bullets', 'ap3'],
@@ -73,7 +73,7 @@ const STRATAGEMS = [
     index: 5,
   },
   {
-    displayName: 'Heavy Machine Gun',
+    displayName: '重机枪',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Weapons', 'bullets', 'ap4'],
@@ -85,7 +85,7 @@ const STRATAGEMS = [
     index: 6,
   },
   {
-    displayName: 'Arc Thrower',
+    displayName: '电弧发射器',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Weapons', 'arc'],
@@ -97,7 +97,7 @@ const STRATAGEMS = [
     index: 7,
   },
   {
-    displayName: 'Grenade Launcher',
+    displayName: '榴弹发射器',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Weapons', 'explosive', 'ap3'],
@@ -109,7 +109,7 @@ const STRATAGEMS = [
     index: 8,
   },
   {
-    displayName: 'De-Escalator',
+    displayName: 'GL-52 缓和使者',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Weapons', 'arc'],
@@ -121,7 +121,7 @@ const STRATAGEMS = [
     index: 9,
   },
   {
-    displayName: 'Anti-Material Rifle',
+    displayName: '反器材步枪',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Weapons', 'bullets', 'ap4'],
@@ -133,7 +133,7 @@ const STRATAGEMS = [
     index: 10,
   },
   {
-    displayName: 'Railgun',
+    displayName: '磁轨炮',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Weapons', 'at'],
@@ -145,7 +145,7 @@ const STRATAGEMS = [
     index: 11,
   },
   {
-    displayName: 'Quasar Cannon',
+    displayName: '类星体大炮',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Weapons', 'at'],
@@ -157,7 +157,7 @@ const STRATAGEMS = [
     index: 12,
   },
   {
-    displayName: 'Epoch',
+    displayName: 'PLAS-45 纪元',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Weapons', 'plasma', 'at'],
@@ -169,7 +169,7 @@ const STRATAGEMS = [
     index: 13,
   },
   {
-    displayName: 'Expendable Anti-Tank',
+    displayName: '反坦克消耗品',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Weapons', 'expendable', 'at'],
@@ -181,7 +181,7 @@ const STRATAGEMS = [
     index: 14,
   },
   {
-    displayName: 'Commando',
+    displayName: '突击兵',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Weapons', 'expendable', 'at'],
@@ -193,7 +193,7 @@ const STRATAGEMS = [
     index: 15,
   },
   {
-    displayName: 'Expendable Napalm',
+    displayName: '消耗型凝固汽油弹',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Weapons', 'expendable', 'fire'],
@@ -205,7 +205,7 @@ const STRATAGEMS = [
     index: 16,
   },
   {
-    displayName: 'Solo Silo',
+    displayName: '单发导弹筒',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Weapons', 'expendable', 'at'],
@@ -217,7 +217,7 @@ const STRATAGEMS = [
     index: 17,
   },
   {
-    displayName: 'One True Flag',
+    displayName: '唯一真旗',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Weapons', 'melee'],
@@ -229,7 +229,7 @@ const STRATAGEMS = [
     index: 18,
   },
   {
-    displayName: 'Defoliation Tool',
+    displayName: '除草器',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Weapons', 'melee'],
@@ -241,7 +241,7 @@ const STRATAGEMS = [
     index: 19,
   },
   {
-    displayName: 'Maxigun',
+    displayName: '麦西极枪',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Weapons', 'Backpacks', 'bullets', 'ap3'],
@@ -253,7 +253,7 @@ const STRATAGEMS = [
     index: 20,
   },
   {
-    displayName: 'Autocannon',
+    displayName: '机炮',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Weapons', 'Backpacks', 'explosive'],
@@ -265,7 +265,7 @@ const STRATAGEMS = [
     index: 21,
   },
   {
-    displayName: 'W.A.S.P. Launcher',
+    displayName: 'StA-X3 W.A.S.P. 火箭发射器',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Weapons', 'Backpacks', 'explosive'],
@@ -277,7 +277,7 @@ const STRATAGEMS = [
     index: 22,
   },
   {
-    displayName: 'Airburst Rocket Launcher',
+    displayName: '空爆火箭发射器',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Weapons', 'Backpacks', 'explosive'],
@@ -289,7 +289,7 @@ const STRATAGEMS = [
     index: 23,
   },
   {
-    displayName: 'Recoilless Rifle',
+    displayName: '无后坐力炮',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Weapons', 'Backpacks', 'explosive', 'at'],
@@ -301,7 +301,7 @@ const STRATAGEMS = [
     index: 24,
   },
   {
-    displayName: 'Spear',
+    displayName: '长矛导弹',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Weapons', 'Backpacks', 'explosive', 'at'],
@@ -313,7 +313,7 @@ const STRATAGEMS = [
     index: 25,
   },
   {
-    displayName: 'C4 Pack',
+    displayName: 'C4 背包',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Weapons', 'Backpacks', 'explosive', 'at'],
@@ -325,7 +325,7 @@ const STRATAGEMS = [
     index: 26,
   },
   {
-    displayName: 'Guard Dog Flames',
+    displayName: '护卫犬热狗',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Backpacks', 'fire'],
@@ -337,7 +337,7 @@ const STRATAGEMS = [
     index: 27,
   },
   {
-    displayName: 'Guard Dog Breath',
+    displayName: '护卫犬腐气',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Backpacks', 'gas'],
@@ -349,7 +349,7 @@ const STRATAGEMS = [
     index: 28,
   },
   {
-    displayName: 'Guard Dog Laser',
+    displayName: '护卫犬激光',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Backpacks', 'laser', 'ap2'],
@@ -361,7 +361,7 @@ const STRATAGEMS = [
     index: 29,
   },
   {
-    displayName: 'Guard Dog Bullets',
+    displayName: '护卫犬',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Backpacks', 'bullets', 'ap3'],
@@ -373,7 +373,7 @@ const STRATAGEMS = [
     index: 30,
   },
   {
-    displayName: 'Guard Dog Arc',
+    displayName: '护卫犬 K9',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Backpacks', 'arc'],
@@ -385,7 +385,7 @@ const STRATAGEMS = [
     index: 31,
   },
   {
-    displayName: 'Jump Pack',
+    displayName: '跳跃背包',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Backpacks', 'movement'],
@@ -397,7 +397,7 @@ const STRATAGEMS = [
     index: 32,
   },
   {
-    displayName: 'Hover Pack',
+    displayName: '悬浮背包',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Backpacks', 'movement'],
@@ -409,7 +409,7 @@ const STRATAGEMS = [
     index: 33,
   },
   {
-    displayName: 'Warp Pack',
+    displayName: '传送背包',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Backpacks', 'movement'],
@@ -421,7 +421,7 @@ const STRATAGEMS = [
     index: 34,
   },
   {
-    displayName: 'Supply Pack',
+    displayName: '补给背包',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Backpacks'],
@@ -433,7 +433,7 @@ const STRATAGEMS = [
     index: 35,
   },
   {
-    displayName: 'Directional Shield',
+    displayName: '定向护盾',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Backpacks'],
@@ -445,7 +445,7 @@ const STRATAGEMS = [
     index: 36,
   },
   {
-    displayName: 'Shield Generator Pack',
+    displayName: '防护罩生成背包',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Backpacks'],
@@ -457,7 +457,7 @@ const STRATAGEMS = [
     index: 37,
   },
   {
-    displayName: 'Ballistic Shield',
+    displayName: '弹道防护罩背包',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Backpacks'],
@@ -469,7 +469,7 @@ const STRATAGEMS = [
     index: 38,
   },
   {
-    displayName: 'Portable Hellbomb',
+    displayName: '可携式绝地弹',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Backpacks', 'at', 'explosive'],
@@ -481,7 +481,7 @@ const STRATAGEMS = [
     index: 39,
   },
   {
-    displayName: 'Fast Recon Vehicle',
+    displayName: '快速侦察载具',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Vehicles', 'movement'],
@@ -493,7 +493,7 @@ const STRATAGEMS = [
     index: 40,
   },
   {
-    displayName: 'Patriot Exosuit',
+    displayName: '爱国者外骨骼装甲',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Vehicles', 'at', 'exosuit', 'expendable'],
@@ -505,7 +505,7 @@ const STRATAGEMS = [
     index: 41,
   },
   {
-    displayName: 'Emancipator Exosuit',
+    displayName: '解放者外骨骼装甲',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Vehicles', 'at', 'exosuit', 'expendable'],
@@ -517,7 +517,7 @@ const STRATAGEMS = [
     index: 42,
   },
   {
-    displayName: 'Eagle Strafing Run',
+    displayName: '飞鹰机枪扫射',
     type: 'Stratagem',
     category: 'Eagle',
     tags: ['Eagle'],
@@ -529,7 +529,7 @@ const STRATAGEMS = [
     index: 43,
   },
   {
-    displayName: 'Eagle Airstrike',
+    displayName: '飞鹰空袭',
     type: 'Stratagem',
     category: 'Eagle',
     tags: ['Eagle'],
@@ -541,7 +541,7 @@ const STRATAGEMS = [
     index: 44,
   },
   {
-    displayName: 'Eagle Cluster Bomb',
+    displayName: '飞鹰集束炸弹',
     type: 'Stratagem',
     category: 'Eagle',
     tags: ['Eagle'],
@@ -553,7 +553,7 @@ const STRATAGEMS = [
     index: 45,
   },
   {
-    displayName: 'Eagle Napalm Strike',
+    displayName: '飞鹰凝固汽油弹空袭',
     type: 'Stratagem',
     category: 'Eagle',
     tags: ['Eagle', 'fire'],
@@ -565,7 +565,7 @@ const STRATAGEMS = [
     index: 46,
   },
   {
-    displayName: 'Eagle Smoke Strike',
+    displayName: '飞鹰烟雾空袭',
     type: 'Stratagem',
     category: 'Eagle',
     tags: ['Eagle', 'smoke'],
@@ -577,7 +577,7 @@ const STRATAGEMS = [
     index: 47,
   },
   {
-    displayName: 'Eagle 110mm Rocket Pods',
+    displayName: '飞鹰110mm火箭荚舱',
     type: 'Stratagem',
     category: 'Eagle',
     tags: ['Eagle', 'at'],
@@ -589,7 +589,7 @@ const STRATAGEMS = [
     index: 48,
   },
   {
-    displayName: 'Eagle 500kg Bomb',
+    displayName: '飞鹰500kg炸弹',
     type: 'Stratagem',
     category: 'Eagle',
     tags: ['Eagle', 'at'],
@@ -601,7 +601,7 @@ const STRATAGEMS = [
     index: 49,
   },
   {
-    displayName: 'Orbital Precision Strike',
+    displayName: '轨道精准攻击',
     type: 'Stratagem',
     category: 'Orbital',
     tags: ['Orbital', 'at'],
@@ -613,7 +613,7 @@ const STRATAGEMS = [
     index: 50,
   },
   {
-    displayName: 'Orbital Gas Strike',
+    displayName: '轨道毒气攻击',
     type: 'Stratagem',
     category: 'Orbital',
     tags: ['Orbital', 'gas'],
@@ -625,7 +625,7 @@ const STRATAGEMS = [
     index: 51,
   },
   {
-    displayName: 'Orbital EMS Strike',
+    displayName: '轨道电磁干扰打击',
     type: 'Stratagem',
     category: 'Orbital',
     tags: ['Orbital', 'stun'],
@@ -637,7 +637,7 @@ const STRATAGEMS = [
     index: 52,
   },
   {
-    displayName: 'Orbital Smoke Strike',
+    displayName: '轨道烟雾空袭',
     type: 'Stratagem',
     category: 'Orbital',
     tags: ['Orbital', 'smoke'],
@@ -649,7 +649,7 @@ const STRATAGEMS = [
     index: 53,
   },
   {
-    displayName: 'Orbital Airburst Strike',
+    displayName: '轨道空爆打击',
     type: 'Stratagem',
     category: 'Orbital',
     tags: ['Orbital'],
@@ -661,7 +661,7 @@ const STRATAGEMS = [
     index: 54,
   },
   {
-    displayName: 'Orbital Railcannon Strike',
+    displayName: '轨道电磁炮攻击',
     type: 'Stratagem',
     category: 'Orbital',
     tags: ['Orbital', 'at'],
@@ -673,7 +673,7 @@ const STRATAGEMS = [
     index: 55,
   },
   {
-    displayName: 'Orbital Laser',
+    displayName: '轨道激光',
     type: 'Stratagem',
     category: 'Orbital',
     tags: ['Orbital', 'laser', 'at'],
@@ -685,7 +685,7 @@ const STRATAGEMS = [
     index: 56,
   },
   {
-    displayName: 'Orbital Gatling Barrage',
+    displayName: '轨道加特林弹幕',
     type: 'Stratagem',
     category: 'Orbital',
     tags: ['Orbital', 'bullets'],
@@ -697,7 +697,7 @@ const STRATAGEMS = [
     index: 57,
   },
   {
-    displayName: 'Orbital 120mm Barrage',
+    displayName: '轨道120mm高爆弹弹幕',
     type: 'Stratagem',
     category: 'Orbital',
     tags: ['Orbital'],
@@ -709,7 +709,7 @@ const STRATAGEMS = [
     index: 58,
   },
   {
-    displayName: 'Orbital 380mm Barrage',
+    displayName: '轨道380mm高爆弹弹幕',
     type: 'Stratagem',
     category: 'Orbital',
     tags: ['Orbital'],
@@ -721,7 +721,7 @@ const STRATAGEMS = [
     index: 59,
   },
   {
-    displayName: 'Orbital Walking Barrage',
+    displayName: '轨道步行者弹幕',
     type: 'Stratagem',
     category: 'Orbital',
     tags: ['Orbital'],
@@ -733,7 +733,7 @@ const STRATAGEMS = [
     index: 60,
   },
   {
-    displayName: 'Orbital Napalm Barrage',
+    displayName: '轨道汽油弹弹幕',
     type: 'Stratagem',
     category: 'Orbital',
     tags: ['Orbital', 'fire'],
@@ -745,7 +745,7 @@ const STRATAGEMS = [
     index: 61,
   },
   {
-    displayName: 'Tesla Tower',
+    displayName: '特斯拉塔',
     type: 'Stratagem',
     category: 'Defense',
     tags: ['Sentry', 'arc'],
@@ -757,7 +757,7 @@ const STRATAGEMS = [
     index: 62,
   },
   {
-    displayName: 'Mortar Sentry',
+    displayName: '哨戒迫击炮',
     type: 'Stratagem',
     category: 'Defense',
     tags: ['Sentry'],
@@ -769,7 +769,7 @@ const STRATAGEMS = [
     index: 63,
   },
   {
-    displayName: 'EMS Mortar Sentry',
+    displayName: '电磁干扰哨戒迫击炮',
     type: 'Stratagem',
     category: 'Defense',
     tags: ['Sentry', 'stun'],
@@ -781,7 +781,7 @@ const STRATAGEMS = [
     index: 64,
   },
   {
-    displayName: 'Machine Gun Sentry',
+    displayName: '哨戒机枪',
     type: 'Stratagem',
     category: 'Defense',
     tags: ['Sentry', 'bullets', 'ap3'],
@@ -793,7 +793,7 @@ const STRATAGEMS = [
     index: 65,
   },
   {
-    displayName: 'Gatling Sentry',
+    displayName: '哨戒格林炮',
     type: 'Stratagem',
     category: 'Defense',
     tags: ['Sentry', 'bullets', 'ap3'],
@@ -805,7 +805,7 @@ const STRATAGEMS = [
     index: 66,
   },
   {
-    displayName: 'Flame Sentry',
+    displayName: '火焰哨戒炮',
     type: 'Stratagem',
     category: 'Defense',
     tags: ['Sentry', 'fire'],
@@ -817,7 +817,7 @@ const STRATAGEMS = [
     index: 67,
   },
   {
-    displayName: 'Laser Sentry',
+    displayName: '镭射哨兵塔',
     type: 'Stratagem',
     category: 'Defense',
     tags: ['Sentry', 'laser'],
@@ -829,7 +829,7 @@ const STRATAGEMS = [
     index: 68,
   },
   {
-    displayName: 'Autocannon Sentry',
+    displayName: '哨戒机炮',
     type: 'Stratagem',
     category: 'Defense',
     tags: ['Sentry', 'explosive', 'at'],
@@ -841,7 +841,7 @@ const STRATAGEMS = [
     index: 69,
   },
   {
-    displayName: 'Rocket Sentry',
+    displayName: '哨戒火箭炮',
     type: 'Stratagem',
     category: 'Defense',
     tags: ['Sentry', 'explosive', 'at'],
@@ -853,7 +853,7 @@ const STRATAGEMS = [
     index: 70,
   },
   {
-    displayName: 'Shield Generator Relay',
+    displayName: '防护罩生成中继器',
     type: 'Stratagem',
     category: 'Defense',
     tags: ['Emplacement'],
@@ -865,7 +865,7 @@ const STRATAGEMS = [
     index: 71,
   },
   {
-    displayName: 'HMG Emplacement',
+    displayName: '重机枪炮台',
     type: 'Stratagem',
     category: 'Defense',
     tags: ['Emplacement', 'bullets', , 'ap4'],
@@ -877,7 +877,7 @@ const STRATAGEMS = [
     index: 72,
   },
   {
-    displayName: 'Anti-Tank Emplacement',
+    displayName: '反坦克炮台',
     type: 'Stratagem',
     category: 'Defense',
     tags: ['Emplacement', 'explosive', 'at'],
@@ -889,7 +889,7 @@ const STRATAGEMS = [
     index: 73,
   },
   {
-    displayName: 'Grenadier Battlement',
+    displayName: '掷弹兵掩体',
     type: 'Stratagem',
     category: 'Defense',
     tags: ['Emplacement', 'explosive', 'ap3'],
@@ -901,7 +901,7 @@ const STRATAGEMS = [
     index: 74,
   },
   {
-    displayName: 'Anti-Tank Mines',
+    displayName: '反坦克地雷',
     type: 'Stratagem',
     category: 'Defense',
     tags: ['Emplacement', 'at'],
@@ -913,7 +913,7 @@ const STRATAGEMS = [
     index: 75,
   },
   {
-    displayName: 'Anti-Personnel Mines',
+    displayName: '反步兵雷区',
     type: 'Stratagem',
     category: 'Defense',
     tags: ['Emplacement'],
@@ -925,7 +925,7 @@ const STRATAGEMS = [
     index: 76,
   },
   {
-    displayName: 'Gas Mines',
+    displayName: '毒气地雷',
     type: 'Stratagem',
     category: 'Defense',
     tags: ['Emplacement', 'gas'],
@@ -937,7 +937,7 @@ const STRATAGEMS = [
     index: 77,
   },
   {
-    displayName: 'Incendiary Mines',
+    displayName: '燃烧地雷',
     type: 'Stratagem',
     category: 'Defense',
     tags: ['Emplacement', 'fire'],
@@ -949,7 +949,7 @@ const STRATAGEMS = [
     index: 78,
   },
   {
-    displayName: 'Breaching Hammer',
+    displayName: '破门战锤',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Weapons', 'melee', 'at'],
@@ -961,7 +961,7 @@ const STRATAGEMS = [
     index: 79,
   },
   {
-    displayName: 'Leveller',
+    displayName: '夷平者',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Weapons', 'at', 'expendable', 'explosive'],
@@ -973,7 +973,7 @@ const STRATAGEMS = [
     index: 80,
   },
   {
-    displayName: 'Belt-Fed Grenade Launcher',
+    displayName: '弹链式榴弹发射器',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Weapons', 'Backpacks', 'at', 'explosive', , 'ap4'],
@@ -985,7 +985,7 @@ const STRATAGEMS = [
     index: 81,
   },
   {
-    displayName: 'Bastion',
+    displayName: '堡垒坦克',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Vehicles'],
@@ -997,7 +997,7 @@ const STRATAGEMS = [
     index: 82,
   },
   {
-    displayName: 'Gas Mortar Sentry',
+    displayName: '毒气哨戒迫击炮',
     type: 'Stratagem',
     category: 'Defense',
     tags: ['Sentry', 'gas'],
@@ -1009,7 +1009,7 @@ const STRATAGEMS = [
     index: 83,
   },
   {
-    displayName: 'Cremator',
+    displayName: '火葬者',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Weapons', 'Backpacks', 'fire', 'at'],
@@ -1022,7 +1022,7 @@ const STRATAGEMS = [
   },
 
   {
-    displayName: 'Lumberer Exosuit',
+    displayName: '伐木工外骨骼装甲',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Vehicles', 'fire', 'at', 'expendable', 'exosuit'],
@@ -1034,7 +1034,7 @@ const STRATAGEMS = [
     index: 85,
   },
   {
-    displayName: 'Breakthrough Exosuit',
+    displayName: '突破外骨骼装甲',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Vehicles', 'expendable', 'at', 'exosuit'],
@@ -1046,7 +1046,7 @@ const STRATAGEMS = [
     index: 86,
   },
   {
-    displayName: 'Bullet Storm',
+    displayName: '子弹风暴',
     type: 'Stratagem',
     category: 'Supply',
     tags: ['Weapons', 'expendable', 'bullets', 'ap2'],

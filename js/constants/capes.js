@@ -1,6 +1,6 @@
 const CAPES = [
   {
-    displayName: "Foesmasher",
+    displayName: "破敌者",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -11,7 +11,7 @@ const CAPES = [
     index: 0,
   },
   {
-    displayName: "Will of the People",
+    displayName: "人民意志",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -22,7 +22,7 @@ const CAPES = [
     index: 1,
   },
   {
-    displayName: "Independence Bringer",
+    displayName: "独立使者",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -33,7 +33,7 @@ const CAPES = [
     index: 2,
   },
   {
-    displayName: "Liberty's Herald",
+    displayName: "自由先驱",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -44,7 +44,7 @@ const CAPES = [
     index: 3,
   },
   {
-    displayName: "Tideturner",
+    displayName: "逆转潮汐",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -55,7 +55,7 @@ const CAPES = [
     index: 4,
   },
   {
-    displayName: "Stars and Suffrage",
+    displayName: "星辰与选举权",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -66,7 +66,7 @@ const CAPES = [
     index: 5,
   },
   {
-    displayName: "Unblemished Allegiance",
+    displayName: "无瑕忠诚",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -77,7 +77,7 @@ const CAPES = [
     index: 6,
   },
   {
-    displayName: "Judgment Day",
+    displayName: "审判日",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -88,7 +88,7 @@ const CAPES = [
     index: 7,
   },
   {
-    displayName: "Cresting Honor",
+    displayName: "荣誉之巅",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -99,7 +99,7 @@ const CAPES = [
     index: 8,
   },
   {
-    displayName: "Mantle of True Citizenship",
+    displayName: "真公民披风",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -110,7 +110,7 @@ const CAPES = [
     index: 9,
   },
   {
-    displayName: "Blazing Samaritan",
+    displayName: "燃烧的善人",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -121,7 +121,7 @@ const CAPES = [
     index: 10,
   },
   {
-    displayName: "Light of Eternal Liberty",
+    displayName: "永恒自由之光",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -132,7 +132,7 @@ const CAPES = [
     index: 11,
   },
   {
-    displayName: "Tyrant Hunter",
+    displayName: "暴君猎手",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -143,7 +143,7 @@ const CAPES = [
     index: 12,
   },
   {
-    displayName: "Cloak of Posterity's Gratitude",
+    displayName: "后代感恩斗篷",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -154,7 +154,7 @@ const CAPES = [
     index: 13,
   },
   {
-    displayName: "Drape of Glory",
+    displayName: "荣耀帷幕",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -165,7 +165,7 @@ const CAPES = [
     index: 14,
   },
   {
-    displayName: "Bastion of Integrity",
+    displayName: "诚信堡垒",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -176,7 +176,7 @@ const CAPES = [
     index: 15,
   },
   {
-    displayName: "Botslayer",
+    displayName: "机器人杀手",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -187,7 +187,7 @@ const CAPES = [
     index: 16,
   },
   {
-    displayName: "Martyris Rex",
+    displayName: "殉道之王",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -198,7 +198,7 @@ const CAPES = [
     index: 17,
   },
   {
-    displayName: "Agent of Oblivion",
+    displayName: "湮灭特工",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -209,7 +209,7 @@ const CAPES = [
     index: 18,
   },
   {
-    displayName: "Fallen Hero's Vengeance",
+    displayName: "英烈复仇",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -220,7 +220,7 @@ const CAPES = [
     index: 19,
   },
   {
-    displayName: "Harbinger of True Equality",
+    displayName: "真平等先驱",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -231,7 +231,7 @@ const CAPES = [
     index: 20,
   },
   {
-    displayName: "Eagle's Fury",
+    displayName: "飞鹰之怒",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -242,7 +242,7 @@ const CAPES = [
     index: 21,
   },
   {
-    displayName: "Freedom's Tapestry",
+    displayName: "自由织锦",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -253,7 +253,7 @@ const CAPES = [
     index: 22,
   },
   {
-    displayName: "Dissident's Nightmare",
+    displayName: "异见者噩梦",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -264,7 +264,7 @@ const CAPES = [
     index: 23,
   },
   {
-    displayName: "Rightful Occupier",
+    displayName: "正当占领者",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -275,7 +275,7 @@ const CAPES = [
     index: 24,
   },
   {
-    displayName: "Pinions of Everlasting Glory",
+    displayName: "永恒荣光之翼",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -286,7 +286,7 @@ const CAPES = [
     index: 25,
   },
   {
-    displayName: "Windswept Wayfinder",
+    displayName: "风行者",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -297,7 +297,7 @@ const CAPES = [
     index: 26,
   },
   {
-    displayName: "Order of the Venerated Ballot",
+    displayName: "神圣选票勋章",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -308,7 +308,7 @@ const CAPES = [
     index: 27,
   },
   {
-    displayName: "Mark of the Crimson Fang",
+    displayName: "血红獠牙印记",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -319,7 +319,7 @@ const CAPES = [
     index: 28,
   },
   {
-    displayName: "Executioner's Canopy",
+    displayName: "行刑者华盖",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -330,7 +330,7 @@ const CAPES = [
     index: 29,
   },
   {
-    displayName: "Purifying Eclipse",
+    displayName: "净化日食",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -341,7 +341,7 @@ const CAPES = [
     index: 30,
   },
   {
-    displayName: "The Breach",
+    displayName: "突破口",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -352,7 +352,7 @@ const CAPES = [
     index: 31,
   },
   {
-    displayName: "Standard of Safe Distance",
+    displayName: "安全距离标准",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -363,7 +363,7 @@ const CAPES = [
     index: 32,
   },
   {
-    displayName: "Patient Zero's Remembrance",
+    displayName: "零号病人纪念",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -374,7 +374,7 @@ const CAPES = [
     index: 33,
   },
   {
-    displayName: "Cover of Darkness",
+    displayName: "黑暗掩护",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -385,7 +385,7 @@ const CAPES = [
     index: 34,
   },
   {
-    displayName: "Pride of the Whistleblower",
+    displayName: "举报者之傲",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -396,7 +396,7 @@ const CAPES = [
     index: 35,
   },
   {
-    displayName: "Proof of Faultless Virtue",
+    displayName: "无瑕美德证明",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -407,7 +407,7 @@ const CAPES = [
     index: 36,
   },
   {
-    displayName: "Stone-Wrought Perseverance",
+    displayName: "石铸毅力",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -418,7 +418,7 @@ const CAPES = [
     index: 37,
   },
   {
-    displayName: "Greatcloak of Rebar Resolve",
+    displayName: "钢筋决心大氅",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -429,7 +429,7 @@ const CAPES = [
     index: 38,
   },
   {
-    displayName: "Holder of the Yellow Line",
+    displayName: "黄线守护者",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -440,7 +440,7 @@ const CAPES = [
     index: 39,
   },
   {
-    displayName: "Strength in Our Arms",
+    displayName: "我们臂中的力量",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -451,7 +451,7 @@ const CAPES = [
     index: 40,
   },
   {
-    displayName: "Defender of Our Dream",
+    displayName: "我们梦想的守护者",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -462,7 +462,7 @@ const CAPES = [
     index: 41,
   },
   {
-    displayName: "Vision of Freedom",
+    displayName: "自由愿景",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -473,7 +473,7 @@ const CAPES = [
     index: 42,
   },
   {
-    displayName: "Eternal Corona",
+    displayName: "永恒日冕",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -484,7 +484,7 @@ const CAPES = [
     index: 43,
   },
   {
-    displayName: "Fre Liberam",
+    displayName: "自由之书",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -495,7 +495,7 @@ const CAPES = [
     index: 44,
   },
   {
-    displayName: "Per Democrasum",
+    displayName: "经由民主",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -506,7 +506,7 @@ const CAPES = [
     index: 45,
   },
   {
-    displayName: "Eye of Freedom",
+    displayName: "自由之眼",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -517,7 +517,7 @@ const CAPES = [
     index: 46,
   },
   {
-    displayName: "Emblem of Freedom",
+    displayName: "自由徽记",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -528,7 +528,7 @@ const CAPES = [
     index: 47,
   },
   {
-    displayName: "Veil of the Valorous Vagabond",
+    displayName: "勇者浪客面纱",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -539,7 +539,7 @@ const CAPES = [
     index: 48,
   },
   {
-    displayName: "Reaper of Bounties",
+    displayName: "赏金收割者",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -550,7 +550,7 @@ const CAPES = [
     index: 49,
   },
   {
-    displayName: "Way of the Bandolier",
+    displayName: "弹带之道",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -561,7 +561,7 @@ const CAPES = [
     index: 50,
   },
   {
-    displayName: "Seal of General Consensus",
+    displayName: "普遍共识之印",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -572,7 +572,7 @@ const CAPES = [
     index: 51,
   },
   {
-    displayName: "Federation's Embrace",
+    displayName: "联邦拥抱",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -583,7 +583,7 @@ const CAPES = [
     index: 52,
   },
   {
-    displayName: "Humble Regalia",
+    displayName: "谦逊华服",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -594,7 +594,7 @@ const CAPES = [
     index: 53,
   },
   {
-    displayName: "Badge of Order",
+    displayName: "秩序徽章",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -605,7 +605,7 @@ const CAPES = [
     index: 54,
   },
   {
-    displayName: "Miranda's Legacy",
+    displayName: "米兰达的遗产",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -616,7 +616,7 @@ const CAPES = [
     index: 55,
   },
   {
-    displayName: "Mother Eagle's Wings",
+    displayName: "母鹰之翼",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -627,7 +627,7 @@ const CAPES = [
     index: 56,
   },
   {
-    displayName: "Protector of the Heart",
+    displayName: "心灵守护者",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -638,7 +638,7 @@ const CAPES = [
     index: 57,
   },
   {
-    displayName: "Pillars of Freedom",
+    displayName: "自由支柱",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -649,7 +649,7 @@ const CAPES = [
     index: 58,
   },
   {
-    displayName: "Conductor of Brilliance",
+    displayName: "光辉引导者",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -660,7 +660,7 @@ const CAPES = [
     index: 59,
   },
   {
-    displayName: "Over Artifice Triumphant",
+    displayName: "凌驾诡计",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -671,7 +671,7 @@ const CAPES = [
     index: 60,
   },
   {
-    displayName: "Schema Laid Bare",
+    displayName: "赤裸蓝图",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -693,7 +693,7 @@ const CAPES = [
     index: 62,
   },
   {
-    displayName: "Honored Heirloom",
+    displayName: "荣耀传家宝",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -704,7 +704,7 @@ const CAPES = [
     index: 63,
   },
   {
-    displayName: "Eye of the Clandestine",
+    displayName: "密探之眼",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -715,7 +715,7 @@ const CAPES = [
     index: 64,
   },
   {
-    displayName: "Veridical Ideology",
+    displayName: "真实意识形态",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -726,7 +726,7 @@ const CAPES = [
     index: 65,
   },
   {
-    displayName: "Mark of the Constrictor",
+    displayName: "蟒蛇印记",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -737,7 +737,7 @@ const CAPES = [
     index: 66,
   },
   {
-    displayName: "Foe Rent Asunder",
+    displayName: "撕裂敌人",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -748,7 +748,7 @@ const CAPES = [
     index: 67,
   },
   {
-    displayName: "De-Forester's Sailcloth",
+    displayName: "伐林者帆布",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -759,7 +759,7 @@ const CAPES = [
     index: 68,
   },
   {
-    displayName: "Against the Tyrant Cloud",
+    displayName: "对抗暴君阴云",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -770,7 +770,7 @@ const CAPES = [
     index: 69,
   },
   {
-    displayName: "Reckoning's Cheer",
+    displayName: "清算之欢呼",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -781,7 +781,7 @@ const CAPES = [
     index: 70,
   },
   {
-    displayName: "Pillar of the Abyss",
+    displayName: "深渊之柱",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -792,7 +792,7 @@ const CAPES = [
     index: 71,
   },
   {
-    displayName: "Triangulation Veil",
+    displayName: "三角测量面纱",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -803,7 +803,7 @@ const CAPES = [
     index: 72,
   },
   {
-    displayName: "Gilded Quill",
+    displayName: "镀金羽毛",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -814,7 +814,7 @@ const CAPES = [
     index: 73,
   },
   {
-    displayName: "Rags of the Fashionable",
+    displayName: "时尚破布",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -825,7 +825,7 @@ const CAPES = [
     index: 74,
   },
   {
-    displayName: "Wedgeful Tricorn",
+    displayName: "楔形三角帽",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -836,7 +836,7 @@ const CAPES = [
     index: 75,
   },
   {
-    displayName: "Thundering Hooves of Loyalty",
+    displayName: "忠诚雷鸣蹄",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -847,7 +847,7 @@ const CAPES = [
     index: 76,
   },
   {
-    displayName: "Eye of Liberty",
+    displayName: "自由之眼",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -858,7 +858,7 @@ const CAPES = [
     index: 77,
   },
   {
-    displayName: "Dignity of Toil",
+    displayName: "辛劳尊严",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -869,7 +869,7 @@ const CAPES = [
     index: 78,
   },
   {
-    displayName: "Crest of the Unsullied",
+    displayName: "纯洁者之冠",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -880,7 +880,7 @@ const CAPES = [
     index: 79,
   },
   {
-    displayName: "Testament to Attrition",
+    displayName: "消耗战见证",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -891,7 +891,7 @@ const CAPES = [
     index: 80,
   },
   {
-    displayName: "Free Spirited Spangles",
+    displayName: "自由精神亮片",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -902,7 +902,7 @@ const CAPES = [
     index: 81,
   },
   {
-    displayName: "Watchful Compatriot",
+    displayName: "警惕同胞",
     type: "Equipment",
     category: "cape",
     tags: [],
@@ -913,7 +913,7 @@ const CAPES = [
     index: 82,
   },
   {
-    displayName: "Diagram of the Noblest Payload",
+    displayName: "最高贵载荷图解",
     type: "Equipment",
     category: "cape",
     tags: [],

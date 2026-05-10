@@ -1,5 +1,5 @@
 <!doctype html>
-<html id="html" lang="en">
+<html id="html" lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -27,11 +27,9 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
     />
-    <meta
-      name="description"
-      content="Mix and match Helldivers 2 armor, helmets, and capes in the Armor Lab. Plan your perfect drip for Super Earth!"
+    <meta name="description" content="混搭护甲、头盔和披风，打造完美的绝地潜兵造型。轻松保存和分享你的配装。"
     />
-    <title>Helldivers 2: Armor Lab</title>
+    <title>绝地潜兵2：护甲实验室</title>
     <!-- Google tag (gtag.js) -->
     <script
       async
@@ -57,9 +55,7 @@
         <div class="d-flex col-4 justify-content-start px-0">
           <a href="../index.html">
             <button class="btn text-light text-start py-0" type="button">
-              <i class="bi bi-arrow-left"></i>
-              Back to Challenges
-            </button>
+              <i class="bi bi-arrow-left"></i>返回挑战列表</button>
           </a>
         </div>
         <div class="d-flex col-4 justify-content-center">
@@ -147,7 +143,7 @@
                 id="selectCapesButton"
                 type="button"
                 class="btn btn-success mx-1"
-                onclick="saveLoadout()"
+                onclick="save配装()"
               >
                 <span><i class="bi bi-bookmark-star"></i></span>
               </button>
@@ -179,7 +175,7 @@
               >
                 <div class="input-group" style="width: 250px">
                   <input
-                    id="newLoadoutNameInput"
+                    id="new配装NameInput"
                     type="text"
                     class="form-control"
                     maxlength="30"
@@ -190,7 +186,7 @@
                   <button
                     class="btn btn-success"
                     type="button"
-                    onclick="submitLoadoutName()"
+                    onclick="submit配装Name()"
                   >
                     <i class="bi bi-check2"></i>
                   </button>
@@ -256,7 +252,7 @@
 
           <hr class="text-white" />
 
-          <!-- Info Container -->
+          <!-- 说明 Container -->
           <div class="row justify-content-center" id="infoContainer">
             <div
               class="d-flex flex-column align-items-center justify-content-center col-sm-0 col-md-3 mb-1 px-0"
@@ -285,7 +281,7 @@
                   <span id="passiveNameText">Extra Padding</span>
                 </li>
                 <li class="text-white">
-                  <b>Type:</b> <span id="typeValueText">Medium</span>
+                  <b>类型:</b> <span id="typeValueText">普通</span>
                 </li>
                 <li class="text-white">
                   <b>Armor Rating:</b> <span id="protectionValueText">150</span>
@@ -321,7 +317,7 @@
       <div class="modal-dialog modal-lg modal-dialog-scrollable">
         <div class="modal-content bg-grey">
           <div class="modal-header">
-            <h5 class="modal-title text-light" id="">Save Data Management</h5>
+            <h5 class="modal-title text-light" id="">存档管理</h5>
           </div>
           <div
             class="modal-body row d-flex justify-content-center"
@@ -331,7 +327,7 @@
               Switch your active save file here, delete save files, or upload
               save files.
               <br />
-              Select an entry below and press 'Apply' to load a different save
+              Select an entry below and press '应用' to load a different save
               file.
               <br />
               <br />
@@ -342,7 +338,7 @@
                 <input
                   class="form-control"
                   type="file"
-                  id="saveDataUploadInput"
+                  id="saveData上传Input"
                 />
               </div>
               <div class="col-3">
@@ -352,9 +348,7 @@
                   class="btn btn-success"
                   id="uploadSaveFileButton"
                   disabled
-                >
-                  Upload
-                </button>
+                >上传</button>
               </div>
             </div>
             <div
@@ -370,9 +364,7 @@
                 type="button"
                 class="btn btn-secondary"
                 data-bs-dismiss="modal"
-              >
-                Cancel
-              </button>
+              >取消</button>
             </div>
             <div
               id="saveDataModalFunctionsDiv"
@@ -380,27 +372,21 @@
             >
               <button
                 type="button"
-                onclick="clearSaveDataAndRestart()"
+                onclick="clearSaveDataAnd重新开始()"
                 class="btn btn-danger"
                 data-bs-dismiss="modal"
-              >
-                Delete ALL
-              </button>
+              >全部删除</button>
               <button
                 type="button"
                 onclick="deleteSavedGameData()"
                 class="btn btn-danger mx-2"
-              >
-                Delete
-              </button>
+              >删除</button>
               <button
                 type="button"
                 onclick="applySavedGameData()"
                 class="btn btn-primary"
                 data-bs-dismiss="modal"
-              >
-                Apply
-              </button>
+              >应用</button>
             </div>
           </div>
         </div>
@@ -432,9 +418,7 @@
                     data-bs-target="#collapseTwo"
                     aria-expanded="false"
                     aria-controls="collapseTwo"
-                  >
-                    FAQs
-                  </button>
+                  >常见问题</button>
                 </h2>
                 <div
                   id="collapseTwo"
@@ -534,9 +518,7 @@
               type="button"
               class="btn btn-secondary"
               data-bs-dismiss="modal"
-            >
-              Close
-            </button>
+            >关闭</button>
           </div>
         </div>
       </div>
@@ -570,7 +552,7 @@
             </button>
             <ul
               id="helmetsWarbondList"
-              class="dropdown-menu warbondFilter scrollableWarbondsList"
+              class="dropdown-menu warbondFilter scrollable战争债券List"
             ></ul>
           </div>
           <div class="btn-group">
@@ -584,7 +566,7 @@
             </button>
             <ul class="dropdown-menu">
               <li>
-                <input type="text" id="helmetSearchInput" />
+                <input type="text" id="helmet搜索Input" />
               </li>
             </ul>
           </div>
@@ -650,7 +632,7 @@
                 <a
                   class="dropdown-item"
                   id="primariesFilterDropdownItem"
-                  onclick="filterByType('Light')"
+                  onclick="filterBy类型('Light')"
                   href="#"
                   >Light</a
                 >
@@ -659,16 +641,16 @@
                 <a
                   class="dropdown-item"
                   id="secondariesFilterDropdownItem"
-                  onclick="filterByType('Medium')"
+                  onclick="filterBy类型('普通')"
                   href="#"
-                  >Medium</a
+                  >普通</a
                 >
               </li>
               <li>
                 <a
                   class="dropdown-item"
                   id="throwablesFilterDropdownItem"
-                  onclick="filterByType('Heavy')"
+                  onclick="filterBy类型('Heavy')"
                   href="#"
                   >Heavy</a
                 >
@@ -691,7 +673,7 @@
             </button>
             <ul
               id="armorPassiveListOptions"
-              class="dropdown-menu scrollableWarbondsList"
+              class="dropdown-menu scrollable战争债券List"
             ></ul>
           </div>
           <div class="btn-group">
@@ -710,7 +692,7 @@
             </button>
             <ul
               id="armorWarbondList"
-              class="dropdown-menu warbondFilter scrollableWarbondsList"
+              class="dropdown-menu warbondFilter scrollable战争债券List"
             ></ul>
           </div>
           <div class="btn-group">
@@ -724,7 +706,7 @@
             </button>
             <ul class="dropdown-menu">
               <li>
-                <input type="text" id="armorSearchInput" />
+                <input type="text" id="armor搜索Input" />
               </li>
             </ul>
           </div>
@@ -787,7 +769,7 @@
             </button>
             <ul
               id="capesWarbondList"
-              class="dropdown-menu warbondFilter scrollableWarbondsList"
+              class="dropdown-menu warbondFilter scrollable战争债券List"
             ></ul>
           </div>
           <div class="btn-group">
@@ -801,7 +783,7 @@
             </button>
             <ul class="dropdown-menu">
               <li>
-                <input type="text" id="capeSearchInput" />
+                <input type="text" id="cape搜索Input" />
               </li>
             </ul>
           </div>
@@ -874,7 +856,7 @@
   <script src="../js/constants/warbonds.js"></script>
   <script src="../js/constants/armorpassives.js"></script>
   <script src="../js/utils/warbondCodes.js"></script>
-  <script src="../js/armorlab/utils/showLoadoutSavedToast.js"></script>
+  <script src="../js/armorlab/utils/show配装SavedToast.js"></script>
   <script src="../js/utils/downloadSaveFile.js"></script>
   <script src="../js/armorlab/main.js"></script>
   <script src="../js/armorlab/utils/itemFilterFunctions.js"></script>

@@ -1110,7 +1110,7 @@ const ARMOR_SETS = [
     index: 73,
   },
   {
-    displayName: `GS-11 Democracy's Deputy`,
+    displayName: `GS-11 民主副手`,
     type: "Equipment",
     category: "armor",
     tags: ["Light"],
@@ -1125,7 +1125,7 @@ const ARMOR_SETS = [
     index: 74,
   },
   {
-    displayName: `RE-824 Bearer of the Standard`,
+    displayName: `RE-824 旗手`,
     type: "Equipment",
     category: "armor",
     tags: ["Heavy"],
@@ -1140,7 +1140,7 @@ const ARMOR_SETS = [
     index: 75,
   },
   {
-    displayName: `RE-1861 Parade Commander`,
+    displayName: `RE-1861 阅兵指挥官`,
     type: "Equipment",
     category: "armor",
     tags: ["Light"],
@@ -1155,7 +1155,7 @@ const ARMOR_SETS = [
     index: 76,
   },
   {
-    displayName: `RE-2310 Honorary Guard`,
+    displayName: `RE-2310 荣誉卫兵`,
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -1170,7 +1170,7 @@ const ARMOR_SETS = [
     index: 77,
   },
   {
-    displayName: `BP-20 Correct Officer`,
+    displayName: `BP-20 矫正官`,
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -1185,7 +1185,7 @@ const ARMOR_SETS = [
     index: 78,
   },
   {
-    displayName: `BP-32 Jackboot`,
+    displayName: `BP-32 军靴`,
     type: "Equipment",
     category: "armor",
     tags: ["Light"],
@@ -1200,7 +1200,7 @@ const ARMOR_SETS = [
     index: 79,
   },
   {
-    displayName: `BP-77 Grand Juror`,
+    displayName: `BP-77 大陪审员`,
     type: "Equipment",
     category: "armor",
     tags: ["Heavy"],
@@ -1215,7 +1215,7 @@ const ARMOR_SETS = [
     index: 80,
   },
   {
-    displayName: `AD-11 Livewire`,
+    displayName: `AD-11 活电线`,
     type: "Equipment",
     category: "armor",
     tags: ["Light"],
@@ -1230,7 +1230,7 @@ const ARMOR_SETS = [
     index: 81,
   },
   {
-    displayName: `AD-26 Bleeding Edge`,
+    displayName: `AD-26 尖端科技`,
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -1245,7 +1245,7 @@ const ARMOR_SETS = [
     index: 82,
   },
   {
-    displayName: `AD-49 Apollonian`,
+    displayName: `AD-49 阿波罗式`,
     type: "Equipment",
     category: "armor",
     tags: ["Heavy"],
@@ -1260,7 +1260,7 @@ const ARMOR_SETS = [
     index: 83,
   },
   {
-    displayName: `A-9 Helljumper`,
+    displayName: `A-9 地狱伞兵`,
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -1275,7 +1275,7 @@ const ARMOR_SETS = [
     index: 84,
   },
   {
-    displayName: `A-35 Recon`,
+    displayName: `A-35 侦察型`,
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -1290,7 +1290,7 @@ const ARMOR_SETS = [
     index: 85,
   },
   {
-    displayName: `DS-42 Federation's Blade`,
+    displayName: `DS-42 联邦之刃`,
     type: "Equipment",
     category: "armor",
     tags: ["Heavy"],
@@ -1305,7 +1305,7 @@ const ARMOR_SETS = [
     index: 86,
   },
   {
-    displayName: `DS-191 Scorpion`,
+    displayName: `DS-191 蝎子`,
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -1320,7 +1320,7 @@ const ARMOR_SETS = [
     index: 87,
   },
   {
-    displayName: `DS-10 Big Game Hunter`,
+    displayName: `DS-10 大型猎物猎人`,
     type: "Equipment",
     category: "armor",
     tags: ["Light"],
@@ -1335,7 +1335,7 @@ const ARMOR_SETS = [
     index: 88,
   },
   {
-    displayName: `RS-40 Beast of Prey`,
+    displayName: `RS-40 猛兽`,
     type: "Equipment",
     category: "armor",
     tags: ["Heavy"],
@@ -1350,7 +1350,7 @@ const ARMOR_SETS = [
     index: 89,
   },
   {
-    displayName: `RS-20 Constrictor`,
+    displayName: `RS-20 蟒蛇`,
     type: "Equipment",
     category: "armor",
     tags: ["Light"],
@@ -1365,7 +1365,7 @@ const ARMOR_SETS = [
     index: 90,
   },
   {
-    displayName: `RS-6 Fiend Destroyer`,
+    displayName: `RS-6 恶魔毁灭者`,
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -1380,7 +1380,7 @@ const ARMOR_SETS = [
     index: 91,
   },
   {
-    displayName: `RS-89 Shadow Paragon`,
+    displayName: `RS-89 暗影典范`,
     type: "Equipment",
     category: "armor",
     tags: ["Light"],
@@ -1395,7 +1395,7 @@ const ARMOR_SETS = [
     index: 92,
   },
   {
-    displayName: `RS-100 Sanctioner`,
+    displayName: `RS-100 制裁者`,
     type: "Equipment",
     category: "armor",
     tags: ["Light"],
@@ -1410,7 +1410,7 @@ const ARMOR_SETS = [
     index: 93,
   },
   {
-    displayName: `RS-67 Null Cipher`,
+    displayName: `RS-67 零密文`,
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -1425,7 +1425,7 @@ const ARMOR_SETS = [
     index: 94,
   },
   {
-    displayName: `SA-7 Head First`,
+    displayName: `SA-7 头先行`,
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -1440,7 +1440,7 @@ const ARMOR_SETS = [
     index: 95,
   },
   {
-    displayName: `SA-8 Ram`,
+    displayName: `SA-8 公羊`,
     type: "Equipment",
     category: "armor",
     tags: ["Heavy"],
@@ -1455,7 +1455,7 @@ const ARMOR_SETS = [
     index: 96,
   },
   {
-    displayName: `DP-8 Mountain-Scaled`,
+    displayName: `DP-8 山鳞`,
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -1470,7 +1470,7 @@ const ARMOR_SETS = [
     index: 97,
   },
   {
-    displayName: `CPG-48 Sapper`,
+    displayName: `CPG-48 工兵`,
     type: "Equipment",
     category: "armor",
     tags: ["Medium"],
@@ -1485,7 +1485,7 @@ const ARMOR_SETS = [
     index: 98,
   },
   {
-    displayName: `CPH-26 Commandant`,
+    displayName: `CPH-26 指挥官`,
     type: "Equipment",
     category: "armor",
     tags: ["Light"],
@@ -1500,7 +1500,7 @@ const ARMOR_SETS = [
     index: 99,
   },
   {
-    displayName: `CPR-80 Bulwark`,
+    displayName: `CPR-80 堡垒`,
     type: "Equipment",
     category: "armor",
     tags: ["Heavy"],
@@ -1515,7 +1515,7 @@ const ARMOR_SETS = [
     index: 100,
   },
   {
-    displayName: `O-3 Free Spirit`,
+    displayName: `O-3 自由精神`,
     type: "Equipment",
     category: "armor",
     tags: ["Light"],
@@ -1530,7 +1530,7 @@ const ARMOR_SETS = [
     index: 101,
   },
   {
-    displayName: `O-2 Heavy Operator`,
+    displayName: `O-2 重型操作员`,
     type: "Equipment",
     category: "armor",
     tags: ["Heavy"],
@@ -1545,7 +1545,7 @@ const ARMOR_SETS = [
     index: 102,
   },
   {
-    displayName: `O-44 Bonded Pilot`,
+    displayName: `O-44 契约飞行员`,
     type: "Equipment",
     category: "armor",
     tags: ["Light"],

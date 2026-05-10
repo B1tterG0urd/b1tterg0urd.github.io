@@ -47,19 +47,19 @@ const generateTXTContent = async () => {
   averageMissionTime = averageMissionTime / creditsPerMission.length;
   totalScore = totalCreditsEarned + difficultyModifier - creditsSubtractedForMissionsFailed;
 
-  let content = `Budget Blitz Score Summary - ${difficulty}\n==========================\n\n`;
-  content += `Data Name: ${dataName}\n`;
-  content += `Date Started: ${dateStarted}\n`;
-  content += `Date Ended: ${dateEnded}\n`;
-  content += `Super Samples Collected: ${superSamplesCollected}\n`;
-  content += `High Value Items Collected: ${highValueItemsCollected}\n`;
-  content += `Stars Earned: ${starsEarned}\n`;
-  content += `Total Credits Earned: ${totalCreditsEarned}\n`;
-  content += `Average Mission Time Remaining: ${averageMissionTime.toFixed(0)}%\n`;
+  let content = `预算闪电战 分数摘要 - ${difficulty}\n==========================\n\n`;
+  content += `数据名称：${dataName}\n`;
+  content += `开始日期：${dateStarted}\n`;
+  content += `结束日期：${dateEnded}\n`;
+  content += `收集的超级样本：${superSamplesCollected}\n`;
+  content += `收集的高价值物品：${highValueItemsCollected}\n`;
+  content += `获得星数：${starsEarned}\n`;
+  content += `获得的总积分：${totalCreditsEarned}\n`;
+  content += `平均任务剩余时间：${averageMissionTime.toFixed(0)}%\n`;
   content += `Difficulty (${difficulty}): ${difficultyModifier}\n`;
-  content += `Number of Deaths: ${numOfDeaths}\n`;
-  content += `Credits Subtracted (Missions Failed): ${creditsSubtractedForMissionsFailed}\n`;
-  content += `Total Score: ${totalScore}\n\n`;
+  content += `死亡次数：${numOfDeaths}\n`;
+  content += `扣除积分（任务失败）：${creditsSubtractedForMissionsFailed}\n`;
+  content += `总分：${totalScore}\n\n`;
 
   creditsPerMission.forEach((mission, index) => {
     content += `Mission ${index + 1}:\n`;

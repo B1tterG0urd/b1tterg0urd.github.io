@@ -17,7 +17,7 @@ const generateTextFileContent = async () => {
     missionTimes,
   } = currentGame[0];
 
-  let specName = "Default";
+  let specName = "默认";
   if (specialist !== null) {
     specName = SPECIALISTS[specialist].displayName;
   }
@@ -44,12 +44,12 @@ const generateTextFileContent = async () => {
   score = difficultyModifier + totalTimeRemaining + missionsFailed * -50;
 
   let text = "";
-  text += `${diffText}Penitent Crusade Score Summary\n=======================================\n\n`;
-  text += `Total Mission Time Remaining: ${totalTimeRemaining}\n`;
-  text += `Difficulty Modifier: ${difficultyModifier}\n`;
-  text += `Missions Failed: ${missionsFailed}\n`;
-  text += `Final Score: ${score}\n\n`;
-  text += `Specialist: ${specName}\n\n`;
+  text += `${diffText}苦修远征 分数摘要\n=======================================\n\n`;
+  text += `总任务剩余时间：${totalTimeRemaining}\n`;
+  text += `难度修正：${difficultyModifier}\n`;
+  text += `失败的任务：${missionsFailed}\n`;
+  text += `最终分数：${score}\n\n`;
+  text += `专家：${specName}\n\n`;
   const categories = {
     stratagems: [],
     primaries: [],
@@ -83,7 +83,7 @@ const generateTextFileContent = async () => {
         text += `  - ${item.displayName}\n`;
       }
     } else {
-      text += `  - None\n`;
+      text += `  - 无\n`;
     }
     text += `\n`; // extra spacing between categories
   }

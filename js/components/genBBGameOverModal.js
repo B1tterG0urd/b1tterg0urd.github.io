@@ -56,26 +56,26 @@ const genBBGameOverModal = async () => {
   // medium = 250
   // hard = 500
 
-  bbGameOverModalBody.innerHTML += `<h5 class="text-white">Breakdown:</h5>`;
-  bbGameOverModalBody.innerHTML += `<p class="mb-0 text-white">Difficulty: ${difficulty}</p>`;
+  bbGameOverModalBody.innerHTML += `<h5 class="text-white">明细：</h5>`;
+  bbGameOverModalBody.innerHTML += `<p class="mb-0 text-white">难度： ${difficulty}</p>`;
   bbGameOverModalBody.innerHTML += `<p class="mb-0 text-white">Start Time: ${dateStarted}</p>`;
   bbGameOverModalBody.innerHTML += `<p class="mb-0 text-white">End Time: ${dateEnded}</p>`;
-  bbGameOverModalBody.innerHTML += `<p class="mb-0 text-white">Stars Earned: ${starsEarned}/72</p>`;
-  bbGameOverModalBody.innerHTML += `<p class="mb-0 text-white">Super Samples Collected: ${superSamplesCollected}</p>`;
-  bbGameOverModalBody.innerHTML += `<p class="mb-0 text-white">Number of Deaths: ${numOfDeaths}</p>`;
-  bbGameOverModalBody.innerHTML += `<p class="mb-0 text-white">High Value Items Collected: ${highValueItemsCollected}</p>`;
-  bbGameOverModalBody.innerHTML += `<p class="mb-0 text-white">Average Time Remaining: ${averageMissionTime.toFixed(
+  bbGameOverModalBody.innerHTML += `<p class="mb-0 text-white">获得星数： ${starsEarned}/72</p>`;
+  bbGameOverModalBody.innerHTML += `<p class="mb-0 text-white">收集的超级样本： ${superSamplesCollected}</p>`;
+  bbGameOverModalBody.innerHTML += `<p class="mb-0 text-white">死亡次数： ${numOfDeaths}</p>`;
+  bbGameOverModalBody.innerHTML += `<p class="mb-0 text-white">收集的高价值物品： ${highValueItemsCollected}</p>`;
+  bbGameOverModalBody.innerHTML += `<p class="mb-0 text-white">平均剩余时间： ${averageMissionTime.toFixed(
     0,
   )}%</p>`;
   bbGameOverModalBody.innerHTML += `<p class="mb-0 text-white">Ending Credits: ${credits}</p>`;
   bbGameOverModalBody.innerHTML += `<p class="mb-0 text-white">Missions Failed: ${failedMissions}</p>`;
   bbGameOverModalBody.innerHTML += `<p class="mb-0 text-white"><br /></p>`;
-  bbGameOverModalBody.innerHTML += `<h5 class="text-white">Score:</h5>`;
+  bbGameOverModalBody.innerHTML += `<h5 class="text-white">得分：</h5>`;
   bbGameOverModalBody.innerHTML += `<p class="mb-0 text-white">Total Credits Earned: ${totalCreditsEarned}</p>`;
   bbGameOverModalBody.innerHTML += `<p class="mb-0 text-white">Difficulty (${difficulty}): ${difficultyModifier}</p>`;
   bbGameOverModalBody.innerHTML += `<p class="mb-0 text-white">Missions Failed Penalty: (${creditsSubtractedForMissionsFailed})</p>`;
   bbGameOverModalBody.innerHTML += `<p class="mb-0 text-white"><br /></p>`;
-  bbGameOverModalBody.innerHTML += `<p class="mb-0 text-white">Total Score: ${
+  bbGameOverModalBody.innerHTML += `<p class="mb-0 text-white">Total 得分： ${
     totalCreditsEarned + difficultyModifier - creditsSubtractedForMissionsFailed
   }</p>`;
 

@@ -1,6 +1,6 @@
 const BOOSTERS = [
   {
-    displayName: 'Expert Extraction Pilot',
+    displayName: '专业撤离飞行员',
     type: 'Equipment',
     category: 'booster',
     tags: [],
@@ -11,7 +11,7 @@ const BOOSTERS = [
     index: 0,
   },
   {
-    displayName: 'Dead Sprint',
+    displayName: '死亡冲刺',
     type: 'Equipment',
     category: 'booster',
     tags: [],
@@ -22,7 +22,7 @@ const BOOSTERS = [
     index: 1,
   },
   {
-    displayName: 'Armed Resupply Pods',
+    displayName: '武装补给舱',
     type: 'Equipment',
     category: 'booster',
     tags: [],
@@ -33,7 +33,7 @@ const BOOSTERS = [
     index: 2,
   },
   {
-    displayName: 'Experimental Infusion',
+    displayName: '实验性注射',
     type: 'Equipment',
     category: 'booster',
     tags: [],
@@ -44,7 +44,7 @@ const BOOSTERS = [
     index: 3,
   },
   {
-    displayName: 'Motivational Shocks',
+    displayName: '激励电击',
     type: 'Equipment',
     category: 'booster',
     tags: [],
@@ -55,7 +55,7 @@ const BOOSTERS = [
     index: 4,
   },
   {
-    displayName: 'Flexible Reinforcement Budget',
+    displayName: '灵活增援预算',
     type: 'Equipment',
     category: 'booster',
     tags: [],
@@ -66,7 +66,7 @@ const BOOSTERS = [
     index: 5,
   },
   {
-    displayName: 'Hellpod Space Optimization',
+    displayName: '地狱舱空间优化',
     type: 'Equipment',
     category: 'booster',
     tags: [],
@@ -77,7 +77,7 @@ const BOOSTERS = [
     index: 6,
   },
   {
-    displayName: 'Increased Reinforcement Budget',
+    displayName: '增加增援预算',
     type: 'Equipment',
     category: 'booster',
     tags: [],
@@ -88,7 +88,7 @@ const BOOSTERS = [
     index: 7,
   },
   {
-    displayName: 'Localization Confusion',
+    displayName: '定位混乱',
     type: 'Equipment',
     category: 'booster',
     tags: [],
@@ -99,7 +99,7 @@ const BOOSTERS = [
     index: 8,
   },
   {
-    displayName: 'Muscle Enhancement',
+    displayName: '肌肉增强',
     type: 'Equipment',
     category: 'booster',
     tags: [],
@@ -110,7 +110,7 @@ const BOOSTERS = [
     index: 9,
   },
   {
-    displayName: 'Stamina Enhancement',
+    displayName: '耐力增强',
     type: 'Equipment',
     category: 'booster',
     tags: [],
@@ -121,7 +121,7 @@ const BOOSTERS = [
     index: 10,
   },
   {
-    displayName: 'UAV Recon',
+    displayName: '无人机侦察',
     type: 'Equipment',
     category: 'booster',
     tags: [],
@@ -132,7 +132,7 @@ const BOOSTERS = [
     index: 11,
   },
   {
-    displayName: 'Vitality Enhancement',
+    displayName: '活力增强',
     type: 'Equipment',
     category: 'booster',
     tags: [],
@@ -143,7 +143,7 @@ const BOOSTERS = [
     index: 12,
   },
   {
-    displayName: 'Firebomb Hellpods',
+    displayName: '燃烧弹地狱舱',
     type: 'Equipment',
     category: 'booster',
     tags: [],
@@ -154,7 +154,7 @@ const BOOSTERS = [
     index: 13,
   },
   {
-    displayName: 'Sample Extricator',
+    displayName: '样本提取器',
     type: 'Equipment',
     category: 'booster',
     tags: [],
@@ -165,7 +165,7 @@ const BOOSTERS = [
     index: 14,
   },
   {
-    displayName: 'Sample Scanner',
+    displayName: '样本扫描器',
     type: 'Equipment',
     category: 'booster',
     tags: [],
@@ -176,7 +176,7 @@ const BOOSTERS = [
     index: 15,
   },
   {
-    displayName: 'Stun Pods',
+    displayName: '眩晕舱',
     type: 'Equipment',
     category: 'booster',
     tags: [],
@@ -187,7 +187,7 @@ const BOOSTERS = [
     index: 16,
   },
   {
-    displayName: 'Concealed Insertion',
+    displayName: '隐蔽投放',
     type: 'Equipment',
     category: 'booster',
     tags: [],

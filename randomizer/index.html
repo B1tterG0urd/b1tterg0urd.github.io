@@ -1,5 +1,5 @@
 <!doctype html>
-<html id="html" lang="en">
+<html id="html" lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -28,11 +28,9 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
     />
-    <meta
-      name="description"
-      content="Prove that you have the Strength and the Courage to dispense freedom with Super Earth's surplus arsenal!"
+    <meta name="description" content="可自定义的战备和装备随机生成器，为你的配装增添趣味。"
     />
-    <title>Helldivers 2: Randomizer</title>
+    <title>绝地潜兵2：随机装备</title>
     <!-- Google tag (gtag.js) -->
     <script
       async
@@ -58,9 +56,7 @@
         <div class="d-flex col-6 justify-content-start px-0">
           <a href="../index.html">
             <button class="btn text-light text-start py-0" type="button">
-              <i class="bi bi-arrow-left"></i>
-              Back to Challenges
-            </button>
+              <i class="bi bi-arrow-left"></i>返回挑战列表</button>
           </a>
         </div>
         <div class="d-flex col-6 justify-content-end">
@@ -124,11 +120,11 @@
                 <div class="btn-group">
                   <button
                     class="btn btn-success"
-                    onclick="rollStratagems()"
+                    onclick="roll战备()"
                     type="button"
                     id="rollStratsButton"
                   >
-                    <span id="stratText"> Stratagems </span>
+                    <span id="stratText">战备</span>
                     <span id="stratIcon">
                       <img
                         class="img-fluid"
@@ -182,7 +178,7 @@
                       <a
                         class="dropdown-item active"
                         href="#"
-                        onclick="setArmorRollType('passive')"
+                        onclick="setArmorRoll类型('passive')"
                         id="armorPassiveCheck"
                         >Armor Passive</a
                       >
@@ -191,7 +187,7 @@
                       <a
                         class="dropdown-item"
                         href="#"
-                        onclick="setArmorRollType('set')"
+                        onclick="setArmorRoll类型('set')"
                         id="armorSetCheck"
                         >Armor Set</a
                       >
@@ -200,7 +196,7 @@
                       <a
                         class="dropdown-item"
                         href="#"
-                        onclick="setArmorRollType('size')"
+                        onclick="setArmorRoll类型('size')"
                         id="armorSizeCheck"
                         >Armor Size</a
                       >
@@ -545,9 +541,7 @@
               type="button"
               class="btn btn-secondary"
               data-bs-dismiss="modal"
-            >
-              Close
-            </button>
+            >关闭</button>
           </div>
         </div>
       </div>
@@ -564,7 +558,7 @@
       <div class="modal-dialog modal-dialog-scrollable">
         <div class="modal-content bg-grey">
           <div class="modal-header">
-            <h5 class="modal-title text-light" id="infoModalLabel">Info</h5>
+            <h5 class="modal-title text-light" id="infoModalLabel">说明</h5>
           </div>
           <div class="modal-body">
             <div class="accordion-item bg-none">
@@ -576,15 +570,13 @@
                   data-bs-target="#faqAccordion"
                   aria-expanded="false"
                   aria-controls="faqAccordion"
-                >
-                  FAQs
-                </button>
+                >常见问题</button>
               </h2>
               <div
                 id="faqAccordion"
                 class="accordion-collapse collapse p-3"
                 aria-labelledby="Rules"
-                data-bs-parent="#rulesAndInfoAccordion"
+                data-bs-parent="#rulesAnd说明Accordion"
               >
                 <ul class="modalAccordionList">
                   <li class="text-white">
@@ -667,7 +659,7 @@
                 id="creditAccordion"
                 class="accordion-collapse collapse p-3"
                 aria-labelledby="Rules"
-                data-bs-parent="#rulesAndInfoAccordion"
+                data-bs-parent="#rulesAnd说明Accordion"
               >
                 <ul class="modalAccordionList">
                   <li class="text-white">
@@ -704,9 +696,7 @@
               type="button"
               class="btn btn-secondary"
               data-bs-dismiss="modal"
-            >
-              Close
-            </button>
+            >关闭</button>
           </div>
         </div>
       </div>
@@ -741,9 +731,7 @@
               type="button"
               class="btn btn-secondary"
               data-bs-dismiss="modal"
-            >
-              Close
-            </button>
+            >关闭</button>
           </div>
         </div>
       </div>

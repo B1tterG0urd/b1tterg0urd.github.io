@@ -24,7 +24,7 @@ const saveNewSaveFileName = async (index) => {
     ...savedGames[index],
     dataName: newSaveFileNameInput.value
       ? newSaveFileNameInput.value
-      : "Unnamed Save File",
+      : "未命名存档文件",
     editedName: true,
   };
   savedGames.splice(index, 1, updatedSaveFile);
@@ -38,7 +38,7 @@ const editSaveName = (index, oldName) => {
   saveDataModalFunctionsDiv.classList.toggle("d-none", true);
   budgetBlitzDataManagementModalSavesList.innerHTML = "";
   budgetBlitzDataManagementModalSavesList.innerHTML = `
-    <p class="text-white mb-0">Rename save file:</p>
+    <p class="text-white mb-0">重命名存档文件：</p>
     <div id="saveDataNameEditDiv" class="my-1 d-flex" style="width: 90%">
       <input type="text" maxlength="50" id="newSaveFileNameInput" class="form-control" value="${oldName}">
       <button type="button" onclick="saveNewSaveFileName(${index})" class="mx-1 btn btn-success btn-sm"><i class="bi bi-check-lg"></i></button>
@@ -62,7 +62,7 @@ const genBudgetBlitzDataManagementModalInfo = (savedNewName = null) => {
   for (let i = 0; i < savedGames.length; i++) {
     const save = savedGames[i];
     const isDisabled = save.currentGame ? "disabled" : "";
-    const displayCurrentText = save.currentGame ? "(Current)" : "";
+    const displayCurrentText = save.currentGame ? "(当前)" : "";
     budgetBlitzDataManagementModalSavesList.innerHTML += `
       <div class="my-1" id="savedGameOptionDiv${i}">
         <input type="radio" class="btn-check" name="btnradio" id="savedGameOption${i}" autocomplete="off" ${isDisabled}>

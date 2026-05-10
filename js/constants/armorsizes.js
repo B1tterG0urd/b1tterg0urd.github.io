@@ -1,6 +1,6 @@
 const ARMOR_SIZES = [
   {
-    displayName: "Light Armor",
+    displayName: "轻型护甲",
     type: "Equipment",
     category: "armor",
     tags: ["ArmorSize"],
@@ -10,7 +10,7 @@ const ARMOR_SIZES = [
     tier: "b",
   },
   {
-    displayName: "Medium Armor",
+    displayName: "中型护甲",
     type: "Equipment",
     category: "armor",
     tags: ["ArmorSize"],
@@ -20,7 +20,7 @@ const ARMOR_SIZES = [
     tier: "b",
   },
   {
-    displayName: "Heavy Armor",
+    displayName: "重型护甲",
     type: "Equipment",
     category: "armor",
     tags: ["ArmorSize"],

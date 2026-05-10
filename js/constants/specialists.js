@@ -1,6 +1,6 @@
 const SPECIALISTS = [
   {
-    displayName: 'The Zealous Martyr',
+    displayName: '狂热殉道者',
     starterItems: ['Portable Hellbomb', 'Combat Hatchet', 'Integrated Explosives armor'],
     stratagems: ['Portable Hellbomb'],
     primaries: [],
@@ -13,7 +13,7 @@ const SPECIALISTS = [
     warbonds: ['warbond1', 'warbond13'],
   },
   {
-    displayName: 'The Permacura Rep',
+    displayName: '永久治疗代表',
     starterItems: ['Stim Pistol', 'Med-Kit armor'],
     stratagems: [],
     primaries: [],
@@ -26,7 +26,7 @@ const SPECIALISTS = [
     warbonds: ['warbond10'],
   },
   {
-    displayName: 'The Flag Bearer',
+    displayName: '旗手',
     starterItems: ['One True Flag', 'Reinforced Epaulettes armor', 'Stamina Enhancement booster'],
     stratagems: ['One True Flag'],
     primaries: [],
@@ -39,7 +39,7 @@ const SPECIALISTS = [
     warbonds: ['warbond15'],
   },
   {
-    displayName: 'The Speedrunner',
+    displayName: '速通者',
     starterItems: ['Fast Recon Vehicle', 'Expert Extraction Pilot booster or Dead Sprint booster'],
     stratagems: ['Fast Recon Vehicle'],
     primaries: [],
@@ -52,7 +52,7 @@ const SPECIALISTS = [
     warbonds: [],
   },
   {
-    displayName: 'The Viper Commando',
+    displayName: '毒蛇突击兵',
     starterItems: ['Liberator Carbine', 'Peak Physique armor', 'Throwing Knives'],
     stratagems: [],
     primaries: ['Liberator Carbine'],
@@ -65,7 +65,7 @@ const SPECIALISTS = [
     warbonds: ['warbond8'],
   },
   {
-    displayName: 'The Pyromaniac',
+    displayName: '纵火狂',
     starterItems: ['Torcher', 'Crisper', 'Inflammable armor'],
     stratagems: [],
     primaries: ['Torcher'],
@@ -78,7 +78,7 @@ const SPECIALISTS = [
     warbonds: ['warbond9'],
   },
   {
-    displayName: 'The Lightning Bug',
+    displayName: '闪电虫',
     starterItems: ['Arc Thrower', 'Tesla Tower', 'Electrical Conduit armor'],
     stratagems: ['Arc Thrower', 'Tesla Tower'],
     primaries: [],
@@ -91,7 +91,7 @@ const SPECIALISTS = [
     warbonds: ['warbond5'],
   },
   {
-    displayName: 'The Scout Sniper',
+    displayName: '侦察狙击手',
     starterItems: ['Diligence', 'UAV Recon booster', 'Scout armor'],
     stratagems: [],
     primaries: ['Diligence'],
@@ -104,7 +104,7 @@ const SPECIALISTS = [
     warbonds: [],
   },
   {
-    displayName: 'The Truth Enforcer',
+    displayName: '真理执行者',
     starterItems: ['Reprimand or Halt', 'Unflinching armor'],
     stratagems: [],
     primaries: ['Reprimand', 'Halt'],
@@ -117,7 +117,7 @@ const SPECIALISTS = [
     warbonds: ['warbond11'],
   },
   {
-    displayName: 'The Exterminator',
+    displayName: '灭虫者',
     starterItems: ['Gas grenades', 'Sterilizer', 'Advanced Filtration armor'],
     stratagems: ['Sterilizer'],
     primaries: [],
@@ -130,7 +130,7 @@ const SPECIALISTS = [
     warbonds: ['warbond10'],
   },
   {
-    displayName: 'The Assault Trooper',
+    displayName: '突击兵',
     starterItems: [
       'StA-52 Assault Rifle, PLAS-39 Accelerator Rifle, or StA-11 SMG',
       'Acclimated armor',
@@ -146,7 +146,7 @@ const SPECIALISTS = [
     warbonds: ['warbond18'],
   },
   {
-    displayName: 'The Loot Goblin',
+    displayName: '战利品地精',
     starterItems: ['Supply Pack', 'Sample Scanner booster'],
     stratagems: ['Supply Pack'],
     primaries: [],
@@ -159,7 +159,7 @@ const SPECIALISTS = [
     warbonds: ['warbond15'],
   },
   {
-    displayName: 'The Escape Artist',
+    displayName: '逃脱大师',
     starterItems: ['Jump Pack', 'Smoke Grenades'],
     stratagems: ['Jump Pack'],
     primaries: [],
@@ -172,7 +172,7 @@ const SPECIALISTS = [
     warbonds: [],
   },
   {
-    displayName: 'The Arbiter',
+    displayName: '仲裁者',
     starterItems: ['P-92 Warrant', 'Ballistic Shield', 'Ballistic Padding armor'],
     stratagems: ['Ballistic Shield'],
     primaries: [],
@@ -185,7 +185,7 @@ const SPECIALISTS = [
     warbonds: ['warbond1', 'warbond16'],
   },
   {
-    displayName: 'Test Subject #4311',
+    displayName: '实验体 #4311',
     starterItems: ['Warp Pack', 'Adreno-Defibrillator armor'],
     stratagems: ['Warp Pack'],
     primaries: [],
@@ -198,7 +198,7 @@ const SPECIALISTS = [
     warbonds: ['warbond17'],
   },
   {
-    displayName: 'The Urban Soldier',
+    displayName: '城市士兵',
     starterItems: ['Defender', 'Siege Ready armor'],
     stratagems: [],
     primaries: ['Defender'],
@@ -211,7 +211,7 @@ const SPECIALISTS = [
     warbonds: ['warbond12'],
   },
   {
-    displayName: 'The Preacher',
+    displayName: '传教士',
     starterItems: ['Senator or Talon', 'Gunslinger armor'],
     stratagems: [],
     primaries: [],
@@ -219,12 +219,12 @@ const SPECIALISTS = [
     secondaries: ['Senator', 'Talon'],
     throwables: [],
     armorPassives: ['Gunslinger'],
-    traits: ['You cannot roll support weapons'],
+    traits: ['无法随机获得支援武器'],
     imageURL: 'preacher.webp',
     warbonds: ['warbond14'],
   },
   {
-    displayName: 'The Hellpod Enthusiast',
+    displayName: '地狱舱爱好者',
     starterItems: ['Expendable Anti-Tank', 'Firebomb Hellpods booster'],
     stratagems: ['Expendable Anti-Tank'],
     primaries: [],
@@ -232,12 +232,12 @@ const SPECIALISTS = [
     secondaries: [],
     throwables: [],
     armorPassives: [],
-    traits: ['You cannot roll Eagle or Orbital stratagems'],
+    traits: ['无法随机获得飞鹰或轨道战备'],
     imageURL: 'hellpodEnthusiast.webp',
     warbonds: ['warbond9'],
   },
   {
-    displayName: 'The ODST',
+    displayName: '轨道空降兵',
     starterItems: ['MA5C Assault Rifle', 'M7S SMG', 'or M90A Shotgun', 'Feet First armor'],
     stratagems: [],
     primaries: ['MA5C Assault Rifle', 'M7S SMG', 'M90A Shotgun'],
@@ -250,7 +250,7 @@ const SPECIALISTS = [
     warbonds: ['warbond19'],
   },
   {
-    displayName: 'The Sardaukar',
+    displayName: '萨多卡',
     starterItems: ['Shield Generator Pack', 'Desert Stormer armor', 'Machete or Saber'],
     stratagems: ['Shield Generator Pack'],
     primaries: [],
@@ -263,7 +263,7 @@ const SPECIALISTS = [
     warbonds: ['warbond20', 'warbond15'],
   },
   {
-    displayName: 'The Python Commando',
+    displayName: '蟒蛇突击兵',
     starterItems: ['Rock Solid armor', 'Maxigun'],
     stratagems: ['Maxigun'],
     primaries: [],
@@ -276,7 +276,7 @@ const SPECIALISTS = [
     warbonds: ['warbond21'],
   },
   {
-    displayName: 'The Doom Guy',
+    displayName: '毁灭战士',
     starterItems: ['Rock Solid armor', 'Double Freedom'],
     stratagems: [],
     primaries: ['Double Freedom'],
@@ -289,7 +289,7 @@ const SPECIALISTS = [
     warbonds: ['warbond21', 'warbond1'],
   },
   {
-    displayName: 'The K9 Handler',
+    displayName: '军犬训导员',
     starterItems: [
       'Guard Dog Bullets',
       'Guard Dog Laser',
@@ -309,12 +309,12 @@ const SPECIALISTS = [
     secondaries: [],
     throwables: [],
     armorPassives: [],
-    traits: ['You cannot roll stratagems'],
+    traits: ['无法随机获得战备'],
     imageURL: 'k9handler.webp',
     warbonds: ['warbond21', 'warbond10', 'warbond16'],
   },
   {
-    displayName: 'The Saboteur',
+    displayName: '破坏者',
     starterItems: ['C4 Pack', 'Reduced Signature armor', 'Concealed Insertion booster'],
     stratagems: ['C4 Pack'],
     primaries: [],
@@ -327,7 +327,7 @@ const SPECIALISTS = [
     warbonds: ['warbond22'],
   },
   {
-    displayName: 'The Assassin',
+    displayName: '刺客',
     starterItems: ['Censor or Suppressor', 'Reduced Signature armor'],
     stratagems: [],
     primaries: ['Censor', 'Suppressor'],
@@ -340,7 +340,7 @@ const SPECIALISTS = [
     warbonds: ['warbond22'],
   },
   {
-    displayName: 'The Siege Breaker',
+    displayName: '破城者',
     starterItems: ['Leveller', 'Supplementary Adrenaline armor'],
     stratagems: ['Leveller'],
     primaries: [],
@@ -353,7 +353,7 @@ const SPECIALISTS = [
     warbonds: ['warbond23'],
   },
   {
-    displayName: 'The Juggernaut',
+    displayName: '主宰者',
     starterItems: ['Breaching Hammer', 'Shield Generator Pack', 'Supplementary Adrenaline armor'],
     stratagems: ['Breaching Hammer', 'Shield Generator Pack'],
     primaries: [],
@@ -366,7 +366,7 @@ const SPECIALISTS = [
     warbonds: ['warbond23'],
   },
   {
-    displayName: 'The Kriegsman',
+    displayName: '克里格士兵',
     starterItems: ['Entrenchment Tool', 'Concussive Padding armor', 'Orbital Gas Strike'],
     stratagems: ['Orbital Gas Strike'],
     primaries: [],
@@ -379,7 +379,7 @@ const SPECIALISTS = [
     warbonds: ['warbond24'],
   },
   {
-    displayName: 'The Commandant',
+    displayName: '指挥官',
     starterItems: ['Veto', 'Concussive Padding armor', 'Orbital Railcannon Strike'],
     stratagems: ['Orbital Railcannon Strike'],
     primaries: [],
@@ -392,7 +392,7 @@ const SPECIALISTS = [
     warbonds: ['warbond24'],
   },
   {
-    displayName: 'The Assault Marine',
+    displayName: '突击陆战队员',
     starterItems: ['Jump Pack', 'Defoliation Tool and/or Breaching Hammer'],
     stratagems: ['Jump Pack', 'Defoliation Tool', 'Breaching Hammer'],
     primaries: [],
@@ -405,7 +405,7 @@ const SPECIALISTS = [
     warbonds: ['warbond23', 'warbond21'],
   },
   {
-    displayName: 'Eagle Ground Coordinator',
+    displayName: '飞鹰地面协调员',
     starterItems: ['Servo-Assisted armor', 'Eagle Strafing Run'],
     stratagems: ['Eagle Strafing Run'],
     primaries: [],
@@ -413,12 +413,12 @@ const SPECIALISTS = [
     secondaries: [],
     throwables: [],
     armorPassives: ['Servo-Assisted'],
-    traits: ['Can only roll Eagle stratagems'],
+    traits: ['只能随机获得飞鹰战备'],
     imageURL: 'egc.webp',
     warbonds: [],
   },
   {
-    displayName: 'Orbital Bombardment Ground Coordinator',
+    displayName: '轨道轰炸地面协调员',
     starterItems: ['Servo-Assisted armor', 'Orbital Precision Strike'],
     stratagems: ['Orbital Precision Strike'],
     primaries: [],
@@ -426,12 +426,12 @@ const SPECIALISTS = [
     secondaries: [],
     throwables: [],
     armorPassives: ['Servo-Assisted'],
-    traits: ['Can only roll Orbital stratagems'],
+    traits: ['只能随机获得轨道战备'],
     imageURL: 'ogc.webp',
     warbonds: [],
   },
   {
-    displayName: 'The Minesweeper',
+    displayName: '扫雷兵',
     starterItems: ['Lure Mines', 'Anti-Personnel Mines'],
     stratagems: ['Anti-Personnel Mines'],
     primaries: [],
@@ -439,12 +439,12 @@ const SPECIALISTS = [
     secondaries: [],
     throwables: ['TM-01 Lure Mine'],
     armorPassives: [],
-    traits: ['Can only roll mine stratagems'],
+    traits: ['只能随机获得地雷战备'],
     imageURL: '',
     warbonds: [],
   },
   {
-    displayName: 'The Combat Engineer',
+    displayName: '战斗工程师',
     starterItems: ['Pummeler', 'Machine Gun Sentry', 'Engineering Kit armor'],
     stratagems: ['Machine Gun Sentry'],
     primaries: ['Pummeler'],
@@ -452,12 +452,12 @@ const SPECIALISTS = [
     secondaries: [],
     throwables: [],
     armorPassives: ['Engineering Kit'],
-    traits: ['Can only roll sentry stratagems'],
+    traits: ['只能随机获得哨塔战备'],
     imageURL: '',
     warbonds: [],
   },
   {
-    displayName: 'The Law Enforcer',
+    displayName: '执法者',
     starterItems: ['De-Escalator', 'Ballistic Padding armor', 'Stun Pods'],
     stratagems: ['De-Escalator'],
     primaries: [],
@@ -470,7 +470,7 @@ const SPECIALISTS = [
     warbonds: [],
   },
   {
-    displayName: 'The Beamer',
+    displayName: '激光兵',
     starterItems: ['Scythe', 'Guard Dog Laser'],
     stratagems: ['Guard Dog Laser'],
     primaries: ['Scythe'],
@@ -496,7 +496,7 @@ const SPECIALISTS = [
     warbonds: [],
   },
   {
-    displayName: 'The Turtle',
+    displayName: '乌龟',
     starterItems: ['Shield Generator Pack', 'G/SH-39 Shield'],
     stratagems: ['Shield Generator Pack'],
     primaries: [],
@@ -509,7 +509,7 @@ const SPECIALISTS = [
     warbonds: [],
   },
   {
-    displayName: 'The Pilot',
+    displayName: '飞行员',
     starterItems: ['Breakthrough Exosuit', 'Oxygenator armor'],
     stratagems: ['Breakthrough Exosuit'],
     primaries: [],
@@ -517,12 +517,12 @@ const SPECIALISTS = [
     secondaries: [],
     throwables: [],
     armorPassives: ['Oxygenator'],
-    traits: ['Can only roll vehicle, exosuit, and eagle stratagems'],
+    traits: ['只能随机获得载具、外骨骼和飞鹰战备'],
     imageURL: '',
     warbonds: [],
   },
   {
-    displayName: 'The Hazard',
+    displayName: '危险分子',
     starterItems: ['Airburst Rocket Launcher', 'G-7 Pineapple'],
     stratagems: ['Airburst Rocket Launcher'],
     primaries: [],
@@ -535,7 +535,7 @@ const SPECIALISTS = [
     warbonds: [],
   },
   {
-    displayName: 'The Tank Hunter',
+    displayName: '坦克猎手',
     starterItems: ['Anti-Tank Emplacement', 'G-123 Thermite'],
     stratagems: ['Anti-Tank Emplacement'],
     primaries: [],
@@ -543,12 +543,12 @@ const SPECIALISTS = [
     secondaries: [],
     throwables: ['G-123 Thermite'],
     armorPassives: [],
-    traits: ['Can only roll anti-tank stratagems'],
+    traits: ['只能随机获得反坦克战备'],
     imageURL: '',
     warbonds: [],
   },
   {
-    displayName: 'The Fisherman',
+    displayName: '渔夫',
     starterItems: ['Speargun'],
     stratagems: ['Speargun'],
     primaries: [],
@@ -561,7 +561,7 @@ const SPECIALISTS = [
     warbonds: [],
   },
   {
-    displayName: 'The Spartan',
+    displayName: '斯巴达',
     starterItems: ['Ballistic Shield', 'Peak Physique armor', 'Melee weapon secondaries'],
     stratagems: ['Ballistic Shield'],
     primaries: [],
@@ -574,7 +574,7 @@ const SPECIALISTS = [
     warbonds: [],
   },
   {
-    displayName: 'The Arnold',
+    displayName: '阿诺德',
     starterItems: ['Commando', 'Dynamite', 'Verdict'],
     stratagems: ['Commando'],
     primaries: [],
@@ -587,7 +587,7 @@ const SPECIALISTS = [
     warbonds: [],
   },
   {
-    displayName: 'The Expendable',
+    displayName: '消耗品',
     starterItems: ['Bullet Storm'],
     stratagems: ['Bullet Storm'],
     primaries: [],
@@ -595,7 +595,7 @@ const SPECIALISTS = [
     secondaries: [],
     throwables: [],
     armorPassives: [],
-    traits: ['Can only roll expendable stratagems'],
+    traits: ['只能随机获得消耗型战备'],
     imageURL: '',
     warbonds: [],
   },

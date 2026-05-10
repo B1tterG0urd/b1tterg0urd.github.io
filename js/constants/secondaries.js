@@ -1,6 +1,6 @@
 const SECONDARIES = [
   {
-    displayName: 'Peacemaker',
+    displayName: '和事佬',
     type: 'Equipment',
     category: 'secondary',
     tags: ['pistol', 'ap2'],
@@ -12,7 +12,7 @@ const SECONDARIES = [
     tier: 'c',
   },
   {
-    displayName: 'Combat Hatchet',
+    displayName: '战斧',
     type: 'Equipment',
     category: 'secondary',
     tags: ['melee', 'ap3'],
@@ -24,7 +24,7 @@ const SECONDARIES = [
     tier: 'c',
   },
   {
-    displayName: 'Saber',
+    displayName: '军刀',
     type: 'Equipment',
     category: 'secondary',
     tags: ['melee', 'ap3'],
@@ -36,7 +36,7 @@ const SECONDARIES = [
     tier: 'c',
   },
   {
-    displayName: 'Machete',
+    displayName: '砍刀',
     type: 'Equipment',
     category: 'secondary',
     tags: ['melee', 'ap3'],
@@ -48,7 +48,7 @@ const SECONDARIES = [
     tier: 'c',
   },
   {
-    displayName: 'Stun Lance',
+    displayName: '眩晕长矛',
     type: 'Equipment',
     category: 'secondary',
     tags: ['melee', 'ap3', 'stun'],
@@ -60,7 +60,7 @@ const SECONDARIES = [
     tier: 'c',
   },
   {
-    displayName: 'Stun Baton',
+    displayName: '眩晕警棍',
     type: 'Equipment',
     category: 'secondary',
     tags: ['melee', 'ap3', 'stun'],
@@ -72,7 +72,7 @@ const SECONDARIES = [
     tier: 'c',
   },
   {
-    displayName: 'Redeemer',
+    displayName: '救世主',
     type: 'Equipment',
     category: 'secondary',
     tags: ['pistol', 'ap2'],
@@ -84,7 +84,7 @@ const SECONDARIES = [
     tier: 'b',
   },
   {
-    displayName: 'Verdict',
+    displayName: '裁决',
     type: 'Equipment',
     category: 'secondary',
     tags: ['pistol', 'ap3'],
@@ -96,7 +96,7 @@ const SECONDARIES = [
     tier: 'b',
   },
   {
-    displayName: 'Senator',
+    displayName: '参议员',
     type: 'Equipment',
     category: 'secondary',
     tags: ['pistol', 'ap4'],
@@ -108,7 +108,7 @@ const SECONDARIES = [
     tier: 'a',
   },
   {
-    displayName: 'P-92 Warrant',
+    displayName: 'P-92 授权令',
     type: 'Equipment',
     category: 'secondary',
     tags: ['pistol', 'ap3', 'guided'],
@@ -132,7 +132,7 @@ const SECONDARIES = [
     tier: 'b',
   },
   {
-    displayName: 'Stim Pistol',
+    displayName: '兴奋剂手枪',
     type: 'Equipment',
     category: 'secondary',
     tags: ['Special'],
@@ -144,7 +144,7 @@ const SECONDARIES = [
     tier: 'b',
   },
   {
-    displayName: 'Loyalist',
+    displayName: '忠诚者',
     type: 'Equipment',
     category: 'secondary',
     tags: ['plasma', 'ap3'],
@@ -156,7 +156,7 @@ const SECONDARIES = [
     tier: 'a',
   },
   {
-    displayName: 'Bushwhacker',
+    displayName: '游击兵手喷',
     type: 'Equipment',
     category: 'secondary',
     tags: ['ap2'],
@@ -168,7 +168,7 @@ const SECONDARIES = [
     tier: 'b',
   },
   {
-    displayName: 'Grenade Pistol',
+    displayName: '榴弹手枪',
     type: 'Equipment',
     category: 'secondary',
     tags: ['explosive', 'ap3'],
@@ -180,7 +180,7 @@ const SECONDARIES = [
     tier: 'a',
   },
   {
-    displayName: 'Re-Educator',
+    displayName: '再教育者',
     type: 'Equipment',
     category: 'secondary',
     tags: ['gas', 'ap4'],
@@ -192,7 +192,7 @@ const SECONDARIES = [
     tier: 'c',
   },
   {
-    displayName: 'Dagger',
+    displayName: '匕首',
     type: 'Equipment',
     category: 'secondary',
     tags: ['laser', 'ap2'],
@@ -204,7 +204,7 @@ const SECONDARIES = [
     tier: 'c',
   },
   {
-    displayName: 'Talon',
+    displayName: '利爪',
     type: 'Equipment',
     category: 'secondary',
     tags: ['ap3'],
@@ -216,7 +216,7 @@ const SECONDARIES = [
     tier: 'a',
   },
   {
-    displayName: 'Crisper',
+    displayName: '脆烤者',
     type: 'Equipment',
     category: 'secondary',
     tags: ['fire', 'ap4'],
@@ -228,7 +228,7 @@ const SECONDARIES = [
     tier: 'b',
   },
   {
-    displayName: 'GP-31 Ultimatum',
+    displayName: 'GP-31 最后通牒',
     type: 'Equipment',
     category: 'secondary',
     tags: ['explosive', 'at'],
@@ -240,7 +240,7 @@ const SECONDARIES = [
     tier: 's',
   },
   {
-    displayName: 'Veto',
+    displayName: '否决',
     type: 'Equipment',
     category: 'secondary',
     tags: ['pistol', 'ap3'],
@@ -252,7 +252,7 @@ const SECONDARIES = [
     tier: 'b',
   },
   {
-    displayName: 'Entrenchment Tool',
+    displayName: '壕沟工具',
     type: 'Equipment',
     category: 'secondary',
     tags: ['melee', 'ap3'],
@@ -264,7 +264,7 @@ const SECONDARIES = [
     tier: 'c',
   },
   {
-    displayName: 'Missile Pistol',
+    displayName: '导弹手枪',
     type: 'Equipment',
     category: 'secondary',
     tags: ['explosive', 'at', 'guided'],

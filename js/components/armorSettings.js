@@ -85,7 +85,7 @@ const rollArmor = async () => {
   if (!activeArmorType || !activeArmorType.list?.length) {
     armorElements.container.innerHTML = `
       <div class="col-12 text-center text-white">
-        <p>No armor options available with current filters</p>
+        <p>当前筛选条件下无可用护甲选项</p>
       </div>
     `;
     return;

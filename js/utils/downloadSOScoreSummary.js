@@ -31,13 +31,13 @@ const generateTXTContent = async () => {
     warbondNames.push(warbondsList[index]);
   }
 
-  let content = `Special Operations Score Summary\n================================\n\n`;
-  content += `Data Name: ${dataName}\n\n`;
-  content += `Points Earned: ${points}\n`;
-  content += `Restarts: ${restarts}\n\n`;
-  content += `Specialists Unlocked: ${specialistsUnlocked.length}\n`;
+  let content = `特殊行动 分数摘要\n================================\n\n`;
+  content += `数据名称：${dataName}\n\n`;
+  content += `获得点数：${points}\n`;
+  content += `重新开始次数：${restarts}\n\n`;
+  content += `已解锁专家：${specialistsUnlocked.length}\n`;
   content += `${specialistsUnlocked.join(", ")}\n\n`;
-  content += `Warbonds Used: ${warbondNames.length}\n`;
+  content += `使用的战争债券：${warbondNames.length}\n`;
   content += `${warbondNames.join(", ")}\n`;
 
   return { content, dataName };

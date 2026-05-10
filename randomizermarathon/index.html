@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html id="html" lang="en">
+<html id="html" lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -27,11 +27,9 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
     />
-    <meta
-      name="description"
-      content="Prove that you have the Strength and the Courage to dispense freedom with Super Earth's surplus arsenal!"
+    <meta name="description" content="一项长期运行的随机装备挑战。"
     />
-    <title>Helldivers 2: Randomizer Marathon</title>
+    <title>绝地潜兵2：随机装备马拉松</title>
     <!-- Google tag (gtag.js) -->
     <!-- <script
       async
@@ -54,9 +52,7 @@
         <div class="d-flex col-4 justify-content-start px-0">
           <a href="../index.html">
             <button class="btn text-light text-start py-0" type="button">
-              <i class="bi bi-arrow-left"></i>
-              Back to Challenges
-            </button>
+              <i class="bi bi-arrow-left"></i>返回挑战列表</button>
           </a>
         </div>
         <div class="d-flex col-4 justify-content-center">
@@ -78,7 +74,7 @@
           <div class="d-flex justify-content-end">
             <button
               class="btn btn-primary mx-1"
-              onclick="genRMDataManagementModalInfo()"
+              onclick="genRMDataManagementModal说明()"
               type="button"
             >
               <i class="bi bi-save text-light"></i>
@@ -129,7 +125,7 @@
                   data-bs-target="#missionCompleteModal"
                   id="missionCompleteButton"
                 >
-                  <span> Mission Complete </span>
+                  <span>任务完成</span>
                 </button>
               </div>
               <div class="btn-group my-2" id="missionFailedButtonDiv">
@@ -140,7 +136,7 @@
                   data-bs-target="#missionFailedModal"
                   id="missionFailedButton"
                 >
-                  <span> Mission Failed </span>
+                  <span>任务失败</span>
                 </button>
               </div>
             </div>
@@ -213,9 +209,7 @@
               type="button"
               class="btn btn-secondary"
               data-bs-dismiss="modal"
-            >
-              Cancel
-            </button>
+            >取消</button>
             <button
               type="button"
               class="btn btn-warning"
@@ -241,7 +235,7 @@
       <div class="modal-dialog modal-dialog-scrollable">
         <div class="modal-content bg-grey">
           <div class="modal-header">
-            <h5 class="modal-title text-light">Restart Challenge</h5>
+            <h5 class="modal-title text-light">重新开始 Challenge</h5>
             <button
               type="button"
               class="btn-close btn-close-white"
@@ -255,24 +249,20 @@
             </p>
             <br />
             <br />
-            <p class="text-white">Proceed?</p>
+            <p class="text-white">继续?</p>
           </div>
           <div class="modal-footer d-flex justify-content-between">
             <button
               type="button"
               class="btn btn-secondary"
               data-bs-dismiss="modal"
-            >
-              Cancel
-            </button>
+            >取消</button>
             <button
               type="button"
               class="btn btn-warning"
               data-bs-dismiss="modal"
               onclick="restartChallenge()"
-            >
-              Proceed
-            </button>
+            >继续</button>
           </div>
         </div>
       </div>
@@ -290,7 +280,7 @@
       <div class="modal-dialog modal-dialog-scrollable">
         <div class="modal-content bg-grey">
           <div class="modal-header">
-            <h5 class="modal-title text-light">Mission Failed</h5>
+            <h5 class="modal-title text-light">任务失败</h5>
             <button
               type="button"
               class="btn-close btn-close-white"
@@ -305,24 +295,20 @@
             </p>
             <br />
             <br />
-            <p class="text-white">Proceed?</p>
+            <p class="text-white">继续?</p>
           </div>
           <div class="modal-footer d-flex justify-content-between">
             <button
               type="button"
               class="btn btn-secondary"
               data-bs-dismiss="modal"
-            >
-              Cancel
-            </button>
+            >取消</button>
             <button
               type="button"
               class="btn btn-warning"
               data-bs-dismiss="modal"
               onclick="missionFailed()"
-            >
-              Proceed
-            </button>
+            >继续</button>
           </div>
         </div>
       </div>
@@ -340,7 +326,7 @@
       <div class="modal-dialog modal-dialog-scrollable">
         <div class="modal-content bg-grey">
           <div class="modal-header">
-            <h5 class="modal-title text-light">Mission Complete</h5>
+            <h5 class="modal-title text-light">任务完成</h5>
             <button
               type="button"
               class="btn-close btn-close-white"
@@ -374,9 +360,7 @@
               type="button"
               class="btn btn-secondary"
               data-bs-dismiss="modal"
-            >
-              Cancel
-            </button>
+            >取消</button>
             <div>
               <button
                 type="button"
@@ -430,9 +414,7 @@
               type="button"
               class="btn btn-secondary"
               data-bs-dismiss="modal"
-            >
-              Close
-            </button>
+            >关闭</button>
           </div>
         </div>
       </div>
@@ -471,7 +453,7 @@
                     aria-expanded="false"
                     aria-controls="warbondsAccordion"
                   >
-                    Warbonds and Editions
+                    战争债券 and Editions
                   </button>
                 </h2>
                 <div
@@ -574,9 +556,7 @@
               type="button"
               class="btn btn-secondary"
               data-bs-dismiss="modal"
-            >
-              Close
-            </button>
+            >关闭</button>
           </div>
         </div>
       </div>
@@ -593,7 +573,7 @@
       <div class="modal-dialog modal-lg modal-dialog-scrollable">
         <div class="modal-content bg-grey">
           <div class="modal-header">
-            <h5 class="modal-title text-light" id="infoModalLabel">Info</h5>
+            <h5 class="modal-title text-light" id="infoModalLabel">说明</h5>
             <button
               type="button"
               class="btn-close btn-close-white"
@@ -611,15 +591,13 @@
                   data-bs-target="#faqAccordion"
                   aria-expanded="false"
                   aria-controls="faqAccordion"
-                >
-                  FAQs
-                </button>
+                >常见问题</button>
               </h2>
               <div
                 id="faqAccordion"
                 class="accordion-collapse collapse p-3"
                 aria-labelledby="Rules"
-                data-bs-parent="#rulesAndInfoAccordion"
+                data-bs-parent="#rulesAnd说明Accordion"
               >
                 <ul class="modalAccordionList">
                   <li class="text-white">
@@ -702,7 +680,7 @@
                 id="creditAccordion"
                 class="accordion-collapse collapse p-3"
                 aria-labelledby="Rules"
-                data-bs-parent="#rulesAndInfoAccordion"
+                data-bs-parent="#rulesAnd说明Accordion"
               >
                 <ul class="modalAccordionList">
                   <li class="text-white">
@@ -739,9 +717,7 @@
               type="button"
               class="btn btn-secondary"
               data-bs-dismiss="modal"
-            >
-              Close
-            </button>
+            >关闭</button>
           </div>
         </div>
       </div>

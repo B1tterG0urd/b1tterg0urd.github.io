@@ -53,21 +53,21 @@ const generateTXTContent = async () => {
     }
   }
 
-  let content = `Freedom Express Score Summary\n================================\n\n`;
-  content += `Data Name: ${dataName}\n\n`;
-  content += `BREAKDOWN\n`;
-  content += `Number of Deaths: ${numberOfDeaths}\n`;
-  content += `High Value Items Collected: ${highValueItemsCollected}\n`;
-  content += `Average Time Remaining: ${averageMissionTime.toFixed(0)}\n`;
+  let content = `自由快线 分数摘要\n================================\n\n`;
+  content += `数据名称：${dataName}\n\n`;
+  content += `明细\n`;
+  content += `死亡次数：${numberOfDeaths}\n`;
+  content += `收集的高价值物品：${highValueItemsCollected}\n`;
+  content += `平均剩余时间：${averageMissionTime.toFixed(0)}\n`;
   content += `Warp Packs: ${warpPacks}\n`;
   content += `Jump Packs: ${jumpPacks}\n`;
   content += `Supply Packs: ${supplyPacks}\n`;
   content += `FRVs: ${frvs}\n\n`;
-  content += `SCORE\n`;
-  content += `Time Remaining Score: ${totalMissionTimeRemaining}\n`;
-  content += `High Value Items Score: ${highValueItemsCollected * 10}\n`;
-  content += `Deaths Expense: ${numberOfDeaths}\n`;
-  content += `TOTAL SCORE: ${points}\n`;
+  content += `分数\n`;
+  content += `剩余时间分数：${totalMissionTimeRemaining}\n`;
+  content += `高价值物品分数：${highValueItemsCollected * 10}\n`;
+  content += `死亡扣除：${numberOfDeaths}\n`;
+  content += `TOTAL 分数: ${points}\n`;
 
   return { content, dataName };
 };

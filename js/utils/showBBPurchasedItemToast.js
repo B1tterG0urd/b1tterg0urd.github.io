@@ -5,7 +5,7 @@ const showBBPurchasedItemToast = (itemName) => {
   // Set the toast body content
   document.getElementById(
     "purchasedItemToastBody"
-  ).textContent = `${itemName} added to inventory`;
+  ).textContent = `${itemName} 已添加到库存`;
 
   // Show the toast
   toast.show();

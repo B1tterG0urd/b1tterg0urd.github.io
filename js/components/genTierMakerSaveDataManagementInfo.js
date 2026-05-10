@@ -23,7 +23,7 @@ const saveNewSaveFileName = async (index) => {
     ...lists[index],
     dataName: newSaveFileNameInput.value
       ? newSaveFileNameInput.value
-      : "Unnamed Save File",
+      : "未命名存档文件",
     editedName: true,
   };
   lists.splice(index, 1, updatedSaveFile);
@@ -37,7 +37,7 @@ const editSaveName = (index, oldName) => {
   saveDataModalFunctionsDiv.classList.toggle("d-none", true);
   tierMakerSaveDataManagementModalSavesList.innerHTML = "";
   tierMakerSaveDataManagementModalSavesList.innerHTML = `
-    <p class="text-white mb-0">Rename save file:</p>
+    <p class="text-white mb-0">重命名存档文件：</p>
     <div id="saveDataNameEditDiv" class="my-1 d-flex" style="width: 90%">
       <input type="text" maxlength="50" id="newSaveFileNameInput" class="form-control" value="${oldName}">
       <button type="button" onclick="saveNewSaveFileName(${index})" class="mx-1 btn btn-success btn-sm"><i class="bi bi-check-lg"></i></button>
@@ -61,7 +61,7 @@ const genTierMakerSaveDataManagementInfo = (savedNewName = null) => {
   for (let i = 0; i < lists.length; i++) {
     const save = lists[i];
     const isDisabled = save.currentList ? "disabled" : "";
-    const displayCurrentText = save.currentList ? "(Current)" : "";
+    const displayCurrentText = save.currentList ? "(当前)" : "";
     tierMakerSaveDataManagementModalSavesList.innerHTML += `
       <div class="my-1" id="savedGameOptionDiv${i}">
         <input type="radio" class="btn-check" name="btnradio" id="savedGameOption${i}" autocomplete="off" ${isDisabled}>

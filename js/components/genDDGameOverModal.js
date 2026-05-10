@@ -52,12 +52,12 @@ const genDDGameOverModal = async () => {
   const totalScore = parScore + totalMissionTimeRemaining - failedMissions * 50;
   superSamplesCollected += highValueItemsCollected * 2;
 
-  ddGameOverModalBody.innerHTML += `<p class="mb-0 text-white">Congratulations, Helldiver! You have reduced your debt. Your <b>creditors have taken 1000 Super Credits</b> from your balance.</p>`;
+  ddGameOverModalBody.innerHTML += `<p class="mb-0 text-white">恭喜，绝地潜兵！ You have reduced your debt. Your <b>creditors have taken 1000 Super Credits</b> from your balance.</p>`;
   ddGameOverModalBody.innerHTML += `<p class="mb-0 text-white">If you wish to continue playing (i.e. to help your teammates pay off their debt) simply close this screen and keep playing as you normally would. Your score has been saved and will be unaffected by any more progress you make on this save file.</p>`;
 
   ddGameOverModalBody.innerHTML += `<p class="mb-0 text-white"><br /></p>`;
-  ddGameOverModalBody.innerHTML += `<h5 class="text-white">Breakdown:</h5>`;
-  ddGameOverModalBody.innerHTML += `<p class="mb-0 text-white">Difficulty: ${difficulty}</p>`;
+  ddGameOverModalBody.innerHTML += `<h5 class="text-white">明细：</h5>`;
+  ddGameOverModalBody.innerHTML += `<p class="mb-0 text-white">难度： ${difficulty}</p>`;
   ddGameOverModalBody.innerHTML += `<p class="mb-0 text-white">Start Time: ${dateStarted}</p>`;
   ddGameOverModalBody.innerHTML += `<p class="mb-0 text-white">Stars Earned: ${starsEarned}</p>`;
   ddGameOverModalBody.innerHTML += `<p class="mb-0 text-white">Super Samples Collected: ${superSamplesCollected}</p>`;
@@ -68,14 +68,14 @@ const genDDGameOverModal = async () => {
   ddGameOverModalBody.innerHTML += `<p class="mb-0 text-white">Ending Credits: ${endingCredits}</p>`;
   ddGameOverModalBody.innerHTML += `<p class="mb-0 text-white">Missions Failed: ${failedMissions}</p>`;
   ddGameOverModalBody.innerHTML += `<p class="mb-0 text-white"><br /></p>`;
-  ddGameOverModalBody.innerHTML += `<h5 class="text-white">Score:</h5>`;
+  ddGameOverModalBody.innerHTML += `<h5 class="text-white">得分：</h5>`;
   ddGameOverModalBody.innerHTML += `<p class="mb-0 text-white">Par Modifier: ${parScore}</p>`;
   ddGameOverModalBody.innerHTML += `<p class="mb-0 text-white">Total Mission Time Remaining: ${totalMissionTimeRemaining}</p>`;
   ddGameOverModalBody.innerHTML += `<p class="mb-0 text-white">Missions Failed Penalty: (${
     failedMissions * 50
   })</p>`;
   ddGameOverModalBody.innerHTML += `<p class="mb-0 text-white"><br /></p>`;
-  ddGameOverModalBody.innerHTML += `<p class="mb-0 text-white">Total Score: ${totalScore}</p>`;
+  ddGameOverModalBody.innerHTML += `<p class="mb-0 text-white">Total 得分： ${totalScore}</p>`;
 
   const modal = new bootstrap.Modal(ddGameOverModal);
   modal.show();

@@ -1,6 +1,6 @@
 const THROWABLES = [
   {
-    displayName: 'G-12 High Explosive',
+    displayName: 'G-12 高爆手雷',
     type: 'Equipment',
     category: 'throwable',
     tags: ['ap4', 'explosive'],
@@ -12,7 +12,7 @@ const THROWABLES = [
     tier: 'a',
   },
   {
-    displayName: 'G-6 Frag',
+    displayName: 'G-6 破片手雷',
     type: 'Equipment',
     category: 'throwable',
     tags: ['ap3', 'explosive'],
@@ -24,7 +24,7 @@ const THROWABLES = [
     tier: 'b',
   },
   {
-    displayName: 'G-16 Impact',
+    displayName: 'G-16 冲击雷',
     type: 'Equipment',
     category: 'throwable',
     tags: ['ap3', 'explosive'],
@@ -36,7 +36,7 @@ const THROWABLES = [
     tier: 'a',
   },
   {
-    displayName: 'G-3 Smoke',
+    displayName: 'G-3 烟雾弹',
     type: 'Equipment',
     category: 'throwable',
     tags: ['smoke'],
@@ -48,7 +48,7 @@ const THROWABLES = [
     tier: 'c',
   },
   {
-    displayName: 'G-10 Incendiary',
+    displayName: 'G-10 燃烧手雷',
     type: 'Equipment',
     category: 'throwable',
     tags: ['ap3', 'explosive', 'fire'],
@@ -60,7 +60,7 @@ const THROWABLES = [
     tier: 'b',
   },
   {
-    displayName: 'G-23 Stun',
+    displayName: 'G-23 眩晕手雷',
     type: 'Equipment',
     category: 'throwable',
     tags: ['stun'],
@@ -72,7 +72,7 @@ const THROWABLES = [
     tier: 'a',
   },
   {
-    displayName: 'G-123 Thermite',
+    displayName: 'G-123 铝热手雷',
     type: 'Equipment',
     category: 'throwable',
     tags: ['at'],
@@ -84,7 +84,7 @@ const THROWABLES = [
     tier: 's',
   },
   {
-    displayName: 'G-13 Incendiary Impact',
+    displayName: 'G-13 燃烧冲击雷',
     type: 'Equipment',
     category: 'throwable',
     tags: ['fire', 'ap3', 'explosive'],
@@ -96,7 +96,7 @@ const THROWABLES = [
     tier: 'b',
   },
   {
-    displayName: 'K-2 Throwing Knife',
+    displayName: 'K-2 飞刀',
     type: 'Equipment',
     category: 'throwable',
     tags: ['ap3'],
@@ -108,7 +108,7 @@ const THROWABLES = [
     tier: 'c',
   },
   {
-    displayName: 'G-50 Seeker',
+    displayName: 'G-50 追踪者',
     type: 'Equipment',
     category: 'throwable',
     tags: ['ap3', 'explosive', 'guided'],
@@ -120,7 +120,7 @@ const THROWABLES = [
     tier: 'a',
   },
   {
-    displayName: 'Dynamite',
+    displayName: '炸药',
     type: 'Equipment',
     category: 'throwable',
     tags: ['at', 'explosive'],
@@ -132,7 +132,7 @@ const THROWABLES = [
     tier: 'a',
   },
   {
-    displayName: 'G-142 Pyrotech',
+    displayName: 'G-142 烟火',
     type: 'Equipment',
     category: 'throwable',
     tags: ['fire', 'ap4', 'explosive'],
@@ -144,7 +144,7 @@ const THROWABLES = [
     tier: 's',
   },
   {
-    displayName: 'G-4 Gas',
+    displayName: 'G-4 毒气手雷',
     type: 'Equipment',
     category: 'throwable',
     tags: ['gas', 'explosive'],
@@ -156,7 +156,7 @@ const THROWABLES = [
     tier: 's',
   },
   {
-    displayName: 'G-109 Urchin',
+    displayName: 'G-109 海胆',
     type: 'Equipment',
     category: 'throwable',
     tags: ['stun'],
@@ -168,7 +168,7 @@ const THROWABLES = [
     tier: 'b',
   },
   {
-    displayName: 'G-31 Arc',
+    displayName: 'G-31 电弧手雷',
     type: 'Equipment',
     category: 'throwable',
     tags: ['arc'],
@@ -180,7 +180,7 @@ const THROWABLES = [
     tier: 'b',
   },
   {
-    displayName: 'G-7 Pineapple',
+    displayName: 'G-7 菠萝手雷',
     type: 'Equipment',
     category: 'throwable',
     tags: ['ap3', 'explosive'],
@@ -192,7 +192,7 @@ const THROWABLES = [
     tier: 'b',
   },
   {
-    displayName: 'TM-01 Lure Mine',
+    displayName: 'TM-01 诱饵地雷',
     type: 'Equipment',
     category: 'throwable',
     tags: ['ap4', 'explosive'],
@@ -204,7 +204,7 @@ const THROWABLES = [
     tier: 'b',
   },
   {
-    displayName: 'G-89 Smokescreen',
+    displayName: 'G-89 烟幕弹',
     type: 'Equipment',
     category: 'throwable',
     tags: ['smoke'],
@@ -216,7 +216,7 @@ const THROWABLES = [
     tier: 'c',
   },
   {
-    displayName: 'G/SH-39 Shield',
+    displayName: 'G/SH-39 护盾',
     type: 'Equipment',
     category: 'throwable',
     tags: [],
@@ -228,7 +228,7 @@ const THROWABLES = [
     tier: 'b',
   },
   {
-    displayName: 'G-48 Giga',
+    displayName: 'G-48 千兆手雷',
     type: 'Equipment',
     category: 'throwable',
     tags: ['at', 'explosive'],

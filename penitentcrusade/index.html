@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -27,11 +27,9 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
     />
-    <meta
-      name="description"
-      content="The Penitent Crusade, known to the 9th Hellraisers as “Death Watch,” is a sacred trial for the most resolute and courageous."
+    <meta name="description" content="苦修远征，被第九地狱突击队称为"死亡守望"，是为最坚定和勇敢的战士准备的神圣试炼。"
     />
-    <title>Helldivers 2: Penitent Crusade</title>
+    <title>绝地潜兵2：苦修远征</title>
     <!-- Google tag (gtag.js) -->
     <script
       async
@@ -54,9 +52,7 @@
         <div class="d-flex col-4 justify-content-start px-0">
           <a href="../index.html">
             <button class="btn text-light text-start py-0" type="button">
-              <i class="bi bi-arrow-left"></i>
-              Back to Challenges
-            </button>
+              <i class="bi bi-arrow-left"></i>返回挑战列表</button>
           </a>
         </div>
         <div class="d-flex col-4 justify-content-center">
@@ -87,7 +83,7 @@
             </button>
             <button
               class="btn btn-primary mx-1"
-              onclick="genPCSaveDataManagementModalInfo()"
+              onclick="genPCSaveDataManagementModal说明()"
               type="button"
             >
               <i class="bi bi-save text-light"></i>
@@ -146,7 +142,7 @@
               type="button"
               onclick="downloadPCScoreSummary()"
             >
-              <span> Download Summary File </span>
+              <span>下载摘要文件</span>
             </button>
           </div>
           <div class="btn-group my-2 mx-2" id="missionCompleteButtonDiv">
@@ -157,7 +153,7 @@
               data-bs-target="#maxStarsPromptModal"
               id="missionCompleteButton"
             >
-              <span> Mission Complete </span>
+              <span>任务完成</span>
             </button>
           </div>
           <div class="btn-group my-2" id="missionFailedButtonDiv">
@@ -167,7 +163,7 @@
               onclick="rollPunishmentOptions()"
               id="missionFailedButton"
             >
-              <span> Mission Failed </span>
+              <span>任务失败</span>
             </button>
           </div>
         </div>
@@ -178,9 +174,7 @@
             data-bs-toggle="modal"
             data-bs-target="#warbondSelectModal"
             id="warbondSelectButtonDesktop"
-          >
-            Settings
-          </button>
+          >设置</button>
           <button
             class="btn btn-warning"
             type="button"
@@ -232,9 +226,7 @@
               class="btn btn-secondary"
               onclick="clearItemOptionsModal()"
               data-bs-dismiss="modal"
-            >
-              Close
-            </button>
+            >关闭</button>
           </div>
         </div>
       </div>
@@ -297,9 +289,7 @@
                 type="button"
                 class="btn btn-secondary"
                 data-bs-dismiss="modal"
-              >
-                Close
-              </button>
+              >关闭</button>
             </div>
             <div class="col d-flex justify-content-end">
               <button
@@ -307,9 +297,7 @@
                 class="btn btn-primary"
                 onclick="closeMaxStarsPromptModal()"
                 data-bs-toggle="modal"
-              >
-                Submit
-              </button>
+              >提交</button>
             </div>
           </div>
         </div>
@@ -327,16 +315,14 @@
       <div class="modal-dialog modal-dialog-scrollable">
         <div class="modal-content bg-grey">
           <div class="modal-header d-flex justify-content-between">
-            <h5 class="modal-title text-light" id="warbondSelectModalLabel">
-              Challenge Settings
-            </h5>
+            <h5 class="modal-title text-light" id="warbondSelectModalLabel">挑战设置</h5>
             <button
               type="button"
               class="btn btn-primary"
               data-bs-toggle="modal"
               data-bs-target="#viewItemsModal"
             >
-              Item Info
+              Item 说明
             </button>
           </div>
           <div class="modal-body">
@@ -346,8 +332,8 @@
             <p class="mb-0 text-white">
               NOTE: Toggling warbonds will reset your applied specialist.
             </p>
-            <div class="p-3" id="pcDifficultyRadioContainer">
-              <h5 class="text-white">Difficulty</h5>
+            <div class="p-3" id="pc难度RadioContainer">
+              <h5 class="text-white">难度</h5>
               <div class="form-check">
                 <input
                   class="form-check-input"
@@ -421,7 +407,7 @@
               </div>
             </div>
             <div class="p-3" id="warbondsChecklistContainer">
-              <h5 class="text-white">Warbond Select</h5>
+              <h5 class="text-white">战争债券选择</h5>
             </div>
             <div class="row">
               <p class="text-white">
@@ -486,9 +472,7 @@
               type="button"
               class="btn btn-secondary"
               data-bs-dismiss="modal"
-            >
-              Close
-            </button>
+            >关闭</button>
           </div>
         </div>
       </div>
@@ -521,9 +505,7 @@
                     data-bs-target="#collapseOne"
                     aria-expanded="true"
                     aria-controls="collapseOne"
-                  >
-                    Lore
-                  </button>
+                  >背景故事</button>
                 </h2>
                 <div
                   id="collapseOne"
@@ -576,9 +558,7 @@
                     data-bs-target="#collapseTwo"
                     aria-expanded="false"
                     aria-controls="collapseTwo"
-                  >
-                    Overview
-                  </button>
+                  >基本规则</button>
                 </h2>
                 <div
                   id="collapseTwo"
@@ -587,7 +567,7 @@
                 >
                   <div class="accordion-body">
                     <p class="text-white">
-                      Your squad will begin an operation with a Medium (Level 3)
+                      Your squad will begin an operation with a 普通 (Level 3)
                       difficulty operation, with Super Earth's outdated and
                       surplus equipment.
                       <br />
@@ -692,9 +672,7 @@
                     data-bs-target="#collapseFive"
                     aria-expanded="false"
                     aria-controls="collapseFive"
-                  >
-                    Failure
-                  </button>
+                  >任务失败</button>
                 </h2>
                 <div
                   id="collapseFive"
@@ -709,7 +687,7 @@
                       your inventory.
                       <br />
                       <br />
-                      Press the "Mission Failed" button, then choose an item to
+                      Press the "任务失败" button, then choose an item to
                       be taken from you.
                     </p>
                   </div>
@@ -724,9 +702,7 @@
                     data-bs-target="#collapseSix"
                     aria-expanded="false"
                     aria-controls="collapseSix"
-                  >
-                    Saving Your Progress
-                  </button>
+                  >保存进度</button>
                 </h2>
                 <div
                   id="collapseSix"
@@ -738,7 +714,7 @@
                       Your progress is saved in your browser's local storage. If
                       you clear your browser's local storage, your progress will
                       be lost. If you want to start a new run, you may do so by
-                      pressing the yellow "Restart" button. Your run will be
+                      pressing the yellow "重新开始" button. Your run will be
                       saved and accessible in the save menu.
                     </p>
                   </div>
@@ -807,9 +783,7 @@
                     data-bs-target="#collapseEight"
                     aria-expanded="false"
                     aria-controls="collapseEight"
-                  >
-                    FAQs
-                  </button>
+                  >常见问题</button>
                 </h2>
                 <div
                   id="collapseEight"
@@ -890,9 +864,7 @@
               type="button"
               class="btn btn-secondary"
               data-bs-dismiss="modal"
-            >
-              Close
-            </button>
+            >关闭</button>
           </div>
         </div>
       </div>
@@ -910,14 +882,14 @@
       <div class="modal-dialog modal-dialog-scrollable">
         <div class="modal-content bg-grey">
           <div class="modal-header">
-            <h5 class="modal-title text-light" id="">Restart Run</h5>
+            <h5 class="modal-title text-light" id="">重新开始 Run</h5>
           </div>
           <div class="modal-body row d-flex justify-content-center">
             <p class="text-white">
               When you restart your run, your current run will be saved.
               <br />
               <br />
-              Restart run?
+              重新开始 run?
             </p>
           </div>
           <div class="modal-footer d-flex justify-content-between">
@@ -925,17 +897,13 @@
               type="button"
               class="btn btn-secondary"
               data-bs-dismiss="modal"
-            >
-              Cancel
-            </button>
+            >取消</button>
             <button
               type="button"
-              onclick="saveDataAndRestart()"
+              onclick="saveDataAnd重新开始()"
               class="btn btn-primary"
               data-bs-dismiss="modal"
-            >
-              Save and Restart
-            </button>
+            >保存并重新开始</button>
           </div>
         </div>
       </div>
@@ -955,7 +923,7 @@
       <div class="modal-dialog modal-lg modal-dialog-scrollable">
         <div class="modal-content bg-grey">
           <div class="modal-header">
-            <h5 class="modal-title text-light" id="">Save Data Management</h5>
+            <h5 class="modal-title text-light" id="">存档管理</h5>
           </div>
           <div
             class="modal-body row d-flex justify-content-center"
@@ -965,7 +933,7 @@
               Switch your active save file here, delete save files, or upload
               save files.
               <br />
-              Select an entry below and press 'Apply' to load a different save
+              Select an entry below and press '应用' to load a different save
               file.
               <br />
               <br />
@@ -976,7 +944,7 @@
                 <input
                   class="form-control"
                   type="file"
-                  id="saveDataUploadInput"
+                  id="saveData上传Input"
                 />
               </div>
               <div class="col-3">
@@ -986,9 +954,7 @@
                   class="btn btn-success"
                   id="uploadSaveFileButton"
                   disabled
-                >
-                  Upload
-                </button>
+                >上传</button>
               </div>
             </div>
             <div
@@ -1005,9 +971,7 @@
                 onclick="clearSaveDataManagementModal()"
                 class="btn btn-secondary"
                 data-bs-dismiss="modal"
-              >
-                Cancel
-              </button>
+              >取消</button>
             </div>
             <div
               id="saveDataModalFunctionsDiv"
@@ -1015,28 +979,22 @@
             >
               <button
                 type="button"
-                onclick="clearSaveDataAndRestart()"
+                onclick="clearSaveDataAnd重新开始()"
                 class="btn btn-danger"
                 data-bs-dismiss="modal"
-              >
-                Delete ALL
-              </button>
+              >全部删除</button>
               <button
                 type="button"
                 onclick="deleteSavedGameData()"
                 class="btn btn-danger mx-2"
                 data-bs-dismiss="modal"
-              >
-                Delete
-              </button>
+              >删除</button>
               <button
                 type="button"
                 onclick="applySavedGameData()"
                 class="btn btn-primary"
                 data-bs-dismiss="modal"
-              >
-                Apply
-              </button>
+              >应用</button>
             </div>
           </div>
         </div>
@@ -1101,9 +1059,7 @@
                 type="button"
                 class="btn btn-secondary"
                 data-bs-dismiss="modal"
-              >
-                Cancel
-              </button>
+              >取消</button>
             </div>
             <div class="d-flex col justify-content-end">
               <button
@@ -1112,9 +1068,7 @@
                 class="btn btn-primary"
                 data-bs-dismiss="modal"
                 id="applySpecialistButton"
-              >
-                Apply
-              </button>
+              >应用</button>
             </div>
           </div>
         </div>
@@ -1134,7 +1088,7 @@
         <div class="modal-content bg-grey">
           <div class="modal-header">
             <h5 class="modal-title text-light" id="viewItemsModalTitle">
-              Item Info
+              Item 说明
             </h5>
           </div>
           <div
@@ -1151,9 +1105,7 @@
                     data-bs-target="#collapseOne"
                     aria-expanded="true"
                     aria-controls="collapseOne"
-                  >
-                    Stratagems
-                  </button>
+                  >战备</button>
                 </h2>
                 <div
                   id="collapseOne"
@@ -1175,9 +1127,7 @@
                     data-bs-target="#collapseTwo"
                     aria-expanded="false"
                     aria-controls="collapseTwo"
-                  >
-                    Primaries
-                  </button>
+                  >主武器</button>
                 </h2>
                 <div
                   id="collapseTwo"
@@ -1199,9 +1149,7 @@
                     data-bs-target="#collapseThree"
                     aria-expanded="false"
                     aria-controls="collapseThree"
-                  >
-                    Secondaries
-                  </button>
+                  >副武器</button>
                 </h2>
                 <div
                   id="collapseThree"
@@ -1223,9 +1171,7 @@
                     data-bs-target="#collapseFour"
                     aria-expanded="false"
                     aria-controls="collapseFour"
-                  >
-                    Boosters
-                  </button>
+                  >强化</button>
                 </h2>
                 <div
                   id="collapseFour"
@@ -1247,9 +1193,7 @@
                     data-bs-target="#collapseFive"
                     aria-expanded="false"
                     aria-controls="collapseFive"
-                  >
-                    Throwables
-                  </button>
+                  >投掷物</button>
                 </h2>
                 <div
                   id="collapseFive"
@@ -1271,9 +1215,7 @@
                     data-bs-target="#collapseSix"
                     aria-expanded="false"
                     aria-controls="collapseSix"
-                  >
-                    Armor Passives
-                  </button>
+                  >护甲被动</button>
                 </h2>
                 <div
                   id="collapseSix"
@@ -1293,9 +1235,7 @@
               type="button"
               class="btn btn-secondary"
               data-bs-dismiss="modal"
-            >
-              Close
-            </button>
+            >关闭</button>
           </div>
         </div>
       </div>
@@ -1324,9 +1264,7 @@
               type="button"
               class="btn btn-secondary"
               data-bs-dismiss="modal"
-            >
-              Close
-            </button>
+            >关闭</button>
           </div>
         </div>
       </div>
@@ -1358,9 +1296,7 @@
               type="button"
               class="btn btn-secondary"
               data-bs-dismiss="modal"
-            >
-              Close
-            </button>
+            >关闭</button>
           </div>
         </div>
       </div>
@@ -1394,9 +1330,7 @@
               type="button"
               class="btn btn-secondary"
               data-bs-dismiss="modal"
-            >
-              Close
-            </button>
+            >关闭</button>
           </div>
         </div>
       </div>
@@ -1431,5 +1365,5 @@
   <script src="../js/components/genAcquiredItemsAccordions.js"></script>
   <script src="../js/components/genItemGalleryModalContent.js"></script>
   <script src="../js/penitentcrusade.js"></script>
-  <script src="../js/components/genPCSaveDataManagementInfo.js"></script>
+  <script src="../js/components/genPCSaveDataManagement说明.js"></script>
 </html>

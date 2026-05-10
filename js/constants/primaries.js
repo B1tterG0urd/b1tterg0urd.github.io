@@ -1,6 +1,6 @@
 const PRIMARIES = [
   {
-    displayName: 'Liberator',
+    displayName: '解放者',
     type: 'Equipment',
     category: 'primary',
     tags: ['AssaultRifle', 'ap2'],
@@ -12,7 +12,7 @@ const PRIMARIES = [
     index: 0,
   },
   {
-    displayName: 'Liberator Penetrator',
+    displayName: '穿甲解放',
     type: 'Equipment',
     category: 'primary',
     tags: ['AssaultRifle', 'ap3'],
@@ -24,7 +24,7 @@ const PRIMARIES = [
     index: 1,
   },
   {
-    displayName: 'Liberator Concussive',
+    displayName: '震荡解放',
     type: 'Equipment',
     category: 'primary',
     tags: ['AssaultRifle', 'ap2'],
@@ -36,7 +36,7 @@ const PRIMARIES = [
     index: 2,
   },
   {
-    displayName: 'Liberator Carbine',
+    displayName: '卡宾解放',
     type: 'Equipment',
     category: 'primary',
     tags: ['AssaultRifle', 'ap2'],
@@ -48,7 +48,7 @@ const PRIMARIES = [
     index: 3,
   },
   {
-    displayName: 'Adjudicator',
+    displayName: '审判者',
     type: 'Equipment',
     category: 'primary',
     tags: ['AssaultRifle', 'ap3'],
@@ -60,7 +60,7 @@ const PRIMARIES = [
     index: 4,
   },
   {
-    displayName: 'StA-52 Assault Rifle',
+    displayName: 'StA-52 突击步枪',
     type: 'Equipment',
     category: 'primary',
     tags: ['AssaultRifle', 'ap2'],
@@ -72,7 +72,7 @@ const PRIMARIES = [
     index: 5,
   },
   {
-    displayName: 'Pacifier',
+    displayName: '安抚者',
     type: 'Equipment',
     category: 'primary',
     tags: ['AssaultRifle', 'ap3', 'stun'],
@@ -84,7 +84,7 @@ const PRIMARIES = [
     index: 6,
   },
   {
-    displayName: 'Tenderizer',
+    displayName: '肉锤',
     type: 'Equipment',
     category: 'primary',
     tags: ['AssaultRifle', 'ap2'],
@@ -96,7 +96,7 @@ const PRIMARIES = [
     index: 7,
   },
   {
-    displayName: 'MA5C Assault Rifle',
+    displayName: 'MA5C 突击步枪',
     type: 'Equipment',
     category: 'primary',
     tags: ['AssaultRifle', 'ap3'],
@@ -108,7 +108,7 @@ const PRIMARIES = [
     index: 8,
   },
   {
-    displayName: 'AR-2 Coyote',
+    displayName: 'AR-2 郊狼',
     type: 'Equipment',
     category: 'primary',
     tags: ['AssaultRifle', 'ap3', 'fire'],
@@ -120,7 +120,7 @@ const PRIMARIES = [
     index: 9,
   },
   {
-    displayName: 'One Two',
+    displayName: '一二',
     type: 'Equipment',
     category: 'primary',
     tags: ['AssaultRifle', 'ap2', 'ap3', 'explosive'],
@@ -132,7 +132,7 @@ const PRIMARIES = [
     index: 10,
   },
   {
-    displayName: 'Suppressor',
+    displayName: '消音者',
     type: 'Equipment',
     category: 'primary',
     tags: ['AssaultRifle', 'ap2', 'suppressed'],
@@ -144,7 +144,7 @@ const PRIMARIES = [
     index: 11,
   },
   {
-    displayName: 'Defender',
+    displayName: '防卫者',
     type: 'Equipment',
     category: 'primary',
     tags: ['SubmachineGun', 'ap2', 'onehanded'],
@@ -156,7 +156,7 @@ const PRIMARIES = [
     index: 12,
   },
   {
-    displayName: 'Pummeler',
+    displayName: '猛击者',
     type: 'Equipment',
     category: 'primary',
     tags: ['SubmachineGun', 'ap2', 'onehanded'],
@@ -168,7 +168,7 @@ const PRIMARIES = [
     index: 13,
   },
   {
-    displayName: 'Reprimand',
+    displayName: '惩戒者',
     type: 'Equipment',
     category: 'primary',
     tags: ['Submachinegun', 'ap3'],
@@ -180,7 +180,7 @@ const PRIMARIES = [
     index: 14,
   },
   {
-    displayName: 'StA-11 SMG',
+    displayName: 'StA-11 冲锋枪',
     type: 'Equipment',
     category: 'primary',
     tags: ['Submachinegun', 'ap2', 'onehanded'],
@@ -192,7 +192,7 @@ const PRIMARIES = [
     index: 15,
   },
   {
-    displayName: 'Knight',
+    displayName: '骑士',
     type: 'Equipment',
     category: 'primary',
     tags: ['SubmachineGun', 'ap2', 'onehanded'],
@@ -204,7 +204,7 @@ const PRIMARIES = [
     index: 16,
   },
   {
-    displayName: 'M7S SMG',
+    displayName: 'M7S 冲锋枪',
     type: 'Equipment',
     category: 'primary',
     tags: ['SubmachineGun', 'ap2', 'onehanded'],
@@ -216,7 +216,7 @@ const PRIMARIES = [
     index: 17,
   },
   {
-    displayName: 'Double Freedom',
+    displayName: '双重自由',
     type: 'Equipment',
     category: 'primary',
     tags: ['Shotgun', 'ap3'],
@@ -228,7 +228,7 @@ const PRIMARIES = [
     index: 18,
   },
   {
-    displayName: 'Punisher',
+    displayName: '制裁者',
     type: 'Equipment',
     category: 'primary',
     tags: ['Shotgun', 'ap2'],
@@ -240,7 +240,7 @@ const PRIMARIES = [
     index: 19,
   },
   {
-    displayName: 'Cookout',
+    displayName: '野炊者',
     type: 'Equipment',
     category: 'primary',
     tags: ['Shotgun', 'ap2', 'fire'],
@@ -252,7 +252,7 @@ const PRIMARIES = [
     index: 20,
   },
   {
-    displayName: 'Slugger',
+    displayName: '重炮手',
     type: 'Equipment',
     category: 'primary',
     tags: ['Shotgun', 'ap3'],
@@ -264,7 +264,7 @@ const PRIMARIES = [
     index: 21,
   },
   {
-    displayName: 'Breaker',
+    displayName: '破裂',
     type: 'Equipment',
     category: 'primary',
     tags: ['Shotgun', 'ap2'],
@@ -276,7 +276,7 @@ const PRIMARIES = [
     index: 22,
   },
   {
-    displayName: 'Breaker Incendiary',
+    displayName: '高燃破裂',
     type: 'Equipment',
     category: 'primary',
     tags: ['Shotgun', 'ap2', 'fire'],
@@ -288,7 +288,7 @@ const PRIMARIES = [
     index: 23,
   },
   {
-    displayName: 'Breaker Spray & Pray',
+    displayName: '祷告破裂',
     type: 'Equipment',
     category: 'primary',
     tags: ['Shotgun', 'ap2'],
@@ -300,7 +300,7 @@ const PRIMARIES = [
     index: 24,
   },
   {
-    displayName: 'Halt',
+    displayName: '停顿者',
     type: 'Equipment',
     category: 'primary',
     tags: ['Shotgun', 'ap2', 'ap3', 'stun'],
@@ -312,7 +312,7 @@ const PRIMARIES = [
     index: 25,
   },
   {
-    displayName: 'M90A Shotgun',
+    displayName: 'M90A 霰弹枪',
     type: 'Equipment',
     category: 'primary',
     tags: ['Shotgun', 'ap2'],
@@ -324,7 +324,7 @@ const PRIMARIES = [
     index: 26,
   },
   {
-    displayName: 'Diligence',
+    displayName: '勤勉',
     type: 'Equipment',
     category: 'primary',
     tags: ['MarksmanRifle', 'ap2'],
@@ -336,7 +336,7 @@ const PRIMARIES = [
     index: 27,
   },
   {
-    displayName: 'Diligence Counter Sniper',
+    displayName: '反狙击勤勉',
     type: 'Equipment',
     category: 'primary',
     tags: ['MarksmanRifle', 'ap3'],
@@ -348,7 +348,7 @@ const PRIMARIES = [
     index: 28,
   },
   {
-    displayName: 'Deadeye',
+    displayName: '神枪手',
     type: 'Equipment',
     category: 'primary',
     tags: ['MarksmanRifle', 'ap3'],
@@ -360,7 +360,7 @@ const PRIMARIES = [
     index: 29,
   },
   {
-    displayName: 'Amendment',
+    displayName: '修正案',
     type: 'Equipment',
     category: 'primary',
     tags: ['MarksmanRifle', 'ap2', 'melee'],
@@ -372,7 +372,7 @@ const PRIMARIES = [
     index: 30,
   },
   {
-    displayName: 'Censor',
+    displayName: '审查者',
     type: 'Equipment',
     category: 'primary',
     tags: ['MarksmanRifle', 'ap2', 'suppressed'],
@@ -384,7 +384,7 @@ const PRIMARIES = [
     index: 31,
   },
   {
-    displayName: 'Constitution',
+    displayName: '宪法',
     type: 'Equipment',
     category: 'primary',
     tags: ['MarksmanRifle', 'ap3', 'melee'],
@@ -396,7 +396,7 @@ const PRIMARIES = [
     index: 32,
   },
   {
-    displayName: 'Scythe',
+    displayName: '长柄镰',
     type: 'Equipment',
     category: 'primary',
     tags: ['EnergyWeapon', 'ap2', 'laser'],
@@ -408,7 +408,7 @@ const PRIMARIES = [
     index: 33,
   },
   {
-    displayName: 'Sickle',
+    displayName: '镰刀',
     type: 'Equipment',
     category: 'primary',
     tags: ['EnergyWeapon', 'ap2'],
@@ -420,7 +420,7 @@ const PRIMARIES = [
     index: 34,
   },
   {
-    displayName: 'Scorcher',
+    displayName: '焦土',
     type: 'Equipment',
     category: 'primary',
     tags: ['EnergyWeapon', 'ap3', 'plasma'],
@@ -432,7 +432,7 @@ const PRIMARIES = [
     index: 35,
   },
   {
-    displayName: 'Purifier',
+    displayName: '净化者',
     type: 'Equipment',
     category: 'primary',
     tags: ['EnergyWeapon', 'ap3', 'plasma'],
@@ -444,7 +444,7 @@ const PRIMARIES = [
     index: 36,
   },
   {
-    displayName: 'Punisher Plasma',
+    displayName: '等离子制裁者',
     type: 'Equipment',
     category: 'primary',
     tags: ['EnergyWeapon', 'ap3', 'plasma'],
@@ -456,7 +456,7 @@ const PRIMARIES = [
     index: 37,
   },
   {
-    displayName: 'Blitzer',
+    displayName: '雷霆',
     type: 'Equipment',
     category: 'primary',
     tags: ['EnergyWeapon', 'ap3', 'arc'],
@@ -468,7 +468,7 @@ const PRIMARIES = [
     index: 38,
   },
   {
-    displayName: 'Double Edge Sickle',
+    displayName: '双刃镰刀',
     type: 'Equipment',
     category: 'primary',
     tags: ['EnergyWeapon', 'ap2', 'ap3', 'ap4'],
@@ -480,7 +480,7 @@ const PRIMARIES = [
     index: 39,
   },
   {
-    displayName: 'PLAS-39 Accelerator Rifle',
+    displayName: 'PLAS-39 加速步枪',
     type: 'Equipment',
     category: 'primary',
     tags: ['MarksmanRifle', 'ap3', 'plasma'],
@@ -492,7 +492,7 @@ const PRIMARIES = [
     index: 40,
   },
   {
-    displayName: 'Eruptor',
+    displayName: '爆裂铳',
     type: 'Equipment',
     category: 'primary',
     tags: ['Explosive', 'ap4', 'explosive'],
@@ -504,7 +504,7 @@ const PRIMARIES = [
     index: 41,
   },
   {
-    displayName: 'Exploding Crossbow',
+    displayName: '爆裂弩',
     type: 'Equipment',
     category: 'primary',
     tags: ['Explosive', 'ap3', 'explosive', 'onehanded'],
@@ -516,7 +516,7 @@ const PRIMARIES = [
     index: 42,
   },
   {
-    displayName: 'Variable',
+    displayName: '变量',
     type: 'Equipment',
     category: 'primary',
     tags: ['AssaultRifle', 'ap2'],
@@ -528,7 +528,7 @@ const PRIMARIES = [
     index: 43,
   },
   {
-    displayName: 'Dominator',
+    displayName: '主宰',
     type: 'Equipment',
     category: 'primary',
     tags: ['Explosive', 'ap3'],
@@ -540,7 +540,7 @@ const PRIMARIES = [
     index: 44,
   },
   {
-    displayName: 'Torcher',
+    displayName: '火炬手',
     type: 'Equipment',
     category: 'primary',
     tags: ['Special', 'ap4', 'fire'],
@@ -552,7 +552,7 @@ const PRIMARIES = [
     index: 45,
   },
   {
-    displayName: 'Trident',
+    displayName: '三叉戟',
     type: 'Equipment',
     category: 'primary',
     tags: ['EnergyWeapon', 'ap2'],
@@ -564,7 +564,7 @@ const PRIMARIES = [
     index: 46,
   },
   {
-    displayName: 'Stoker',
+    displayName: '司炉者',
     type: 'Equipment',
     category: 'primary',
     tags: ['SubmachineGun', 'ap2', 'ap4', 'fire', 'onehanded'],
@@ -576,7 +576,7 @@ const PRIMARIES = [
     index: 47,
   },
   {
-    displayName: 'Sweeper',
+    displayName: '清扫者',
     type: 'Equipment',
     category: 'primary',
     tags: ['Shotgun', 'ap3', 'melee'],
@@ -588,7 +588,7 @@ const PRIMARIES = [
     index: 48,
   },
   {
-    displayName: 'Gallant',
+    displayName: '英勇者',
     type: 'Equipment',
     category: 'primary',
     tags: ['SubmachineGun', 'ap3', 'onehanded'],

@@ -46,8 +46,8 @@ const genFEGameOverModal = async () => {
 
   averageMissionTime = averageMissionTime / 9;
 
-  feGameOverModalBody.innerHTML += `<h5 class="text-white">Breakdown:</h5>`;
-  feGameOverModalBody.innerHTML += `<p class="mb-0 text-white">Number of Deaths: ${numberOfDeaths}</p>`;
+  feGameOverModalBody.innerHTML += `<h5 class="text-white">明细：</h5>`;
+  feGameOverModalBody.innerHTML += `<p class="mb-0 text-white">Number of 死亡次数： ${numberOfDeaths}</p>`;
   feGameOverModalBody.innerHTML += `<p class="mb-0 text-white">High Value Items Collected: ${highValueItemsCollected}</p>`;
   feGameOverModalBody.innerHTML += `<p class="mb-0 text-white">Average Time Remaining: ${averageMissionTime.toFixed(
     0
@@ -58,14 +58,14 @@ const genFEGameOverModal = async () => {
   feGameOverModalBody.innerHTML += `<p class="mb-0 text-white">FRVs: ${frvs}</p>`;
 
   feGameOverModalBody.innerHTML += `<p class="mb-0 text-white"><br /></p>`;
-  feGameOverModalBody.innerHTML += `<h5 class="text-white">Score:</h5>`;
-  feGameOverModalBody.innerHTML += `<p class="mb-0 text-white">Time Remaining Score: +${totalMissionTimeRemaining}</p>`;
-  feGameOverModalBody.innerHTML += `<p class="mb-0 text-white">High Value Items Score: +${
+  feGameOverModalBody.innerHTML += `<h5 class="text-white">得分：</h5>`;
+  feGameOverModalBody.innerHTML += `<p class="mb-0 text-white">Time Remaining 得分： +${totalMissionTimeRemaining}</p>`;
+  feGameOverModalBody.innerHTML += `<p class="mb-0 text-white">High Value Items 得分： +${
     highValueItemsCollected * 10
   }</p>`;
   feGameOverModalBody.innerHTML += `<p class="mb-0 text-white">Deaths Expense: -${numberOfDeaths}</p>`;
   feGameOverModalBody.innerHTML += `<p class="mb-0 text-white"><br /></p>`;
-  feGameOverModalBody.innerHTML += `<p class="mb-0 text-white">Total Score: ${points}</p>`;
+  feGameOverModalBody.innerHTML += `<p class="mb-0 text-white">Total 得分： ${points}</p>`;
 
   const modal = new bootstrap.Modal(feGameOverModal);
   modal.show();

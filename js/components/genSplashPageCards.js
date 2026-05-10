@@ -7,22 +7,22 @@ const genSplashPageCards = (type) => {
   let container = challengeCardsContainer;
   let list = [
     {
-      displayName: "Penitent Crusade",
+      displayName: "苦修远征",
       internalName: "penitentcrusade",
       icon: "skull-and-crossbones",
     },
     {
-      displayName: "Budget Blitz",
+      displayName: "预算闪电战",
       internalName: "budgetblitz",
       icon: "dollar-circle-list",
     },
     {
-      displayName: "Freedom Express",
+      displayName: "自由快线",
       internalName: "freedomexpress",
       icon: "stopwatch",
     },
     {
-      displayName: "Special Ops",
+      displayName: "特殊行动",
       internalName: "specialops",
       icon: "soldier",
     },
@@ -35,22 +35,22 @@ const genSplashPageCards = (type) => {
   if (type === "tools") {
     list = [
       {
-        displayName: "Randomizer",
+        displayName: "随机装备",
         internalName: "randomizer",
         icon: "dice",
       },
       {
-        displayName: "Tier List Maker",
+        displayName: "等级列表制作器",
         internalName: "tiermaker",
         icon: "list",
       },
       {
-        displayName: "Armor Lab",
+        displayName: "护甲实验室",
         internalName: "armorlab",
         icon: "armor",
       },
       {
-        displayName: "Loadout Builder",
+        displayName: "配装生成器",
         internalName: "loadoutbuilder",
         icon: "tools",
       },

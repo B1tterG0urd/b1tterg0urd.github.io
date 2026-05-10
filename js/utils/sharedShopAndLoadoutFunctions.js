@@ -508,7 +508,7 @@ const generateSESItemCard = () => {
       ${sesItem.cost}
     </span>
     <div class="card-body itemNameContainer p-0 p-lg-2 align-items-center">
-      <p class="card-title text-white pcItemCardText">Super Earth Surplus (random)</p>
+      <p class="card-title text-white pcItemCardText">超级地球剩余物资（随机）</p>
     </div>
   `;
 

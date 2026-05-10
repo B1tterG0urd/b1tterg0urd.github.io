@@ -9,14 +9,14 @@ const equipmentContainerBBDefaultContent = `
     id="primaryContainerBB"
     class="emptyItemContainers col-2 col-lg-1 mx-1 d-flex justify-content-center align-items-center"
   >
-    <p class="mb-0 text-secondary emptyItemText"><small>Click a Primary to Equip</small></p>
+    <p class="mb-0 text-secondary emptyItemText"><small>点击主武器来装备</small></p>
   </div>
   <div
     id="secondaryContainerBB"
     class="emptyItemContainers col-2 col-lg-1 mx-1 d-flex justify-content-center align-items-center"
   >
     <p class="mb-0 text-secondary emptyItemText">
-      <small>Click a Secondary to Equip</small>
+      <small>点击副武器来装备</small>
     </p>
   </div>
   <div
@@ -24,7 +24,7 @@ const equipmentContainerBBDefaultContent = `
     class="emptyItemContainers col-2 col-lg-1 mx-1 d-flex justify-content-center align-items-center"
   >
     <p class="mb-0 text-secondary emptyItemText">
-      <small>Click a Throwable to Equip</small>
+      <small>点击投掷物来装备</small>
     </p>
   </div>
   <div
@@ -32,7 +32,7 @@ const equipmentContainerBBDefaultContent = `
     class="emptyItemContainers col-2 col-lg-1 mx-1 d-flex justify-content-center align-items-center"
   >
     <p class="mb-0 text-secondary emptyItemText">
-      <small>Click a Booster to Equip (optional)</small>
+      <small>点击强化来装备 (optional)</small>
     </p>
   </div>
 `;

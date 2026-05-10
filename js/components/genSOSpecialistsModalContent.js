@@ -27,10 +27,10 @@ const genSpecialistItemNames = (spec, type) => {
 const genSpecialistCard = (spec, i, currentSpec, latestSpec) => {
   let displayName = spec.displayName;
   if (spec.locked) {
-    displayName = 'Locked';
+    displayName = '未解锁';
   }
   if (currentSpec.displayName === spec.displayName) {
-    displayName += ' (Current)';
+    displayName += ' (当前)';
   }
   if (latestSpec.displayName === spec.displayName) {
     displayName += `<i class="bi bi-key-fill mx-2 text-warning"></i>`;
@@ -47,11 +47,11 @@ const genSpecialistCard = (spec, i, currentSpec, latestSpec) => {
             spec.locked
               ? `<i class="bi bi-question-lg text-white fa-3x"></i>`
               : `
-          <p class="text-white mb-0">Stratagems:</p>
+          <p class="text-white mb-0">战备：</p>
           <ul>
             ${genSpecialistItemNames(spec, 'strat')}
           </ul>
-          <p class="text-white mb-0">Equipment:</p>
+          <p class="text-white mb-0">装备：</p>
           <ul>
             ${genSpecialistItemNames(spec, 'equip')}
           </ul>`
@@ -68,12 +68,12 @@ const genSOSpecialistsModalContent = (currSpecialist, latestSpecialist) => {
     specialistsList.innerHTML += card;
   }
 
-  // calculate number of unlocked specialists and update specialist modal header text
-  let unlockedSpecialistsAmount = 0;
+  // calculate number of 已解锁 specialists and update specialist modal header text
+  let 已解锁SpecialistsAmount = 0;
   for (let j = 0; j < specialists.length; j++) {
     if (!specialists[j].locked) {
-      unlockedSpecialistsAmount++;
+      已解锁SpecialistsAmount++;
     }
   }
-  amountOfSpecsUnlockedText.innerHTML = `(${unlockedSpecialistsAmount}/${specialists.length} unlocked)`;
+  amountOfSpecsUnlockedText.innerHTML = `(${已解锁SpecialistsAmount}/${specialists.length} 已解锁)`;
 };

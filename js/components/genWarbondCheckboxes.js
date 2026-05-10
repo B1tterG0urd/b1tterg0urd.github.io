@@ -36,7 +36,7 @@ const genWarbondCheckboxes = () => {
       <div class="form-check">
         <input class="form-check-input" type="checkbox" id="toggleAllWarbonds" />
         <label class="form-check-label" for="toggleAllWarbonds">
-          <div>Warbond Select</div>
+          <div>战争债券选择</div>
         </label>
       </div>
     </h5>

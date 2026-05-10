@@ -60,22 +60,22 @@ const generateTXTContent = async () => {
   const totalScore = parScore + totalMissionTimeRemaining - failedMissions * 50;
   superSamplesCollected += highValueItemsCollected * 2;
 
-  let content = `Debt Divers Score Summary - ${difficulty}\n==========================\n\n`;
-  content += `Data Name: ${dataName}\n`;
-  content += `Date Started: ${dateStarted}\n`;
-  content += `Super Samples Collected: ${superSamplesCollected}\n`;
-  content += `High Value Items Collected: ${highValueItemsCollected}\n`;
-  content += `Stars Earned: ${starsEarned}\n`;
-  content += `Number of Accidentals: ${numOfAccidentals}\n`;
-  content += `Total Credits Earned: ${totalCreditsEarned}\n`;
-  content += `Ending Credits: ${endingCredits}\n`;
-  content += `Failed Missions: ${failedMissions}\n`;
-  content += `Total Mission Time Remaining: ${totalMissionTimeRemaining}\n\n`;
+  let content = `债务潜水员 分数摘要 - ${difficulty}\n==========================\n\n`;
+  content += `数据名称：${dataName}\n`;
+  content += `开始日期：${dateStarted}\n`;
+  content += `收集的超级样本：${superSamplesCollected}\n`;
+  content += `收集的高价值物品：${highValueItemsCollected}\n`;
+  content += `获得星数：${starsEarned}\n`;
+  content += `误伤次数：${numOfAccidentals}\n`;
+  content += `获得的总积分：${totalCreditsEarned}\n`;
+  content += `剩余积分：${endingCredits}\n`;
+  content += `失败的任务：${failedMissions}\n`;
+  content += `总任务剩余时间：${totalMissionTimeRemaining}\n\n`;
 
-  content += `Par Modifier: ${parScore}\n`;
-  content += `Total Mission Time Remaining: ${totalMissionTimeRemaining}\n`;
-  content += `Missions Failed Penalty: ${failedMissions * 50}\n`;
-  content += `Total Score: ${totalScore}\n\n`;
+  content += `标准杆修正：${parScore}\n`;
+  content += `总任务剩余时间：${totalMissionTimeRemaining}\n`;
+  content += `任务失败惩罚：${failedMissions * 50}\n`;
+  content += `总分：${totalScore}\n\n`;
 
   creditsPerMission.forEach((mission, index) => {
     content += `Mission ${index + 1}:\n`;

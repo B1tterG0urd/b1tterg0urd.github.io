@@ -5,7 +5,7 @@ const showNoRerollTokensToast = () => {
   // Set the toast body content
   document.getElementById(
     "noRerollTokensToastBody"
-  ).textContent = `You have no Re-roll Tokens`;
+  ).textContent = `你没有重抽令牌`;
 
   // Show the toast
   toast.show();

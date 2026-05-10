@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -27,11 +27,9 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
     />
-    <meta
-      name="description"
-      content="A Helldivers challenge to earn Super Credits and pay off military debt. Strategize your loadout and fight your way to financial freedom."
+    <meta name="description" content="赚取超级货币以偿还债务！"
     />
-    <title>Helldivers 2: Debt Divers</title>
+    <title>绝地潜兵2：债务潜水员</title>
     <!-- Google tag (gtag.js) -->
     <!-- <script
       async
@@ -54,9 +52,7 @@
         <div class="d-flex col-4 justify-content-start px-0">
           <a href="../index.html">
             <button class="btn text-light text-start py-0" type="button">
-              <i class="bi bi-arrow-left"></i>
-              Back to Challenges
-            </button>
+              <i class="bi bi-arrow-left"></i>返回挑战列表</button>
           </a>
         </div>
         <div class="d-flex col-4 justify-content-center">
@@ -87,7 +83,7 @@
             </button>
             <button
               class="btn btn-primary mx-1"
-              onclick="genDebtDiversSaveDataManagementInfo()"
+              onclick="genDebtDiversSaveDataManagement说明()"
               type="button"
             >
               <i class="bi bi-save text-light"></i>
@@ -144,8 +140,8 @@
               class="btn btn-outline-primary text-white"
               for="loadoutButton"
             >
-              <span id="bbLoadoutText">Loadout</span>
-              <span id="bbLoadoutIcon"><i class="bi bi-archive-fill"></i></span>
+              <span id="bb配装Text">配装</span>
+              <span id="bb配装Icon"><i class="bi bi-archive-fill"></i></span>
             </label>
             <input
               type="radio"
@@ -158,8 +154,8 @@
               class="btn btn-outline-primary text-warning"
               for="shopButton"
             >
-              <span id="bbShopText">Shop</span>
-              <span id="bbShopIcon"><i class="bi bi-cart-fill"></i></span>
+              <span id="bb商店Text">商店</span>
+              <span id="bb商店Icon"><i class="bi bi-cart-fill"></i></span>
             </label>
           </div>
         </div>
@@ -172,7 +168,7 @@
               data-bs-target="#missionCompleteModal"
               id="missionCompleteButton"
             >
-              <span id="bbMissionCompleteText"> Mission Complete </span>
+              <span id="bbMissionCompleteText">任务完成</span>
               <span id="bbMissionCompleteIcon">
                 <i class="bi bi-check-lg"></i>
               </span>
@@ -186,7 +182,7 @@
               data-bs-target="#missionFailedModal"
               id="missionFailedButton"
             >
-              <span id="bbMissionFailedText"> Mission Failed </span>
+              <span id="bbMissionFailedText">任务失败</span>
               <span id="bbMissionFailedIcon">
                 <i class="bi bi-x-lg"></i>
               </span>
@@ -202,7 +198,7 @@
             </button>
           </div>
         </div>
-        <div class="col-8" id="bbShopFilterDiv">
+        <div class="col-8" id="bb商店FilterDiv">
           <div
             class="btn-group"
             role="group"
@@ -215,8 +211,8 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <span id="bbTypeText" class="text-white">Type</span>
-                <span id="bbTypeIcon" class="text-white"
+                <span id="bb类型Text" class="text-white">类型</span>
+                <span id="bb类型Icon" class="text-white"
                   ><i class="bi bi-list-task"></i
                 ></span>
               </button>
@@ -225,54 +221,54 @@
                   <a
                     class="dropdown-item"
                     id="primariesFilterDropdownItem"
-                    onclick="filterByType('primary')"
+                    onclick="filterBy类型('primary')"
                     href="#"
-                    >Primaries</a
+                    >主武器</a
                   >
                 </li>
                 <li>
                   <a
                     class="dropdown-item"
                     id="secondariesFilterDropdownItem"
-                    onclick="filterByType('secondary')"
+                    onclick="filterBy类型('secondary')"
                     href="#"
-                    >Secondaries</a
+                    >副武器</a
                   >
                 </li>
                 <li>
                   <a
                     class="dropdown-item"
                     id="throwablesFilterDropdownItem"
-                    onclick="filterByType('throwable')"
+                    onclick="filterBy类型('throwable')"
                     href="#"
-                    >Throwables</a
+                    >投掷物</a
                   >
                 </li>
                 <li>
                   <a
                     class="dropdown-item"
                     id="stratagemsFilterDropdownItem"
-                    onclick="filterByType('stratagem')"
+                    onclick="filterBy类型('stratagem')"
                     href="#"
-                    >Stratagems</a
+                    >战备</a
                   >
                 </li>
                 <li>
                   <a
                     class="dropdown-item"
                     id="armorPassivesFilterDropdownItem"
-                    onclick="filterByType('armor')"
+                    onclick="filterBy类型('armor')"
                     href="#"
-                    >Armor Passives</a
+                    >护甲被动</a
                   >
                 </li>
                 <li>
                   <a
                     class="dropdown-item"
                     id="boostersFilterDropdownItem"
-                    onclick="filterByType('booster')"
+                    onclick="filterBy类型('booster')"
                     href="#"
-                    >Boosters</a
+                    >强化</a
                   >
                 </li>
               </ul>
@@ -284,8 +280,8 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <span id="bbPriceText" class="text-white">Price</span>
-                <span id="bbPriceIcon" class="text-white"
+                <span id="bb价格Text" class="text-white">价格</span>
+                <span id="bb价格Icon" class="text-white"
                   ><i class="bi bi-tag-fill"></i
                 ></span>
               </button>
@@ -294,36 +290,36 @@
                   <a
                     id="onSaleDropdownItem"
                     class="dropdown-item"
-                    onclick="filterByPrice('onSale')"
+                    onclick="filterBy价格('onSale')"
                     href="#"
-                    >On Sale</a
+                    >打折中</a
                   >
                 </li>
                 <li>
                   <a
                     id="cheapestDropdownItem"
                     class="dropdown-item"
-                    onclick="filterByPrice('cheapest')"
+                    onclick="filterBy价格('cheapest')"
                     href="#"
-                    >Cheapest</a
+                    >最便宜</a
                   >
                 </li>
                 <li>
                   <a
                     id="purchaseableDropdownItem"
                     class="dropdown-item"
-                    onclick="filterByPrice('purchaseable')"
+                    onclick="filterBy价格('purchaseable')"
                     href="#"
-                    >Purchaseable</a
+                    >可购买</a
                   >
                 </li>
                 <li>
                   <a
-                    id="nonPurchaseableDropdownItem"
+                    id="non可购买DropdownItem"
                     class="dropdown-item"
-                    onclick="filterByPrice('nonpurchaseable')"
+                    onclick="filterBy价格('nonpurchaseable')"
                     href="#"
-                    >Non-Purchaseable</a
+                    >Non-可购买</a
                   >
                 </li>
               </ul>
@@ -335,24 +331,24 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <span id="bbSearchText" class="text-white">Search</span>
-                <span id="bbSearchIcon" class="text-white"
+                <span id="bb搜索Text" class="text-white">搜索</span>
+                <span id="bb搜索Icon" class="text-white"
                   ><i class="bi bi-search"></i
                 ></span>
               </button>
               <ul class="dropdown-menu">
                 <li>
-                  <input type="text" id="shopSearchInput" />
+                  <input type="text" id="shop搜索Input" />
                 </li>
               </ul>
             </div>
             <button
-              onclick="resetShopFilters()"
+              onclick="reset商店Filters()"
               class="btn btn-primary"
               type="button"
             >
-              <span id="bbResetText"> Reset </span>
-              <span id="bbResetIcon"><i class="bi bi-x-lg"></i></span>
+              <span id="bb重置Text">重置</span>
+              <span id="bb重置Icon"><i class="bi bi-x-lg"></i></span>
             </button>
           </div>
         </div>
@@ -363,9 +359,7 @@
             data-bs-toggle="modal"
             data-bs-target="#warbondSelectModal"
             id="warbondSelectButtonDesktop"
-          >
-            Settings
-          </button>
+          >设置</button>
           <button
             class="btn btn-warning"
             type="button"
@@ -533,7 +527,7 @@
 
       <!-- SHOP -->
       <div
-        id="bbShopItemsContainer"
+        id="bb商店ItemsContainer"
         class="py-3 row d-none justify-content-center mt-2"
       ></div>
 
@@ -569,15 +563,15 @@
               <div class="row d-flex pb-1 align-items-center px-0">
                 <p
                   class="text-white mb-0 col-6"
-                  for="missionDifficultyInput"
+                  for="mission难度Input"
                   data-bs-toggle="tooltip"
                   title="Affects credits earned for stars"
                 >
-                  Mission Difficulty:
+                  Mission 难度:
                 </p>
                 <input
                   class="form-control col-6"
-                  id="missionDifficultyInput"
+                  id="mission难度Input"
                   style="width: 15%; margin-left: 0.5rem"
                   type="text"
                   pattern="\d*"
@@ -585,7 +579,7 @@
                   min="1"
                   max="10"
                   value="1"
-                  aria-describedby="missionDifficultyInput"
+                  aria-describedby="mission难度Input"
                 />
               </div>
 
@@ -617,7 +611,7 @@
                 <p
                   class="text-white mb-0 col-6"
                   data-bs-toggle="tooltip"
-                  title="+(Mission Difficulty x 3) credits/star"
+                  title="+(Mission 难度 x 3) credits/star"
                   for="starsEarnedInput"
                 >
                   Stars Earned:
@@ -759,9 +753,7 @@
                   type="button"
                   class="btn btn-secondary"
                   data-bs-dismiss="modal"
-                >
-                  Cancel
-                </button>
+                >取消</button>
               </div>
               <div class="col d-flex justify-content-end">
                 <button
@@ -769,9 +761,7 @@
                   class="btn btn-primary"
                   onclick="submitMissionReport(true)"
                   data-bs-toggle="modal"
-                >
-                  Submit
-                </button>
+                >提交</button>
               </div>
             </div>
           </div>
@@ -790,7 +780,7 @@
         <div class="modal-dialog modal-dialog-scrollable">
           <div class="modal-content bg-grey">
             <div class="modal-header">
-              <h5 class="modal-title text-light">Mission Failed</h5>
+              <h5 class="modal-title text-light">任务失败</h5>
             </div>
             <div class="modal-body row d-flex justify-content-center">
               <p class="text-white">
@@ -798,24 +788,20 @@
               </p>
               <br />
               <br />
-              <p class="text-white">Proceed?</p>
+              <p class="text-white">继续?</p>
             </div>
             <div class="modal-footer d-flex justify-content-between">
               <button
                 type="button"
                 class="btn btn-secondary"
                 data-bs-dismiss="modal"
-              >
-                Cancel
-              </button>
+              >取消</button>
               <button
                 type="button"
                 onclick="submitMissionReport(false)"
                 class="btn btn-warning"
                 data-bs-dismiss="modal"
-              >
-                Proceed
-              </button>
+              >继续</button>
             </div>
           </div>
         </div>
@@ -832,29 +818,27 @@
         <div class="modal-dialog modal-dialog-scrollable">
           <div class="modal-content bg-grey">
             <div class="modal-header">
-              <h5 class="modal-title text-light" id="warbondSelectModalLabel">
-                Challenge Settings
-              </h5>
+              <h5 class="modal-title text-light" id="warbondSelectModalLabel">挑战设置</h5>
             </div>
             <div class="modal-body">
               <p class="mb-0 text-white">
                 NOTE: You can only change these settings at the beginning of the
                 run, and before any items are purchased.
               </p>
-              <div class="p-3" id="bbDifficultyRadioContainer">
-                <h5 class="text-white">Difficulty</h5>
+              <div class="p-3" id="bb难度RadioContainer">
+                <h5 class="text-white">难度</h5>
                 <div class="form-check">
                   <input
                     class="form-check-input"
                     type="radio"
                     name="flexRadioDefault"
-                    id="bbDiffRadioEasy"
+                    id="bbDiffRadio简单"
                   />
                   <label
                     class="form-check-label text-white"
-                    for="bbDiffRadioEasy"
+                    for="bbDiffRadio简单"
                   >
-                    Easy/Solo
+                    简单/Solo
                   </label>
                 </div>
                 <div class="form-check">
@@ -862,34 +846,30 @@
                     class="form-check-input"
                     type="radio"
                     name="flexRadioDefault"
-                    id="bbDiffRadioMedium"
+                    id="bbDiffRadio普通"
                     checked
                   />
                   <label
                     class="form-check-label text-white"
-                    for="bbDiffRadioMedium"
-                  >
-                    Medium
-                  </label>
+                    for="bbDiffRadio普通"
+                  >普通</label>
                 </div>
                 <div class="form-check">
                   <input
                     class="form-check-input"
                     type="radio"
                     name="flexRadioDefault"
-                    id="bbDiffRadioHard"
+                    id="bbDiffRadio困难"
                   />
                   <label
                     class="form-check-label text-white"
-                    for="bbDiffRadioHard"
-                  >
-                    Hard
-                  </label>
+                    for="bbDiffRadio困难"
+                  >困难</label>
                 </div>
               </div>
 
               <div class="p-3" id="warbondsChecklistContainer">
-                <h5 class="text-white">Warbond Select</h5>
+                <h5 class="text-white">战争债券选择</h5>
               </div>
             </div>
             <div class="modal-footer">
@@ -897,9 +877,7 @@
                 type="button"
                 class="btn btn-secondary"
                 data-bs-dismiss="modal"
-              >
-                Close
-              </button>
+              >关闭</button>
             </div>
           </div>
         </div>
@@ -930,9 +908,7 @@
                       data-bs-target="#collapseOne"
                       aria-expanded="true"
                       aria-controls="collapseOne"
-                    >
-                      Lore
-                    </button>
+                    >背景故事</button>
                   </h2>
                   <div
                     id="collapseOne"
@@ -975,9 +951,7 @@
                       data-bs-target="#collapseTwo"
                       aria-expanded="false"
                       aria-controls="collapseTwo"
-                    >
-                      Overview
-                    </button>
+                    >基本规则</button>
                   </h2>
                   <div
                     id="collapseTwo"
@@ -1033,7 +1007,7 @@
                         top right corner of the item).
                         <br />
                         <br />
-                        After each mission, press the 'Mission Complete' button
+                        After each mission, press the '任务完成' button
                         and complete the form. Hover over the text of each input
                         to see how many credits you will earn or lose.
                       </p>
@@ -1060,13 +1034,13 @@
                   >
                     <div class="accordion-body">
                       <p class="text-white">
-                        Press the 'Shop' button to view purchaseable items.
+                        Press the '商店' button to view purchaseable items.
                         Click on an item to purchase it. Each time you purchase
                         an item the price will increase for the next time you
                         purchase that same item, with the exception of Super
                         Earth Surplus (a random item).
                         <br />
-                        Prices that are on sale will have a green price tag, and
+                        价格s that are on sale will have a green price tag, and
                         will not increase in price as much as items at full
                         price.
                         <br />
@@ -1091,9 +1065,7 @@
                       data-bs-target="#collapseFive"
                       aria-expanded="false"
                       aria-controls="collapseFive"
-                    >
-                      Failure
-                    </button>
+                    >任务失败</button>
                   </h2>
                   <div
                     id="collapseFive"
@@ -1118,9 +1090,7 @@
                       data-bs-target="#collapseSix"
                       aria-expanded="false"
                       aria-controls="collapseSix"
-                    >
-                      Saving Your Progress
-                    </button>
+                    >保存进度</button>
                   </h2>
                   <div
                     id="collapseSix"
@@ -1132,13 +1102,13 @@
                         Your progress is saved in your browser's local storage.
                         If you clear your browser's local storage, your progress
                         will be lost. If you want to start a new run, you may do
-                        so by pressing the yellow "Restart" button on the right
+                        so by pressing the yellow "重新开始" button on the right
                         side of the page. Your run will be saved and accessible
                         in the save menu.
                         <br />
                         <br />
                         Saved games can be loaded, downloaded, and uploaded in
-                        the Save Data Management menu, accessible by clicking
+                        the 存档管理 menu, accessible by clicking
                         the floppy disk button in the upper right corner. You
                         can also rename your save files to keep them in order.
                       </p>
@@ -1154,9 +1124,7 @@
                       data-bs-target="#collapseSeven"
                       aria-expanded="false"
                       aria-controls="collapseSeven"
-                    >
-                      FAQs
-                    </button>
+                    >常见问题</button>
                   </h2>
                   <div
                     id="collapseSeven"
@@ -1184,7 +1152,7 @@
                           <p>
                             A: This challenge is viable for a squad of
                             participating players and solo players. For solo
-                            players, "Easy" mode is recommended.
+                            players, "简单" mode is recommended.
                             <br />
                             Participating squadmates don't need to be on the
                             same mission in order to run the challenge together.
@@ -1244,9 +1212,7 @@
                 type="button"
                 class="btn btn-secondary"
                 data-bs-dismiss="modal"
-              >
-                Close
-              </button>
+              >关闭</button>
             </div>
           </div>
         </div>
@@ -1264,14 +1230,14 @@
         <div class="modal-dialog modal-dialog-scrollable">
           <div class="modal-content bg-grey">
             <div class="modal-header">
-              <h5 class="modal-title text-light">Restart Run</h5>
+              <h5 class="modal-title text-light">重新开始 Run</h5>
             </div>
             <div class="modal-body row d-flex justify-content-center">
               <p class="text-white">
                 When you restart your run, your current run will be saved.
                 <br />
                 <br />
-                Restart run?
+                重新开始 run?
               </p>
             </div>
             <div class="modal-footer d-flex justify-content-between">
@@ -1279,17 +1245,13 @@
                 type="button"
                 class="btn btn-secondary"
                 data-bs-dismiss="modal"
-              >
-                Cancel
-              </button>
+              >取消</button>
               <button
                 type="button"
-                onclick="saveDataAndRestart()"
+                onclick="saveDataAnd重新开始()"
                 class="btn btn-primary"
                 data-bs-dismiss="modal"
-              >
-                Save and Restart
-              </button>
+              >保存并重新开始</button>
             </div>
           </div>
         </div>
@@ -1308,7 +1270,7 @@
           <div class="modal-content bg-grey">
             <div class="modal-header">
               <h5 class="modal-title text-light">
-                Challenge Complete - Debt Divers
+                挑战完成 - Debt Divers
               </h5>
             </div>
             <div
@@ -1320,9 +1282,7 @@
                 type="button"
                 class="btn btn-secondary"
                 data-bs-dismiss="modal"
-              >
-                Close
-              </button>
+              >关闭</button>
               <button
                 type="button"
                 onclick="downloadDDScoreSummary()"
@@ -1350,7 +1310,7 @@
         <div class="modal-dialog modal-lg modal-dialog-scrollable">
           <div class="modal-content bg-grey">
             <div class="modal-header">
-              <h5 class="modal-title text-light" id="">Save Data Management</h5>
+              <h5 class="modal-title text-light" id="">存档管理</h5>
             </div>
             <div
               class="modal-body row d-flex justify-content-center"
@@ -1360,7 +1320,7 @@
                 Switch your active save file here, delete save files, or upload
                 save files.
                 <br />
-                Select an entry below and press 'Apply' to load a different save
+                Select an entry below and press '应用' to load a different save
                 file.
                 <br />
                 <br />
@@ -1371,7 +1331,7 @@
                   <input
                     class="form-control"
                     type="file"
-                    id="saveDataUploadInput"
+                    id="saveData上传Input"
                   />
                 </div>
                 <div class="col-3">
@@ -1381,9 +1341,7 @@
                     class="btn btn-success"
                     id="uploadSaveFileButton"
                     disabled
-                  >
-                    Upload
-                  </button>
+                  >上传</button>
                 </div>
               </div>
               <div
@@ -1400,9 +1358,7 @@
                   onclick="clearDebtDiversDataManagementModal()"
                   class="btn btn-secondary"
                   data-bs-dismiss="modal"
-                >
-                  Cancel
-                </button>
+                >取消</button>
               </div>
               <div
                 id="saveDataModalFunctionsDiv"
@@ -1410,28 +1366,22 @@
               >
                 <button
                   type="button"
-                  onclick="clearSaveDataAndRestart('debtDiversSaveData')"
+                  onclick="clearSaveDataAnd重新开始('debtDiversSaveData')"
                   class="btn btn-danger"
                   data-bs-dismiss="modal"
-                >
-                  Delete ALL
-                </button>
+                >全部删除</button>
                 <button
                   type="button"
                   onclick="deleteSavedGameData()"
                   class="btn btn-danger mx-2"
                   data-bs-dismiss="modal"
-                >
-                  Delete
-                </button>
+                >删除</button>
                 <button
                   type="button"
                   onclick="applySavedGameData()"
                   class="btn btn-primary"
                   data-bs-dismiss="modal"
-                >
-                  Apply
-                </button>
+                >应用</button>
               </div>
             </div>
           </div>
@@ -1464,9 +1414,7 @@
                 type="button"
                 class="btn btn-secondary"
                 data-bs-dismiss="modal"
-              >
-                Close
-              </button>
+              >关闭</button>
             </div>
           </div>
         </div>
@@ -1541,8 +1489,8 @@
   <script src="../js/utils/getCurrentDateTime.js"></script>
   <script src="../js/utils/getItemCost.js"></script>
   <script src="../js/utils/getIsItemOnSale.js"></script>
-  <script src="../js/utils/getItemType.js"></script>
-  <script src="../js/utils/bbShopFilterFunctions.js"></script>
+  <script src="../js/utils/getItem类型.js"></script>
+  <script src="../js/utils/bb商店FilterFunctions.js"></script>
   <script src="../js/utils/calculateItemCost.js"></script>
   <script src="../js/utils/getMaxStarsForMission.js"></script>
   <script src="../js/utils/getMaxSuperSamplesForMission.js"></script>
@@ -1561,9 +1509,9 @@
   <script src="../js/components/genWarbondCheckboxes.js"></script>
   <script src="../js/utils/getStartingItems.js"></script>
   <script src="../js/utils/getCurrentGame.js"></script>
-  <script src="../js/utils/sharedShopAndLoadoutFunctions.js"></script>
+  <script src="../js/utils/shared商店And配装Functions.js"></script>
   <script src="../js/debtdivers.js"></script>
-  <script src="../js/components/genDebtDiversSaveDataManagementInfo.js"></script>
+  <script src="../js/components/genDebtDiversSaveDataManagement说明.js"></script>
   <script>
     // This will enable all tooltips on the page
     document.addEventListener("DOMContentLoaded", function () {

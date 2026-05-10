@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -27,12 +27,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
     />
-    <meta
-      name="description"
-      content="Freedom Express is a Helldivers 2 challenge where speed is the only objective. Drop in, crush the mission, and extract fast — liberty won't wait."
+    <meta name="description" content="为绝地潜兵2速通玩家准备的竞速挑战。抓紧时间，快速完成任务！"
     />
 
-    <title>Helldivers 2: Freedom Express</title>
+    <title>绝地潜兵2：自由快线</title>
     <!-- Google tag (gtag.js) -->
     <script
       async
@@ -55,9 +53,7 @@
         <div class="d-flex col-4 justify-content-start px-0">
           <a href="../index.html">
             <button class="btn text-light text-start py-0" type="button">
-              <i class="bi bi-arrow-left"></i>
-              Back to Challenges
-            </button>
+              <i class="bi bi-arrow-left"></i>返回挑战列表</button>
           </a>
         </div>
         <div class="d-flex col-4 justify-content-center">
@@ -117,7 +113,7 @@
               type="button"
               onclick="genFEGameOverModal()"
             >
-              <span> View Score </span>
+              <span>查看分数</span>
             </button>
           </div>
           <div class="btn-group my-2" id="missionCompleteButtonDiv">
@@ -128,7 +124,7 @@
               data-bs-target="#missionCompleteModal"
               id="missionCompleteButton"
             >
-              <span> Mission Complete </span>
+              <span>任务完成</span>
             </button>
           </div>
           <div class="btn-group my-2 mx-2" id="missionFailedButtonDiv">
@@ -139,7 +135,7 @@
               data-bs-target="#missionFailedModal"
               id="missionFailedButton"
             >
-              <span> Mission Failed </span>
+              <span>任务失败</span>
             </button>
           </div>
           <div class="d-flex align-items-center">
@@ -207,9 +203,7 @@
                       data-bs-target="#c1"
                       aria-expanded="true"
                       aria-controls="c1"
-                    >
-                      Boosters
-                      <small
+                    >强化<small
                         style="font-size: small; padding-top: 0.2rem"
                         class="mx-3 text-secondary"
                         >Choose one of the boosters below</small
@@ -247,7 +241,7 @@
         <div class="modal-content bg-grey">
           <div class="modal-header">
             <h5 class="modal-title text-light">
-              Challenge Complete - Freedom Express
+              挑战完成 - Freedom Express
             </h5>
           </div>
           <div
@@ -259,9 +253,7 @@
               type="button"
               class="btn btn-secondary"
               data-bs-dismiss="modal"
-            >
-              Close
-            </button>
+            >关闭</button>
             <button
               type="button"
               onclick="downloadFEScoreSummary()"
@@ -383,9 +375,7 @@
                 type="button"
                 class="btn btn-secondary"
                 data-bs-dismiss="modal"
-              >
-                Cancel
-              </button>
+              >取消</button>
             </div>
             <div class="col d-flex justify-content-end">
               <button
@@ -393,9 +383,7 @@
                 class="btn btn-primary"
                 onclick="submitMissionReport(true)"
                 data-bs-dismiss="modal"
-              >
-                Submit
-              </button>
+              >提交</button>
             </div>
           </div>
         </div>
@@ -414,7 +402,7 @@
       <div class="modal-dialog modal-dialog-scrollable">
         <div class="modal-content bg-grey">
           <div class="modal-header">
-            <h5 class="modal-title text-light">Mission Failed</h5>
+            <h5 class="modal-title text-light">任务失败</h5>
           </div>
           <div class="modal-body row d-flex justify-content-center">
             <p class="text-white">
@@ -422,24 +410,20 @@
             </p>
             <br />
             <br />
-            <p class="text-white">Proceed?</p>
+            <p class="text-white">继续?</p>
           </div>
           <div class="modal-footer d-flex justify-content-between">
             <button
               type="button"
               class="btn btn-secondary"
               data-bs-dismiss="modal"
-            >
-              Cancel
-            </button>
+            >取消</button>
             <button
               type="button"
               onclick="submitMissionReport(false)"
               class="btn btn-warning"
               data-bs-dismiss="modal"
-            >
-              Proceed
-            </button>
+            >继续</button>
           </div>
         </div>
       </div>
@@ -457,7 +441,7 @@
       <div class="modal-dialog modal-dialog-scrollable">
         <div class="modal-content bg-grey">
           <div class="modal-header">
-            <h5 class="modal-title text-light">Restart Challenge</h5>
+            <h5 class="modal-title text-light">重新开始 Challenge</h5>
           </div>
           <div class="modal-body row d-flex justify-content-center">
             <p class="text-white">
@@ -465,24 +449,20 @@
             </p>
             <br />
             <br />
-            <p class="text-white">Proceed?</p>
+            <p class="text-white">继续?</p>
           </div>
           <div class="modal-footer d-flex justify-content-between">
             <button
               type="button"
               class="btn btn-secondary"
               data-bs-dismiss="modal"
-            >
-              Cancel
-            </button>
+            >取消</button>
             <button
               type="button"
-              onclick="saveDataAndRestart()"
+              onclick="saveDataAnd重新开始()"
               class="btn btn-warning"
               data-bs-dismiss="modal"
-            >
-              Proceed
-            </button>
+            >继续</button>
           </div>
         </div>
       </div>
@@ -515,9 +495,7 @@
                     data-bs-target="#collapseOne"
                     aria-expanded="true"
                     aria-controls="collapseOne"
-                  >
-                    Lore
-                  </button>
+                  >背景故事</button>
                 </h2>
                 <div
                   id="collapseOne"
@@ -547,9 +525,7 @@
                     data-bs-target="#collapseTwo"
                     aria-expanded="false"
                     aria-controls="collapseTwo"
-                  >
-                    Overview
-                  </button>
+                  >基本规则</button>
                 </h2>
                 <div
                   id="collapseTwo"
@@ -636,7 +612,7 @@
                   <div class="accordion-body">
                     <p class="text-white">
                       After each successfully completed mission, press the green
-                      "Mission Complete" button and follow the prompts. Your
+                      "任务完成" button and follow the prompts. Your
                       running score will be updated and your progress will be
                       automatically saved.
                     </p>
@@ -653,7 +629,7 @@
                     aria-expanded="false"
                     aria-controls="collapseFive"
                   >
-                    Mission Failure
+                    Mission 任务失败
                   </button>
                 </h2>
                 <div
@@ -664,7 +640,7 @@
                   <div class="accordion-body">
                     <p class="text-white">
                       The run ends when you fail a mission. Press the red
-                      "Mission Failed" button to start a new run. You will be
+                      "任务失败" button to start a new run. You will be
                       given a prompt to confirm.
                     </p>
                   </div>
@@ -679,9 +655,7 @@
                     data-bs-target="#collapseSix"
                     aria-expanded="false"
                     aria-controls="collapseSix"
-                  >
-                    Saving Your Progress
-                  </button>
+                  >保存进度</button>
                 </h2>
                 <div
                   id="collapseSix"
@@ -695,7 +669,7 @@
                       be lost.
                       <br />
                       You can download your save file and upload it to a
-                      different device with the Save Data Management menu (the
+                      different device with the 存档管理 menu (the
                       blue floppy disk button in the upper right), change the
                       name of your run, and delete any of your save data in this
                       menu as well.
@@ -712,9 +686,7 @@
                     data-bs-target="#collapseSeven"
                     aria-expanded="false"
                     aria-controls="collapseSeven"
-                  >
-                    FAQs
-                  </button>
+                  >常见问题</button>
                 </h2>
                 <div
                   id="collapseSeven"
@@ -766,9 +738,7 @@
               type="button"
               class="btn btn-secondary"
               data-bs-dismiss="modal"
-            >
-              Close
-            </button>
+            >关闭</button>
           </div>
         </div>
       </div>
@@ -788,7 +758,7 @@
       <div class="modal-dialog modal-lg modal-dialog-scrollable">
         <div class="modal-content bg-grey">
           <div class="modal-header">
-            <h5 class="modal-title text-light" id="">Save Data Management</h5>
+            <h5 class="modal-title text-light" id="">存档管理</h5>
           </div>
           <div
             class="modal-body row d-flex justify-content-center"
@@ -798,7 +768,7 @@
               Switch your active save file here, delete save files, or upload
               save files.
               <br />
-              Select an entry below and press 'Apply' to load a different save
+              Select an entry below and press '应用' to load a different save
               file.
               <br />
               <br />
@@ -809,7 +779,7 @@
                 <input
                   class="form-control"
                   type="file"
-                  id="saveDataUploadInput"
+                  id="saveData上传Input"
                 />
               </div>
               <div class="col-3">
@@ -819,9 +789,7 @@
                   class="btn btn-success"
                   id="uploadSaveFileButton"
                   disabled
-                >
-                  Upload
-                </button>
+                >上传</button>
               </div>
             </div>
             <div
@@ -838,9 +806,7 @@
                 onclick="clearSaveDataManagementModal()"
                 class="btn btn-secondary"
                 data-bs-dismiss="modal"
-              >
-                Cancel
-              </button>
+              >取消</button>
             </div>
             <div
               id="saveDataModalFunctionsDiv"
@@ -848,28 +814,22 @@
             >
               <button
                 type="button"
-                onclick="clearSaveDataAndRestart()"
+                onclick="clearSaveDataAnd重新开始()"
                 class="btn btn-danger"
                 data-bs-dismiss="modal"
-              >
-                Delete ALL
-              </button>
+              >全部删除</button>
               <button
                 type="button"
                 onclick="deleteSavedGameData()"
                 class="btn btn-danger mx-2"
                 data-bs-dismiss="modal"
-              >
-                Delete
-              </button>
+              >删除</button>
               <button
                 type="button"
                 onclick="applySavedGameData()"
                 class="btn btn-primary"
                 data-bs-dismiss="modal"
-              >
-                Apply
-              </button>
+              >应用</button>
             </div>
           </div>
         </div>
@@ -901,9 +861,7 @@
               type="button"
               class="btn btn-secondary"
               data-bs-dismiss="modal"
-            >
-              Cancel
-            </button>
+            >取消</button>
             <button
               type="button"
               onclick="deleteSavedGameData()"

@@ -20,7 +20,7 @@ const saveNewSaveFileName = async () => {
     ...saveData,
     dataName: newSaveFileNameInput.value
       ? newSaveFileNameInput.value
-      : "Unnamed Save File",
+      : "未命名存档文件",
     editedName: true,
   };
   await localStorage.setItem(
@@ -35,7 +35,7 @@ const editSaveName = (oldName) => {
   saveDataModalFunctionsDiv.classList.toggle("d-none", true);
   saveDataManagementModalSavesList.innerHTML = "";
   saveDataManagementModalSavesList.innerHTML = `
-    <p class="text-white mb-0">Rename save file:</p>
+    <p class="text-white mb-0">重命名存档文件：</p>
     <div id="saveDataNameEditDiv" class="my-1 d-flex" style="width: 90%">
       <input type="text" maxlength="50" id="newSaveFileNameInput" class="form-control" value="${oldName}">
       <button type="button" onclick="saveNewSaveFileName()" class="mx-1 btn btn-success btn-sm"><i class="bi bi-check-lg"></i></button>
